@@ -48,7 +48,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: rgba(255, 73, 73, 0.9);
-    background-color: rgb(34, 45, 107);
+    background-color: #007bff!important;
 }
 
 hr.star-dark {
@@ -107,7 +107,7 @@ section h2 {
     padding-bottom: 1rem;
     font-weight: 700;
     font-family: 'Montserrat';
-    background: rgba(102, 255, 0, 0.840)!important;
+    background: #85e516!important;
 }
 
 #mainNav .navbar-brand {
@@ -133,7 +133,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: rgb(0, 255, 0);
+    color: #000000;
 }
 
 #mainNav .navbar-toggler {
@@ -180,7 +180,7 @@ section h2 {
 }
 
 header.masthead {
-    padding-top: calc(6rem + 72px)!important;
+    padding-top: calc(6rem + 42px)!important;
     padding-bottom: 6rem;
 }
 
@@ -360,7 +360,7 @@ a:active {
 }
 
 .bg-primary {
-    background-color: rgb(34, 45, 107)!important;
+    background-color: #007bff!important;
 }
 
 .bg-secondary {
@@ -397,4 +397,9 @@ a:active {
 .btn-secondary:active {
     background-color: #1a252f;
     border-color: #1a252f;
+}
+
+.description {
+    margin-left: 1em;
+    margin-right: 1em;
 }
