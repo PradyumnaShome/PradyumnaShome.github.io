@@ -4201,7 +4201,7 @@ form > * {
   margin: 1vh;
 }
 #invisible-recaptcha-form {
-  display: none;
+  visibility:hidden;
 }
 #footer {
   /* text-align:center; */
