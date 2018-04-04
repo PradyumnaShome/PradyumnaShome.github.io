@@ -9,7 +9,7 @@
   $.ajax({
     url: "https://usebasin.com/f/63fbb12c2171.json",
     method: "POST",
-    data: { message: "hello!", email: "pradyumna.shome@gmail.com" },
+    data: { name: $("input#name").val(), email: $("input#email").val(), message: $("textarea#email").val()},
     dataType: "json"
   });
 
