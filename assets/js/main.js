@@ -5,14 +5,6 @@
 */
 
 (function($) {
-  //Basin AJAX request for contact form
-  $.ajax({
-    url: "https://usebasin.com/f/63fbb12c2171.json",
-    method: "POST",
-    data: { name: $("input#name").val(), email: $("input#email").val(), message: $("textarea#email").val()},
-    dataType: "json"
-  });
-
   skel.breakpoints({
     xlarge: "(max-width: 1680px)",
     large: "(max-width: 1280px)",
