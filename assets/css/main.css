@@ -1688,6 +1688,9 @@ h6 {
     h1 {
         font-size: 2em;
     }
+    table.info {
+      font-size: 3.4vw;
+    }
 }
 
 sub {
@@ -2662,10 +2665,10 @@ header.major h2:after {
 
 table {
     margin: 0 0 2em 0;
-    width: 100%;
-}
-
-table tbody tr {
+    width: 100%!important;
+  }
+  
+  table tbody tr {
     border: solid 1px;
     border-left: 0;
     border-right: 0;
@@ -3948,7 +3951,6 @@ section.experience-item h3 span.role {
     display: block;
     font-size: 0.8em;
     color: white !important;
-    font-style: italic;
     margin-bottom: 0;
 }
 
