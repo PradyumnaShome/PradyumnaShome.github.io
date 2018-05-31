@@ -4216,3 +4216,7 @@ form > * {
 td.descriptor {
   font-weight: bold;
 }
+p.repo-link > a:hover {
+  color:white!important;
+  font-weight: bold;
+}
