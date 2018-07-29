@@ -1,2 +1,2 @@
-# pradygamedev.github.io
+# PradyumnaShome.com / PradyumnaShome.github.io
 Personal website.
