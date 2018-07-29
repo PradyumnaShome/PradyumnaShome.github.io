@@ -5,6 +5,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
 /* Reset */
 
 html,
@@ -1688,7 +1689,7 @@ h6 {
         font-size: 2em;
     }
     table.info {
-      font-size: 3.4vw;
+        font-size: 3.4vw;
     }
 }
 
@@ -2664,10 +2665,10 @@ header.major h2:after {
 
 table {
     margin: 0 0 2em 0;
-    width: 100%!important;
-  }
-  
-  table tbody tr {
+    width: 100% !important;
+}
+
+table tbody tr {
     border: solid 1px;
     border-left: 0;
     border-right: 0;
@@ -3052,8 +3053,21 @@ table.alt tbody tr td {
     #header {
         padding: 4em 4em 0.1em 4em;
     }
+    section.experience-item article.description {
+        margin-left: 3vw !important;
+        margin-right: 0!important;
+        margin-top: 4vh;
+        padding-bottom: 1vh!important;
+    }
+    .experience-item ul {
+        width: inherit;
+        text-align: left;
+    }
     #header.alt {
         padding: 6em 4em 3em 4em;
+    }
+    .duration {
+        display: block;
     }
 }
 
@@ -3064,9 +3078,17 @@ table.alt tbody tr td {
     #header.alt {
         padding: 5em 3em 2em 3em;
     }
+    span.separator {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 736px) {
+    section.experience-item img {
+        display: inline-block!important;
+        width: 35vw!important;
+        height: 35vw!important;
+    }
     #header {
         padding: 3em 2em 0.1em 2em;
     }
@@ -3084,19 +3106,19 @@ table.alt tbody tr td {
         font-size: 2.5em;
     }
     .experience-item {
-      padding: 2vw;
-      text-align: center!important;
+        padding: 2vw;
+        text-align: center !important;
     }
     .experience-item img {
-      height: 20vw!important;
-      width: 20vw!important;
-      margin-bottom: -2vh!important;
+        height: 20vw !important;
+        width: 20vw !important;
+        margin-bottom: -2vh !important;
     }
     .experience-item h3 {
-      margin-top: 0;
+        margin-top: 0;
     }
-    .features > section {
-      display:block!important;
+    .features>section {
+        display: block !important;
     }
 }
 
@@ -3889,11 +3911,12 @@ a#button-resume {
 }
 
 img.project-image {
-  height: 13vh;
-  width: 13vh;
+    height: 13vh;
+    width: 13vh;
 }
+
 .box-shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
 }
 
 h3.project-link:hover {
@@ -3929,12 +3952,13 @@ section.experience-item img {
 }
 
 section.experience-item h3 {
-    margin-top: 3vh!important;
+    margin-top: 3vh !important;
     margin-bottom: 0;
     display: inline-block;
     vertical-align: top;
     color: white !important;
-    font-size: 1.1em;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1.3em;
     font-weight: bolder;
 }
 
@@ -3943,7 +3967,7 @@ section.experience-item h3 span.organization {
     font-size: 1em;
     font-weight: bold;
     color: white !important;
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
 section.experience-item h3 span.role {
@@ -3954,11 +3978,16 @@ section.experience-item h3 span.role {
 }
 
 section.experience-item article.description {
-  display: block;
-  margin-left: calc(5vh + 12.8vh + 5.5vh);
-  margin-right: calc(5vh + 12.8vh + 5.5vh);
-  word-wrap: break-word;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: calc(5vh + 11.5vh + 0vh);
+    margin-right: calc(5vh + 12.8vh + 5.5vh);
+    padding-bottom: calc(3vh);
+    font-size: 0.9em;
+    word-wrap: break-word;
 }
+
+section.experience-item ul {}
 
 section#portfolio {
     color: white;
