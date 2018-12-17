@@ -3906,8 +3906,10 @@ body.is-loading #header.alt .logo {
 }
 
 a#button-resume {
-    background-color: #00ff00be !important;
-    color: #0059ff !important;
+    background-color: #0066ffbe !important;
+    color: rgb(187, 255, 109) !important;
+    text-align: center;
+    margin: auto;
 }
 
 img.project-image {
@@ -4039,5 +4041,24 @@ p.repo-link>a:hover {
 }
 
 section#intro {
+    background-color: rgb(255, 104, 104);
+    color: snow;
+    font-weight: 100;
+    font-family: 'Montserrat';
+    text-align: left;
+}
 
+section#intro h2 {
+    text-align: center;
+    color: rgb(187, 255, 109) !important;
+    font-weight: bold;
+}
+
+ul li {
+    margin-bottom: 2.5vh;
+}
+
+section.button-container {
+    margin: auto;
+    text-align: center;
 }
