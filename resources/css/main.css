@@ -3913,8 +3913,8 @@ a#button-resume {
 }
 
 img.project-image {
-    height: 13vh;
-    width: 13vh;
+    height: 16vh;
+    width: 16vh;
 }
 
 .box-shadow {
@@ -3947,9 +3947,9 @@ section.experience-item {
 
 section.experience-item img {
     display: inline;
-    height: 9.8vh;
-    width: 9.8vh;
-    margin: 3vh 3vh;
+    height: 12vh;
+    width: 12vh;
+    margin: 2vh 2vh;
     margin-bottom: 1.6vh;
 }
 
