@@ -3914,7 +3914,7 @@ body.is-loading #header.alt .logo {
   width: 25vh;
 }
 
-a#button-resume {
+a.button-fancy {
   background-color: #0066ffbe !important;
   color: rgb(187, 255, 109) !important;
   text-align: center;
@@ -4084,4 +4084,18 @@ section.button-container {
 h2:after {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.resume-container {
+  text-align: center;
+  display: none;
+}
+.resume-container object {
+  padding: 2vh;
+  width: 45vw;
+  height: 100vh;
+}
+
+emph {
+  font-style: italic;
 }
