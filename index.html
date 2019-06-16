@@ -26,7 +26,7 @@
             <h1>Pradyumna Shome</h1>
             <p>Studies Computer Science at the University of Illinois at Urbana-Champaign
             </p>
-            <p>
+            <section>
                 <ul class="icons">
                     <li>
                         <a href="mailto://pradyumna.shome@gmail.com" class="icon
@@ -47,7 +47,7 @@
                         </a>
                     </li>
                 </ul>
-            </p>
+            </section>
         </header>
 
         <!-- Nav -->
@@ -102,7 +102,18 @@
                             </li>
                         </ul>
                         <section class="button-container">
-                            <a href="resources/documents/Pradyumna_Shome_Resume.pdf" id="button-resume" class="button">Download Résumé</a>
+                            <a class="button button-fancy" onclick="onResumeButtonClick()">View Résumé</a>
+                        </section>
+                        <section class="resume-container">
+                            <object
+                            data="https://pradyumnashome.com/resources/documents/Pradyumna_Shome_Resume.pdf"
+                            type="application/pdf"
+                            >
+                            </object>
+                            <section class="button-container">
+                                <a class="button button-fancy" onclick="onResumeButtonClick()">Hide</a>
+                                <a class="button button-fancy" href="resources/documents/Pradyumna_Shome_Resume.pdf">Download</a>
+                            </section>
                         </section>
                     </div>
                 </div>
@@ -125,6 +136,18 @@
                         </h3>
                         <article class="description">
                             <ul>
+                                 <li>
+                                    Created a Lightning Web Components (LWC) app to automatically suggest test plans for a new user story, by implementing learning algorithms to process the natural language description of the work items, and acceptance criteria of the feature
+                                </li>
+                                <li>
+                                    Wrote UI and Back-end unit tests using Jest and Apex Test Framework respectively, and set up CircleCI for continuous integration
+                                </li>
+                                <li>
+                                    Reduced time spent by engineering teams manually compiling test plans by 13 days <emph>per feature</emph>
+                                </li>
+                                <li>
+                                    Built intern-matching application to help bolster personal connections, that introduces interns to other interns every week
+                                </li>
                             </ul>
                         </article>
                     </section>
@@ -449,6 +472,7 @@
         <script src="resources/js/util.js"></script>
         <!--[if lte IE 8]><script src="resources/js/ie/respond.min.js"></script><![endif]-->
         <script src="resources/js/main.js"></script>
+        <script src="resources/js/custom.js"></script>
 </body>
 
 </html>
