@@ -3924,6 +3924,7 @@ a.button-fancy {
 img.project-image {
   height: 16vh;
   width: 16vh;
+  border-radius: 10%;
 }
 
 .box-shadow {
@@ -3960,6 +3961,7 @@ section.experience-item img {
   width: 12vh;
   margin: 2vh 2vh;
   margin-bottom: 1.6vh;
+  border-radius: 10%;
 }
 
 section.experience-item h3 {
