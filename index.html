@@ -110,6 +110,7 @@
                         </ul>
                         <section class="button-container">
                             <a class="button button-fancy" onclick="onResumeButtonClick()">View Résumé</a>
+                            <a class="button button-fancy" onclick="onCvButtonClick()">View Curriculum Vitae</a>
                         </section>
                         <section class="resume-container">
                             <object data="https://pradyumnashome.com/resources/documents/Pradyumna_Shome_Resume.pdf"
@@ -121,6 +122,17 @@
                                     href="resources/documents/Pradyumna_Shome_Resume.pdf">Download</a>
                             </section>
                         </section>
+                        <section class="cv-container">
+                            <object
+                                data="https://pradyumnashome.com/resources/documents/Pradyumna_Shome_Curriculum_Vitae.pdf"
+                                type="application/pdf">
+                            </object>
+                            <section class="button-container">
+                                <a class="button button-fancy" onclick="onCvButtonClick()">Hide</a>
+                                <a class="button button-fancy"
+                                    href="resources/documents/Pradyumna_Shome_Curriculum_Vitae.pdf">Download</a>
+                            </section>
+                        </section>
                     </div>
                 </div>
             </section>
@@ -129,15 +141,41 @@
                 <header class="major">
                     <h2>Experience</h2>
                     <section class="experience-item">
+                        <img src="resources/images/experience/uiucnlp.jpg" />
+                        <h3>
+                            <span class="organization">
+                                <a href="https://blender.cs.illinois.edu">
+                                    Blender Lab, NLP Research at Illinois
+                                </a>
+                            </span>
+                            <span class="role">
+                                Research Assistant
+                                <span class="separator">·</span>
+                                <span class="duration">Aug 2019 - Present</span>
+                            </span>
+                        </h3>
+                        <article class="description">
+                            <ul>
+                                <li>
+                                    Advisor: <a href="http://blender.cs.illinois.edu/hengji.html">Prof. Heng Ji</a>
+                                </li>
+                                <li>
+                                    Generating event schema from multimedia multilingual representations using graph
+                                    neural nets
+                                </li>
+                            </ul>
+                        </article>
+                    </section>
+                    <section class="experience-item">
                         <img src="resources/images/experience/SPR@I.png" />
                         <h3>
                             <span class="organization">
                                 <a href="https://spri.engr.illinois.edu">
-                                    Security and Privacy Research at Illinois
+                                    FPSG, Security and Privacy Research at Illinois
                                 </a>
                             </span>
                             <span class="role">
-                                Research Assistant, FPSG
+                                Research Assistant
                                 <span class="separator">·</span>
                                 <span class="duration">Aug 2019 - Present</span>
                             </span>
@@ -150,6 +188,10 @@
                                 <li>
                                     Identifying security vulnerabilities in the training of deep neural networks
                                     (DNNs)
+                                </li>
+                                <li>
+                                    Investigating the effects of dynamic overclocking and cache compression on memory
+                                    access times
                                 </li>
                             </ul>
                         </article>

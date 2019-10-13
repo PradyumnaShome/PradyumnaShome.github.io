@@ -4087,11 +4087,11 @@ h2:after {
   margin-right: auto !important;
 }
 
-.resume-container {
+.resume-container, .cv-container {
   text-align: center;
   display: none;
 }
-.resume-container object {
+.resume-container object, .cv-container object {
   padding: 2vh;
   width: 45vw;
   height: 100vh;
