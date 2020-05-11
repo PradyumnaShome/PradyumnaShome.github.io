@@ -3952,14 +3952,14 @@ section.experience-item {
   margin-bottom: 3vh;
   text-align: left;
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4), 0 8px 25px 0 rgba(0, 0, 0, 0.4);
+  display: none;
 }
 
 section.experience-item img {
   display: inline;
-  height: 12vh;
-  width: 12vh;
+  height: 13vh;
+  width: 13vh;
   margin: 2vh 2vh;
-  margin-bottom: 1.6vh;
   border-radius: 10%;
 }
 
@@ -4099,4 +4099,20 @@ h2:after {
 
 emph {
   font-style: italic;
+}
+
+.experience-tab-selector {
+  margin: 1vh;
+}
+
+button.tablinks {
+  margin: 1vh;
+}
+
+button.tablinks.tablink-active {
+  background-color: #603cff !important;
+}
+
+section.experience-active {
+  display: block;
 }
