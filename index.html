@@ -98,11 +98,14 @@
                                 I am an undergrad majoring in <a href="https://cs.illinois.edu">Computer Science</a> at
                                 the <a href="https://illinois.edu">University of Illinois at Urbana-Champaign</a>,
                                 expecting to graduate in May 2021. I am currently a research assistant working on
-                                hardware security at the <a href="http://cwfletcher.net">FPSG</a>, and a lead course assistant for <a href="http://cs241.cs.illinois.edu">Illinois CS 241: System
-                                Programming</a>. Formerly, I was part of the the <a
-                                href="https://blender.cs.illinois.edu">Blender Lab</a>, learning about information extraction. I've had industry experience through software engineering
+                                hardware security at the <a href="http://cwfletcher.net">FPSG</a>, and a lead course
+                                assistant for <a href="http://cs241.cs.illinois.edu">Illinois CS 241: System
+                                    Programming</a>. Formerly, I was part of the the <a
+                                    href="https://blender.cs.illinois.edu">Blender Lab</a>, learning about information
+                                extraction. I've had industry experience through software engineering
                                 internships at <a href="https://facebook.com">Facebook (*)</a>, <a
-                                href="https://salesforce.com">Salesforce</a>, and <a href="https://virtusa.com">Virtusa</a>.
+                                    href="https://salesforce.com">Salesforce</a>, and <a
+                                    href="https://virtusa.com">Virtusa</a>.
                             </p>
                             <p>
                                 I'm open to hearing about research projects and internships relating to computer
@@ -158,337 +161,426 @@
             <section id="experience" class="main special">
                 <header class="major">
                     <h2>Experience</h2>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/facebook.png">
-                        <h3>
-                            <span class="organization">
-                                <a href="https://facebook.com">
-                                    Facebook
-                                </a>
-                            </span>
-                            <span class="role">
-                                Software Engineering Intern
-                                <span class="separator">·</span>
-                                <span class="duration">September 2020 - December 2020</span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                        </article>
+                    <section class="experience-tab-selector">
+                        <button class="tablinks tablink-active"
+                            onclick="filterByExperienceType(event, 'all')"><strong>All</strong></button>
+                        <button class="tablinks"
+                            onclick="filterByExperienceType(event, 'industry')"><strong>Industry</strong></button>
+                        <button class="tablinks"
+                            onclick="filterByExperienceType(event, 'research')"><strong>Research</strong></button>
+                        <button class="tablinks"
+                            onclick="filterByExperienceType(event, 'teaching')"><strong>Teaching</strong></button>
                     </section>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/SPR@I.png" />
-                        <h3>
-                            <span class="organization">
-                                <a href="https://spri.engr.illinois.edu">
-                                    FPSG, Security and Privacy Research at Illinois
-                                </a>
-                            </span>
-                            <span class="role">
-                                Research Assistant
-                                <span class="separator">·</span>
-                                <span class="duration">August 2019 - Present</span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                            <ul>
-                                <li>
-                                    Advisor: <a href="https://cwfletcher.net">Prof. Christopher W. Fletcher</a>
-                                </li>
-                                <li>
-                                    Investigating the effects of dynamic overclocking and cache compression on memory
-                                    access times.
-                                </li>
-                                <li>
-                                    Evaluating dynamic information flow tracking (DIFT) tools to protect against leakage of confidential data
-                                </li>
-                                <li> 
-                                    Studying how modern computer architectural features such as speculative execution, dynamic branch prediction, and out of order execution make hardware increasingly prone to microarchitectural cache, timing, and contention-based side-channel attacks
-                                </li>
-                                <li>
-                                    Analyzing the efficacy of security measures such as Trusted Execution Environments (TEEs), Oblivious RAM, and cache / processor pinning
-                                </li>
-                                <li>
-                                    Performing extensive literature surveys of adjacent fields, and proposed hardware optimizations to find shortcomings in state-of-the-art techniques in secure processor design
-                                </li>
-                                <li>
-                                    Learning to use tools such as the GEM5 simulator, Intel VTune for analyzing the program control flow, and static/dynamic code analyzers
-                                </li>
-                            </ul>
-                        </article>
-                    </section>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/uiucnlp.jpg" />
-                        <h3>
-                            <span class="organization">
-                                <a href="https://blender.cs.illinois.edu">
-                                    Blender Lab, NLP Research at Illinois
-                                </a>
-                            </span>
-                            <span class="role">
-                                Research Assistant
-                                <span class="separator">·</span>
-                                <span class="duration">August 2019 - December 2019</span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                            <ul>
-                                <li>
-                                    Advisor: <a href="http://blender.cs.illinois.edu/hengji.html">Prof. Heng Ji</a>
-                                </li>
-                                <li>
-                                    Conducting literature survey on event schema induction from multi-{media, lingual}
-                                    representations using graph neural nets (GNNs).
-                                <li>
-                                    Annotating videos for Yoga Robot, and learning more about
-                                    the benefits of Attention Models and Transformers in encoding long-term phrase dependencies.
-                                </li>
-                            </ul>
-                        </article>
-                    </section>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/salesforce.svg" />
-                        <h3>
-                            <span class="organization">
-                                <a href="https://salesforce.com">
-                                    Salesforce
-                                </a>
-                            </span>
-                            <span class="role">
-                                Software Engineering Intern
-                                <span class="separator">·</span>
-                                <span class="duration">June 2019 - August 2019</span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                            <ul>
-                                <li>Created web app to automatically suggest test plans for a new user story, through
-                                    natural language processing of the acceptance criteria, using JavaScript (ES2017),
-                                    Apex, SOQL, Web Components, and Jest for unit tests.</li>
-                                <li>
-                                    Reduced 13 engineering work days spent manually compiling test plans per sprint
-                                    planning session.
-                                </li>
-                                <li>
-                                    Developed UI for Einstein Modeling’s first Business Card Scanner, that uses OCR and
-                                    Named Entity Recognition to automate the organization of business contact
-                                    information.
-                                </li>
-                                <li>
-                                    Ideated and built intern-matching social app using Python and Jinja, that helps
-                                    bolster personal connections and surfaces common interests.
-                                </li>
-                            </ul>
-                        </article>
-                    </section>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/uiuc.png" />
-                        <h3>
-                            <span class="organization">
-                                <a href="http://cs241.cs.illinois.edu">
-                                    University of Illinois Computer Science
-                                </a>
-                            </span>
-                            <span class="role">
-                                Lead Course Assistant, CS 241: System Programming
-                                <span class="separator">·</span>
-                                <span class="duration">January 2019 - Present</span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                            <ul>
-                                <li>
-                                    Instructor: Prof. Lawrence Angrave
-                                </li>
-                                <li>
-                                    Recipient of Outstanding Course Assistant award by the Department of Computer Science, for my efforts at improving the course
-                                </li>
-                                <li>
-                                    Lead the assignment development team, continually updating assignments, and ensuring they help meet learning objectives
-                                </li>
-                                <li>
-                                    Teach a lab section, conduct office hours, and develop assignments to help students
-                                    learn Linux system programming concepts
-                                </li>
-                                <li>
-                                    Contribute content to and maintain <a
-                                        href="http://cs241.cs.illinois.edu/coursebook/index.html">course textbook</a>
-                                    and <a href="http://cs241.cs.illinois.edu">website</a>, and conduct technical and
-                                    behavioral interviews for prospective staff members
-                                </li>
-                                <li>
-                                    Teach a lab section, conduct office hours, manage course logistics, onboard and mentor new staff, and answer student questions
-                                    on online Q&A platform
-                                </li>
-                            </ul>
-                        </article>
-                    </section>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/uiuc.jpg" />
-                        <h3>
-                            <span class="organization">
-                                <a href="https://cs233.github.io">
-                                    University of Illinois Computer Science
-                                </a>
-                            </span>
-                            <span class="role">
-                                Course Assistant, CS 233: Computer Architecture
-                                <span class="separator">·</span>
-                                <span class="duration">August 2018 - December 2018</span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                            <ul>
-                                <li>
-                                    Instructor: Prof. Geoffrey L. Herman
-                                </li>
-                                <li>
-                                    Lead a problem-solving discussion section, and conduct office hours, helping
-                                    students reinforce their understanding of computer architecture concepts, such as
-                                    combinatorial and sequential logic, machine datapath, instruction set architectures,
-                                    instruction level parallelism, vectorization, caching, and code optimization
-                                </li>
-                            </ul>
-                        </article>
-                    </section>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/virtusa.png" />
-                        <h3>
-                            <span class="organization">
-                                <a href="https://virtusa.com">
-                                    Virtusa
-                                </a>
-                            </span>
-                            <span class="role">
-                                Software Engineering Intern
-                                <span class="separator">·</span>
-                                <span class="duration">July 2018 - August 2018</span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                            <ul>
-                                <li>
-                                    Created serverless cloud app and supporting data lake to model, process, and
-                                    aggregate computer vision data for predictive analytics, using Python, AWS Lambda,
-                                    Amazon API Gateway, and Amazon DynamoDB
-                                </li>
-                                <li>
-                                    Implemented reference business intelligence (BI) tool, using NLP generative models
-                                    (LDA, NTM) to gain insights on social media reactions to popular films and TV shows,
-                                    using Boto 3, Amazon QuickSight, and Amazon SageMaker
-                                </li>
-                            </ul>
-                        </article>
-                    </section>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/hackillinois.png" />
-                        <h3>
-                            <span class="organization">
-                                <a href="https://hackillinois.org">
-                                    HackIllinois
-                                </a>
-                            </span>
-                            <span class="role">
-                                Systems Staff
-                                <span class="separator">·</span>
-                                <span class="duration">April 2018 - February 2019</span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                            <ul>
-                                <li>
-                                    Developed Go microservices to enable user authentication, authorization, event
-                                    registration, and notifications via mobile app clients, including CI / CD pipeline
-                                    (Travis, AWS CodePipeline, Amazon ECS).
-                                </li>
-                                <li>
-                                    Added features such as user mocking, OAuth single sign-on, multi-tier decision
-                                    review, templated mail, error handling and CRUD (with MongoDB).
-                                </li>
-                                <li>
-                                    Created QR code scanner in Android app to manage event check-in and track
-                                    participant statistics for meals and mini-events.
-                                </li>
-                                <li>
-                                    Used MkDocs, a Markdown documentation generator to create a <a
-                                        href="https://docs.hackillinois.org/">dedicated documentation website</a> for
-                                    API consumers.
-                                </li>
-                            </ul>
-                        </article>
-                    </section>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/rp.svg" />
-                        <h3>
-                            <span class="organization">
-                                <a href="https://reflectionsprojections.org">
-                                    Reflections | Projections
-                                </a>
-                            </span>
-                            <span class="role">
-                                Lead Web Developer
-                                <span class="separator">·</span>
-                                <span class="duration">January 2018 - September 2018
+                    <section class="experience">
+                        <section class="experience-item experience-industry experience-active">
+                            <img src="resources/images/experience/facebook.png">
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://facebook.com">
+                                        Facebook
+                                    </a>
                                 </span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                            <ul>
-                                <li>
-                                    Principal full-stack developer of website written in ES6 using ReactJS, Webpack, and
-                                    Nginx.
-                                </li>
-                                <li>
-                                    Integrated microservices-based in-house registration API that brought in 2200+
-                                    applicants.
-                                </li>
-                                <li>
-                                    Mentored junior developers through code review and pair programming.
-                                </li>
-                            </ul>
-                        </article>
+                                <span class="role">
+                                    Software Engineering Intern
+                                    <span class="separator">·</span>
+                                    <span class="duration">September 2020 - December 2020</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                            </article>
+                        </section>
+                        <section class="experience-item experience-teaching experience-active">
+                            <img src="resources/images/experience/stanford.png" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://cs106a.stanford.edu">
+                                        Stanford University
+                                    </a>
+                                </span>
+                                <span class="role">
+                                    Section Leader, CS 106A: Programming Methodologies
+                                    <span class="separator">·</span>
+                                    <span class="duration">April 2020 - Present</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>
+                                        Instructors: Prof. Chris Piech and Prof. Mehran Sahami
+                                    </li>
+                                    <li>
+                                        Lead weekly section teaching students introductory Python programming
+                                    </li>
+                                    <li>
+                                        Answer student questions on online Q&A forum <a
+                                            href="https://us.edstem.org">Ed</a>
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
+                        <section class="experience-item experience-research experience-active">
+                            <img src="resources/images/experience/SPR@I.png" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://spri.engr.illinois.edu">
+                                        FPSG, Security and Privacy Research at Illinois
+                                    </a>
+                                </span>
+                                <span class="role">
+                                    Research Assistant
+                                    <span class="separator">·</span>
+                                    <span class="duration">August 2019 - Present</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>
+                                        Advisor: <a href="https://cwfletcher.net">Prof. Christopher W. Fletcher</a>
+                                    </li>
+                                    <li>
+                                        Investigating the effects of dynamic overclocking and cache compression on
+                                        memory
+                                        access times.
+                                    </li>
+                                    <li>
+                                        Evaluating dynamic information flow tracking (DIFT) tools to protect against
+                                        leakage
+                                        of confidential data
+                                    </li>
+                                    <li>
+                                        Studying how modern computer architectural features such as speculative
+                                        execution,
+                                        dynamic branch prediction, and out of order execution make hardware
+                                        increasingly
+                                        prone to microarchitectural cache, timing, and contention-based side-channel
+                                        attacks
+                                    </li>
+                                    <li>
+                                        Analyzing the efficacy of security measures such as Trusted Execution
+                                        Environments
+                                        (TEEs), Oblivious RAM, and cache / processor pinning
+                                    </li>
+                                    <li>
+                                        Performing extensive literature surveys of adjacent fields, and proposed
+                                        hardware
+                                        optimizations to find shortcomings in state-of-the-art techniques in secure
+                                        processor design
+                                    </li>
+                                    <li>
+                                        Learning to use tools such as the GEM5 simulator, Intel VTune for analyzing
+                                        the
+                                        program control flow, and static/dynamic code analyzers
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
+                        <section class="experience-item experience-research experience-active">
+                            <img src="resources/images/experience/uiucnlp.jpg" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://blender.cs.illinois.edu">
+                                        Blender Lab, NLP Research at Illinois
+                                    </a>
+                                </span>
+                                <span class="role">
+                                    Research Assistant
+                                    <span class="separator">·</span>
+                                    <span class="duration">August 2019 - December 2019</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>
+                                        Advisor: <a href="http://blender.cs.illinois.edu/hengji.html">Prof. Heng
+                                            Ji</a>
+                                    </li>
+                                    <li>
+                                        Conducting literature survey on event schema induction from multi-{media,
+                                        lingual}
+                                        representations using graph neural nets (GNNs).
+                                    <li>
+                                        Annotating videos for Yoga Robot, and learning more about
+                                        the benefits of Attention Models and Transformers in encoding long-term
+                                        phrase
+                                        dependencies.
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
+                        <section class="experience-item experience-industry experience-active">
+                            <img src="resources/images/experience/salesforce.svg" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://salesforce.com">
+                                        Salesforce
+                                    </a>
+                                </span>
+                                <span class="role">
+                                    Software Engineering Intern
+                                    <span class="separator">·</span>
+                                    <span class="duration">June 2019 - August 2019</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>Created web app to automatically suggest test plans for a new user story,
+                                        through
+                                        natural language processing of the acceptance criteria, using JavaScript
+                                        (ES2017),
+                                        Apex, SOQL, Web Components, and Jest for unit tests.</li>
+                                    <li>
+                                        Reduced 13 engineering work days spent manually compiling test plans per
+                                        sprint
+                                        planning session.
+                                    </li>
+                                    <li>
+                                        Developed UI for Einstein Modeling’s first Business Card Scanner, that uses
+                                        OCR and
+                                        Named Entity Recognition to automate the organization of business contact
+                                        information.
+                                    </li>
+                                    <li>
+                                        Ideated and built intern-matching social app using Python and Jinja, that
+                                        helps
+                                        bolster personal connections and surfaces common interests.
+                                    </li>
+                        </section>
+
+                        <section class="experience-item experience-industry experience-active">
+                            <img src="resources/images/experience/virtusa.png" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://virtusa.com">
+                                        Virtusa
+                                    </a>
+                                </span>
+                                <span class="role">
+                                    Software Engineering Intern
+                                    <span class="separator">·</span>
+                                    <span class="duration">July 2018 - August 2018</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>
+                                        Created serverless cloud app and supporting data lake to model, process, and
+                                        aggregate computer vision data for predictive analytics, using Python, AWS
+                                        Lambda,
+                                        Amazon API Gateway, and Amazon DynamoDB
+                                    </li>
+                                    <li>
+                                        Implemented reference business intelligence (BI) tool, using NLP generative
+                                        models
+                                        (LDA, NTM) to gain insights on social media reactions to popular films and
+                                        TV shows,
+                                        using Boto 3, Amazon QuickSight, and Amazon SageMaker
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
+                        <section class="experience-item experience-industry experience-active">
+                            <img src="resources/images/experience/hackillinois.png" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://hackillinois.org">
+                                        HackIllinois
+                                    </a>
+                                </span>
+                                <span class="role">
+                                    Systems Staff
+                                    <span class="separator">·</span>
+                                    <span class="duration">April 2018 - February 2019</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>
+                                        Developed Go microservices to enable user authentication, authorization,
+                                        event
+                                        registration, and notifications via mobile app clients, including CI / CD
+                                        pipeline
+                                        (Travis, AWS CodePipeline, Amazon ECS).
+                                    </li>
+                                    <li>
+                                        Added features such as user mocking, OAuth single sign-on, multi-tier
+                                        decision
+                                        review, templated mail, error handling and CRUD (with MongoDB).
+                                    </li>
+                                    <li>
+                                        Created QR code scanner in Android app to manage event check-in and track
+                                        participant statistics for meals and mini-events.
+                                    </li>
+                                    <li>
+                                        Used MkDocs, a Markdown documentation generator to create a <a
+                                            href="https://docs.hackillinois.org/">dedicated documentation
+                                            website</a> for
+                                        API consumers.
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
+                        <section class="experience-item experience-industry experience-active">
+                            <img src="resources/images/experience/rp.svg" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://reflectionsprojections.org">
+                                        Reflections | Projections
+                                    </a>
+                                </span>
+                                <span class="role">
+                                    Lead Web Developer
+                                    <span class="separator">·</span>
+                                    <span class="duration">January 2018 - September 2018
+                                    </span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>
+                                        Principal full-stack developer of website written in ES6 using ReactJS,
+                                        Webpack, and
+                                        Nginx.
+                                    </li>
+                                    <li>
+                                        Integrated microservices-based in-house registration API that brought in
+                                        2200+
+                                        applicants.
+                                    </li>
+                                    <li>
+                                        Mentored junior developers through code review and pair programming.
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
+                        <section class="experience-item experience-industry experience-active">
+                            <img src="resources/images/experience/act.jpg" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://ashwinitrust.org">
+                                        Ashwini Charitable Trust
+                                    </a>
+                                </span>
+                                <br>
+                                <span class="role">
+                                    Web Development Volunteer
+                                    <span class="separator">·</span>
+                                    <span class="duration">April 2016 - May 2016</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>
+                                        Built mockups of proposed new website from scratch.
+                                    </li>
+                                    <li>
+                                        Migrated website to Wordpress, to allow anyone to create and update content
+                                        without
+                                        having to resort to technical tools.
+                                    </li>
+                                    <li>
+                                        Incorporated search engine optimization to better target volunteers and
+                                        potential
+                                        donors.
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
+                        <section class="experience-item experience-teaching experience-active">
+                            <img src="resources/images/experience/uiuc.png" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="http://cs241.cs.illinois.edu">
+                                        University of Illinois at Urbana-Champaign
+                                    </a>
+                                </span>
+                                <span class="role">
+                                    Lead Course Assistant, CS 241: System Programming
+                                    <span class="separator">·</span>
+                                    <span class="duration">January 2019 - Present</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>
+                                        Instructor: Prof. Lawrence Angrave
+                                    </li>
+                                    <li>
+                                        Recipient of Outstanding Course Assistant award by the Department of
+                                        Computer
+                                        Science, for my efforts at improving the course
+                                    </li>
+                                    <li>
+                                        Lead the assignment development team, continually updating assignments, and
+                                        ensuring
+                                        they help meet learning objectives
+                                    </li>
+                                    <li>
+                                        Teach a lab section, conduct office hours, and develop assignments to help
+                                        students
+                                        learn Linux system programming concepts
+                                    </li>
+                                    <li>
+                                        Contribute content to and maintain <a
+                                            href="http://cs241.cs.illinois.edu/coursebook/index.html">course
+                                            textbook</a>
+                                        and <a href="http://cs241.cs.illinois.edu">website</a>, and conduct
+                                        technical and
+                                        behavioral interviews for prospective staff members
+                                    </li>
+                                    <li>
+                                        Teach a lab section, conduct office hours, manage course logistics, onboard
+                                        and
+                                        mentor new staff, and answer student questions
+                                        on online Q&A platform
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
+                        <section class="experience-item experience-teaching experience-active">
+                            <img src="resources/images/experience/uiuc.jpg" />
+                            <h3>
+                                <span class="organization">
+                                    <a href="https://cs233.github.io">
+                                        University of Illinois at Urbana-Champaign
+                                    </a>
+                                </span>
+                                <span class="role">
+                                    Course Assistant, CS 233: Computer Architecture
+                                    <span class="separator">·</span>
+                                    <span class="duration">August 2018 - December 2018</span>
+                                </span>
+                            </h3>
+                            <article class="description">
+                                <ul>
+                                    <li>
+                                        Instructor: Prof. Geoffrey L. Herman
+                                    </li>
+                                    <li>
+                                        Lead a problem-solving discussion section, and conduct office hours, helping
+                                        students reinforce their understanding of computer architecture concepts,
+                                        such as
+                                        combinatorial and sequential logic, machine datapath, instruction set
+                                        architectures,
+                                        instruction level parallelism, vectorization, caching, and code optimization
+                                    </li>
+                                </ul>
+                            </article>
+                        </section>
                     </section>
-                    <section class="experience-item">
-                        <img src="resources/images/experience/act.jpg" />
-                        <h3>
-                            <span class="organization">
-                                <a href="https://ashwinitrust.org">
-                                    Ashwini Charitable Trust
-                                </a>
-                            </span>
-                            <br>
-                            <span class="role">
-                                Web Development Volunteer
-                                <span class="separator">·</span>
-                                <span class="duration">April 2016 - May 2016</span>
-                            </span>
-                        </h3>
-                        <article class="description">
-                            <ul>
-                                <li>
-                                    Built mockups of proposed new website from scratch.
-                                </li>
-                                <li>
-                                    Migrated website to Wordpress, to allow anyone to create and update content without
-                                    having to resort to technical tools.
-                                </li>
-                                <li>
-                                    Incorporated search engine optimization to better target volunteers and potential
-                                    donors.
-                                </li>
-                            </ul>
-                        </article>
-                    </section>
-                </header>
+            </section>
+            </header>
             </section>
 
             <!-- #music -->
             <section id="music" class="main special">
                 <header class="major">
                     <h2>Music</h2>
-                    <p>I am deeply passionate about music, of which I enjoy both listening and performing aspects. Although I frequently explore
+                    <p>I am deeply passionate about music, of which I enjoy both listening and performing aspects.
+                        Although I frequently explore
                         new styles, my go-to genres are Western art music, rock, tropical house, and big room house. I
                         have been playing the piano for several years and have tried my hand at production. Enjoy
-                        listening to some of my early efforts at digital music composition. Feel free to follow my <a href="https://open.spotify.com/user/x1lo68pet3v5jq25s7r8zakyq">Spotify</a>.
+                        listening to some of my early efforts at digital music composition. Feel free to follow my <a
+                            href="https://open.spotify.com/user/x1lo68pet3v5jq25s7r8zakyq">Spotify</a>.
                     </p>
                 </header>
                 <p id="soundcloud">
@@ -539,7 +631,8 @@
         <!-- Footer -->
         <footer id="footer">
             <p class="copyright">
-                &copy; Pradyumna Shome 2017-2020. All rights reserved. Based on Stellar by <a href="https://html5up.net">HTML5
+                &copy; Pradyumna Shome 2017-2020. All rights reserved. Based on Stellar by <a
+                    href="https://html5up.net">HTML5
                     UP</a>.
             </p>
         </footer>
