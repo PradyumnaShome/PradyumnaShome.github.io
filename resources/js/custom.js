@@ -8,6 +8,7 @@ function onResumeButtonClick(event) {
   } else {
     resumeContainer.style.display = "block";
     resumeContainer.scrollIntoView();
+    gtag("event", "resume.view", {});
   }
 }
 
@@ -21,6 +22,7 @@ function onCvButtonClick(event) {
   } else {
     resumeContainer.style.display = "block";
     resumeContainer.scrollIntoView();
+    gtag("event", "cv.view", {});
   }
 }
 
@@ -50,4 +52,5 @@ function filterByExperienceType(event, section) {
   const openTabLink = document.querySelector("button.tablinks." + ACTIVE_TABITEM_CLASS);
   openTabLink.classList.toggle(ACTIVE_TABITEM_CLASS);
   event.currentTarget.classList.toggle(ACTIVE_TABITEM_CLASS);
+  gtag("event", `section.${section}.view`, {});
 }
