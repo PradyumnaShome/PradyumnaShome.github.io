@@ -1,6 +1,15 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300, 400";
 
+:root {
+    --color-intro-card-bg: rgb(0, 21, 43);
+    --color-intro-card-fg: white;
+    --color-experience-bg: rgb(10, 95, 185);
+    --color-experience-card-bg: rgb(138, 175, 37);
+    --color-experience-tab-active: rgb(233,75,40);
+    --color-experience-tab-default: rgba(0, 0, 0, 0);
+}
+
 /* Reset */
 
 html,
@@ -3937,7 +3946,7 @@ h3.project-link:hover {
 
 section#experience {
   color: white;
-  background-color: #b30749;
+  background-color: var(--color-experience-bg); 
 }
 
 section#experience h2 {
@@ -3947,7 +3956,7 @@ section#experience h2 {
 
 section.experience-item {
   color: white !important;
-  background-color: #8aaf25;
+  background-color: var(--color-experience-card-bg); 
   border: 0vh solid #ff0055;
   margin-bottom: 3vh;
   text-align: left;
@@ -4052,7 +4061,7 @@ p.repo-link > a:hover {
 }
 
 section#intro {
-  background-color: rgb(255, 104, 104);
+  background-color: var(--color-intro-card-bg);
   color: snow;
   font-weight: 100;
   font-family: "Montserrat";
@@ -4110,9 +4119,13 @@ button.tablinks {
 }
 
 button.tablinks.tablink-active {
-  background-color: #603cff !important;
+  background-color: var(--color-experience-tab-active) !important;
 }
 
+/**
+ * All experience items are active (meaning visible) by default, since 'All' is the default category.
+ * If this class is missing, then the item is hidden.
+ */
 section.experience-active {
   display: block;
 }
