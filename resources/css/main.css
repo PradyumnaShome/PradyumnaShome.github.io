@@ -2992,6 +2992,9 @@ table.alt tbody tr td {
 }
 
 @media screen and (max-width: 736px) {
+  section#intro, section#research {
+    text-align: center !important;
+  }
   .spotlight .image {
     padding: 0.35em;
   }
@@ -3297,15 +3300,15 @@ body.is-loading #header.alt .logo {
 /* Main */
 
 #main {
-  background-color: #ffffff;
-  color: #636363;
+  background-color: black;
+  color: white;
   border-radius: 0.25em;
 }
 
 #main input,
 #main select,
 #main textarea {
-  color: #636363;
+  color: white;
 }
 
 #main a:hover {
@@ -3326,7 +3329,7 @@ body.is-loading #header.alt .logo {
 #main h4,
 #main h5,
 #main h6 {
-  color: #636363;
+  color: white;
 }
 
 #main blockquote {
@@ -4062,16 +4065,8 @@ p.repo-link > a:hover {
 
 section#intro {
   background-color: var(--color-intro-card-bg);
-  color: snow;
-  font-weight: 100;
   font-family: "Montserrat";
   text-align: left;
-}
-
-section#intro h2 {
-  text-align: center;
-  color: rgb(187, 255, 109) !important;
-  font-weight: bold;
 }
 
 ul li {
@@ -4131,5 +4126,33 @@ section.experience-active {
 }
 
 h3.subheading {
-    color: rgb(187, 255, 109) !important;
+  color: rgb(187, 255, 109) !important;
+}
+
+section#research {
+  background-color: rgb(158, 0, 0);
+  text-align: left;
+}
+
+section.main {
+  font-weight: 100;
+  font-family: "Montserrat";
+}
+
+header.major h2 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+section#intro h2 {
+  color: rgb(187, 255, 109) !important;
+}
+
+button.tablinks:focus {
+  outline: none;
+}
+
+section#music {
+  background-color: rgb(65, 0, 82);
 }
