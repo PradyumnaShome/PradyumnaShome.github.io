@@ -4156,3 +4156,7 @@ button.tablinks:focus {
 section#music {
   background-color: rgb(65, 0, 82);
 }
+
+.paper-title {
+  color: rgba(255, 235, 59, 1);
+}

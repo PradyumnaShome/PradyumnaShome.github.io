@@ -61,13 +61,27 @@ window.onload = () => {
   }).catch(error => {
     console.log(error);
   });
+  getResearchOutput().then(output => {
+    renderResearch(output);
+  }).catch(error => {
+    console.log(error);
+  });
+}
+
+const getContent = async url => {
+  const response = await fetch(url);
+  const responseText = await response.text();
+  return await jsyaml.load(responseText);
 }
 
 // Reads and parses experience list file
 const getExperienceList = async () => {
-    const response = await fetch("/resources/content/experience.yaml");
-    const responseText = await response.text();
-    return await jsyaml.load(responseText);
+    return getContent("/resources/content/experience.yaml");
+}
+
+// Reads and parses research list file
+const getResearchOutput = async () => {
+    return getContent("/resources/content/research.yaml");
 }
 
 // Generates an individual experience item card with data
@@ -139,5 +153,65 @@ const renderExperience = (experienceList) => {
 
     experienceList.forEach((item) => {
         experienceSection.appendChild(generateExperienceItem(item));
+    });
+}
+
+const generateTalkItem = itemData => {
+  const researchItem = document.createElement("li");
+  const titleItem = document.createElement("strong");
+
+  const titleLink = document.createElement("a");
+  titleLink.setAttribute("href", itemData.link); 
+  titleLink.innerText = itemData.title;
+  titleItem.appendChild(titleLink);
+
+  researchItem.appendChild(titleItem);
+
+  const otherText = document.createElement("text");
+  otherText.textContent = ", " + itemData.venue + ", " + itemData.date;
+  researchItem.appendChild(otherText);
+
+  return researchItem;
+}
+
+const generatePublicationItem = itemData => {
+  const researchItem = document.createElement("li");
+  const titleItem = document.createElement("strong");
+
+  const titleLink = document.createElement("a");
+  titleLink.setAttribute("href", itemData.link); 
+  titleLink.innerText = itemData.title;
+  titleLink.classList.add("paper-title");
+  titleItem.appendChild(titleLink);
+
+  researchItem.appendChild(titleItem);
+
+  const authors = document.createElement("text");
+  // To allow custom formatting in the YAML
+  authors.innerHTML = "; " + itemData.authors;
+  authors.classList.add("paper-authors");
+  researchItem.appendChild(authors);
+
+  const otherText = document.createElement("text");
+  otherText.textContent = "; " + itemData.venue + ", " + itemData.date;
+  researchItem.appendChild(otherText);
+
+  return researchItem;
+};
+
+// Uses a list of research output to render the research section
+const renderResearch = (researchOutput) => {
+    const talksSection = document.querySelector("#research .talks ol");
+    const talksList = researchOutput.talks;
+
+    talksList.forEach((item) => {
+        talksSection.appendChild(generateTalkItem(item));
+    });
+
+    const publicationsSection = document.querySelector("#research .publications ol");
+    const publicationsList = researchOutput.publications;
+
+    publicationsList.forEach((item) => {
+        publicationsSection.appendChild(generatePublicationItem(item));
     });
 }
