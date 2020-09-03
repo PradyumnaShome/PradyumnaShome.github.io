@@ -1,0 +1,126 @@
+- type: industry
+  organization: Facebook
+  link: https://facebook.com
+  role: Software Engineering Intern
+  duration: September 2020 - December 2020
+  icon: /resources/images/experience/facebook.png
+  description:
+      - PDU Product Platform, Privacy and Data Use Org
+- type: teaching
+  organization: Coding Together
+  link: https://codingtogether.us/
+  role: "Section Leader, CS 50: Introduction to Computer Science"
+  duration: June 2020 - August 2020
+  icon: /resources/images/experience/codingtogether.png
+  description:
+      - A <a href="https://rebuildsprint.stanford.edu/">Stanford Rebuild</a> project offering free computer science education during the time of the COVID-19 pandemic.
+      - Lead weekly section teaching students C programming
+- type: teaching
+  organization: Stanford University
+  link: https://cs106a.stanford.edu
+  role: "Section Leader, CS 106A: Programming Methodologies"
+  duration: April 2020 - June 2020
+  icon: /resources/images/experience/stanford.png
+  description:
+      - 'Instructors: <a href="https://stanford.edu/~cpiech/bio/index.html">Prof. Chris Piech</a> and <a href="http://robotics.stanford.edu/~sahami/bio.html">Prof. Mehran Sahami</a>'
+      - Lead weekly section teaching students introductory Python programming
+      - Prepared mini-lectures to re-iterate concepts, faciltated pair programming exercises for practice, and provided instruction in code decomposition and best practices in code style
+      - Answer student questions on online Q&A forum <a href="https://us.edstem.org">Ed</a>
+      - Discussed CS applications for people outside the tech industry, and potential next steps for deepening knowledge in the field
+- type: research
+  organization: FPSG, Security and Privacy Research at Illinois
+  link: https://spri.engr.illinois.edu
+  role: Research Assistant
+  duration: August 2019 - Present
+  icon: /resources/images/experience/SPR@I.png
+  description:
+      - 'Advisor: <a href="https://cwfletcher.net">Prof. Christopher W. Fletcher</a>'
+      - Investigating the effects of dynamic overclocking and cache compression on memory access times.
+      - Evaluating dynamic information flow tracking (DIFT) tools to protect against leakage of confidential data
+      - Studying how modern computer architectural features such as speculative execution, dynamic branch prediction, and out of order execution make hardware increasingly prone to microarchitectural cache, timing, and contention-based side-channel attacks
+      - Analyzing the efficacy of security measures such as Trusted Execution Environments (TEEs), Oblivious RAM, and cache / processor pinning
+      - Performing extensive literature surveys of adjacent fields, and proposed hardware optimizations to find shortcomings in state-of-the-art techniques in secure processor design
+      - Learning to use tools such as the gem5 simulator, Intel VTune for analyzing the program control flow, and static/dynamic code analyzers
+- type: research
+  organization: Blender Lab, NLP Research at Illinois
+  link: https://blender.cs.illinois.edu
+  role: Research Assistant
+  duration: August 2019 - December 2019
+  icon: /resources/images/experience/uiucnlp.jpg
+  description:
+      - 'Advisor: <a href="http://blender.cs.illinois.edu/hengji.html">Prof. Heng Ji</a>'
+      - Conducting literature survey on event schema induction from multi-{media, lingual} representations using graph neural nets (GNNs).
+      - Annotating videos for Yoga Robot, and learning more about the benefits of Attention Models and Transformers in encoding long-term phrase dependencies.
+- type: industry
+  organization: Salesforce
+  link: https://salesforce.com
+  role: Software Engineering Intern
+  duration: June 2019 - August 2019
+  icon: /resources/images/experience/salesforce.svg
+  description:
+      - Created web app to automatically suggest test plans for a new user story, through natural language processing of the acceptance criteria, using JavaScript (ES2017), Apex, SOQL, Web Components, and Jest for unit tests.
+      - Reduced 13 engineering work days spent manually compiling test plans per sprint planning session.
+      - Developed UI for Einstein Modeling’s first Business Card Scanner, that uses OCR and Named Entity Recognition to automate the organization of business contact information.
+      - Ideated and built intern-matching social app using Python and Jinja, that helps bolster personal connections and surfaces common interests.
+- type: teaching
+  organization: University of Illinois at Urbana-Champaign
+  link: http://cs241.cs.illinois.edu
+  role: "Lead Course Assistant, CS 241: System Programming"
+  duration: January 2019 - Present
+  icon: /resources/images/experience/uiuc.png
+  description:
+      - 'Instructor: <a href="https://cs.illinois.edu/about/people/faculty/angrave">Prof. Lawrence Angrave</a>'
+      - Recipient of the <a href="https://cs.illinois.edu/about/awards/undergraduate-scholarships-awards/outstanding-course-assistants">Outstanding Course Assistant Award</a> by the Department of Computer Science, for my efforts at improving the course
+      - Lead the assignment development team, continually updating assignments, and ensuring they help meet learning objectives
+      - Teach a lab section, conduct office hours, and develop assignments to help students learn Linux system programming concepts
+      - Contribute content to and maintain <a href="http://cs241.cs.illinois.edu/coursebook/index.html">course textbook</a> and website, and conduct technical and behavioral interviews for prospective staff members
+      - Teach a lab section, conduct office hours, manage course logistics, onboard and mentor new staff, and answer student questions on online Q&A platform
+- type: teaching
+  organization: University of Illinois at Urbana-Champaign
+  link: https://courses.engr.illinois.edu/cs233/fa2018/
+  role: "Course Assistant, CS 233: Computer Architecture"
+  duration: August 2018 - December 2018
+  icon: /resources/images/experience/uiuc.jpg
+  description:
+      - 'Instructor: <a href="http://publish.illinois.edu/glherman/">Prof. Geoffrey L. Herman</a>'
+      - Lead a problem-solving discussion section, and conduct office hours, helping students reinforce their understanding of computer architecture concepts, such as combinatorial and sequential logic, machine datapath, instruction set architectures, instruction level parallelism, vectorization, caching, and code optimization
+- type: industry
+  organization: Virtusa
+  link: https://virtusa.com
+  role: Software Engineering Intern
+  duration: July 2018 - August 2018
+  icon: /resources/images/experience/virtusa.png
+  description:
+      - Created serverless cloud app and supporting data lake to model, process, and aggregate computer vision data for predictive analytics, using Python, AWS Lambda, Amazon API Gateway, and Amazon DynamoDB
+      - Implemented reference business intelligence (BI) tool, using NLP generative models (LDA, NTM) to gain insights on social media reactions to popular films and TV shows, using Boto 3, Amazon QuickSight, and Amazon SageMaker
+- type: industry
+  organization: HackIllinois
+  link: https://hackillinois.org
+  role: Systems Developer
+  duration: April 2018 - February 2019
+  icon: /resources/images/experience/hackillinois.png
+  description:
+      - Developed Go microservices to enable user authentication, authorization, event registration, and notifications via mobile app clients, including CI / CD pipeline (Travis, AWS CodePipeline, Amazon ECS).
+      - Added features such as user mocking, OAuth single sign-on, multi-tier decision review, templated mail, error handling and CRUD (with MongoDB).
+      - Created QR code scanner in Android app to manage event check-in and track participant statistics for meals and mini-events.
+      - Used MkDocs, a Markdown documentation generator to create a <a href="https://docs.hackillinois.org/">dedicated documentation website</a> for API consumers.
+- type: industry
+  organization: Reflections | Projections
+  link: https://reflectionsprojections.org
+  role: Director of Web Team | Lead Web Developer
+  duration: January 2018 - September 2018
+  icon: /resources/images/experience/rp.png
+  description:
+      - Principal full-stack developer of website written in ES6 using ReactJS, Webpack, and Nginx.
+      - Integrated microservices-based in-house registration API that brought in 2200+ applicants.
+      - Mentored junior developers through code review and pair programming.
+- type: industry
+  organization: Ashwini Charitable Trust
+  link: https://ashwinitrust.org
+  role: Volunteer, Web Development
+  duration: April 2016 - May 2016
+  icon: /resources/images/experience/act.jpg
+  description:
+      - Built mockups of proposed new website from scratch.
+      - Migrated website to Wordpress, to allow anyone to create and update content without having to resort to technical tools.
+      - Incorporated search engine optimization to better target volunteers and potential donors.
