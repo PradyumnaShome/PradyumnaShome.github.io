@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/pradyumnashome
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://pradyumnashome.com
+  * I am pradyumnashome (https://keybase.io/pradyumnashome) on keybase.
+  * I have a public key ASD9m2yvmxTAZSXTRc85TS84BqdE2ss3rw7M-qMAw3ed-go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fd9b6caf9b14c06525d345cf394d2f3806a744dacb37af0eccfaa300c3779dfa0a",
+      "host": "keybase.io",
+      "kid": "0120fd9b6caf9b14c06525d345cf394d2f3806a744dacb37af0eccfaa300c3779dfa0a",
+      "uid": "65b1b41ace1dd793f07324c18ff75219",
+      "username": "pradyumnashome"
+    },
+    "merkle_root": {
+      "ctime": 1599796666,
+      "hash": "5beea36c3202d3cd85c6d7b270a4a1322d3e12fd4cce99b540a6e6ba27ae36027f976799a8b475a8b559d922db5e74dd45a5e6478f3fd08b6b55e7a6520ec029",
+      "hash_meta": "245d54d129aa1e32cf16b1dd037fb2a9c14c24ef5535c38b6489597349e6ff60",
+      "seqno": 17532581
+    },
+    "service": {
+      "entropy": "VQ+gq4TG+PQ028N2IMCU9rhz",
+      "hostname": "pradyumnashome.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1599796722,
+  "expire_in": 504576000,
+  "prev": "417cb63aa263a47a3da595847449ee978da7c99cba5f75b53264acd530e14094",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/Ztsr5sUwGUl00XPOU0vOAanRNrLN68OzPqjAMN3nfoKp3BheWxvYWTESpcCB8QgQXy2OqJjpHo9pZWEdEnul42nyZy6X3W1MmSs1TDhQJTEIMLX5f3kf4zvqgTGEGj1d8B9lABKtgXivZbsdo/J2igpAgHCo3NpZ8RAxbt4ffCw6MAeB7NmEeJLwtWk2GwOWr1HPYnYcrT7dffhvYY4lfTJE777mvjULExWiR/FF2CuVCJp8kN2UZ0zAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIB0QFE5Ty8OGtmzFg9tO7iMRBxzHgT3z0Uu/Lq1+SRGfo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pradyumnashome
+
+==================================================================
