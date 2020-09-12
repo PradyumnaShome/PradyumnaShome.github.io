@@ -9,6 +9,7 @@
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-s3": "^0.3.5",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sitemap": "^2.2.5",
     "html-to-react": "^1.4.3",
@@ -27,7 +28,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "deploy": "gatsby clean && gatsby build && node deploy",
+    "deploy": "gatsby build && gatsby-plugin-s3 deploy",
     "start": "gatsby clean && gatsby develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
