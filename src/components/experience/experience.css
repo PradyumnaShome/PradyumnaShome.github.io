@@ -1,0 +1,91 @@
+.experience-tab-selector {
+  margin: 1vh;
+}
+
+button.tablinks.tablink-active {
+  background-color: var(--color-experience-tab-active) !important;
+}
+
+button.tablinks {
+  margin: 1vh;
+}
+
+section#experience {
+  color: white;
+  background-color: var(--color-experience-bg); 
+}
+
+section#experience h2 {
+  color: white !important;
+  font-weight: bold;
+}
+
+section.experience-item {
+  color: white !important;
+  background-color: var(--color-experience-card-bg); 
+  border: 0vh solid #ff0055;
+  margin-bottom: 3vh;
+  text-align: left;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4), 0 8px 25px 0 rgba(0, 0, 0, 0.4);
+}
+
+section.experience-item img {
+  display: inline-block;
+  height: 13vh;
+  width: 13vh;
+  margin: 2vh 2vh;
+  border-radius: 10%;
+}
+
+section.experience-item h3 {
+  margin-top: 3vh !important;
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: top;
+  color: white !important;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+section.experience-item h3 span.organization {
+  display: inline;
+  font-size: 1em;
+  font-weight: bold;
+  color: white !important;
+  margin-bottom: 0 !important;
+}
+
+section.experience-item h3 span.role {
+  display: block;
+  font-size: 0.8em;
+  color: white !important;
+  margin-bottom: 0;
+}
+
+section.experience-item article.description {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  margin-left: calc(5vh + 11.5vh + 0vh);
+  margin-right: calc(5vh + 12.8vh + 5.5vh);
+  padding-bottom: calc(3vh);
+  font-size: 0.9em;
+  word-wrap: break-word;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+h2:after {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+button.tablinks:focus {
+  outline: none;
+}
+
+button.tablinks {
+  font-weight: bold;
+}

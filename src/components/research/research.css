@@ -1,0 +1,18 @@
+.paper-title {
+  color: rgb(42, 91, 255);
+  font-weight: bold;
+}
+
+section#research h2 {
+    color: slateblue;
+}
+
+section#research {
+    background-color: lightskyblue;
+    color: black;
+    text-align: left;
+}
+
+section#research .subheading {
+    color: teal;
+}

@@ -1,0 +1,13 @@
+section#awards h2 {
+    color: tomato;
+}
+
+section#awards {
+    background-color: mintcream;
+    color: black;
+    text-align: left;
+}
+
+section#awards .subheading {
+    color: teal;
+}
