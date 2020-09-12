@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-		title: 'Pradyumna Shome',
+    title: 'Pradyumna Shome',
     description: ``,
     author: `Pradyumna Shome`,
-		siteUrl: `https://pradyumnashome.com`,
+    siteUrl: `https://pradyumnashome.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -20,6 +20,16 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "pradyumnashome.com",
+        acl: null,
+        region: 'us-east-1',
+        protocol: "https",
+        hostname: "pradyumnashome.com",
+      },
+    }
   ],
 }
