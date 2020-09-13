@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import './header.css';
 
@@ -8,7 +9,7 @@ const Header = (props) => (
     <header id="header" className="alt">
         <span className="logo"><img src={profilePhoto} alt="" /></span>
         <h1>
-            Pradyumna Shome
+            <Link to="/">Pradyumna Shome</Link>
         </h1>
         <p>
             CS @ Illinois '21 | Security &amp; Privacy Researcher

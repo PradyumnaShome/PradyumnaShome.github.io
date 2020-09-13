@@ -20,8 +20,11 @@ section#about h3.subheading {
 }
 
 section.button-container {
-  margin: auto;
   text-align: center;
+}
+
+section.button-container button {
+  margin: 2%;
 }
 
 section.main {
