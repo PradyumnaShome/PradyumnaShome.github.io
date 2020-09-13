@@ -68,12 +68,6 @@
 					width: calc(100% + 4em);
 				}
 			}
-
-			section.experience-item img {
-				display: inline-block !important;
-				width: 35vw !important;
-				height: 35vw !important;
-			}
 		}
 
 		@include breakpoint(xsmall) {

@@ -31,8 +31,8 @@ section.experience-item {
 
 section.experience-item img {
   display: inline-block;
-  height: 13vh;
-  width: 13vh;
+  height: 12vh;
+  width: 12vh;
   margin: 2vh 2vh;
   border-radius: 10%;
 }
@@ -56,6 +56,10 @@ section.experience-item h3 span.organization {
   margin-bottom: 0 !important;
 }
 
+section.experience-item span.separator {
+  margin: 1%;
+}
+
 section.experience-item h3 span.role {
   display: block;
   font-size: 0.8em;
@@ -66,8 +70,8 @@ section.experience-item h3 span.role {
 section.experience-item article.description {
   display: block;
   font-family: "Montserrat", sans-serif;
-  margin-left: calc(5vh + 11.5vh + 0vh);
-  margin-right: calc(5vh + 12.8vh + 5.5vh);
+  margin-left: 15%;
+  margin-right: 5%;
   padding-bottom: calc(3vh);
   font-size: 0.9em;
   word-wrap: break-word;
@@ -88,4 +92,24 @@ button.tablinks:focus {
 
 button.tablinks {
   font-weight: bold;
+}
+
+@include breakpoint(small) {
+  section.experience-item {
+    text-align: center;
+  }
+
+  section.experience-item article.description {
+    text-align: left;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin-top: 4vh;
+    padding-bottom: 1vh !important;
+  }
+
+  section.experience-item img {
+    display: inline-block !important;
+    width: 35vw !important;
+    height: 35vw !important;
+  }
 }
