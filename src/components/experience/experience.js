@@ -2,7 +2,6 @@ import React, { setState, Component } from "react";
 import experienceData from "./experience.yaml";
 import markdownIt from "markdown-it";
 import htmlToReact from "html-to-react";
-import './experience.css';
 
 function ExperienceItem(props) {
     const md = markdownIt({
@@ -53,8 +52,8 @@ export default class Experience extends Component {
             // Update active tab
             let previousTab = document.querySelector('.tablink-active');
             previousTab.classList.remove("tablink-active");
-            debugger;
             event.target.classList.add("tablink-active");
+
             // Display relevant experience items
             let newState = { "visibleSection": newSection };
             this.setState(newState);
