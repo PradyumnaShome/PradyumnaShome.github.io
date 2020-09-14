@@ -5,6 +5,7 @@ import './about.css';
 
 
 export default function About() {
+    const internalRedirectTo = (linkSuffix) => window.location.href = "/meet";
     const onResumeButtonClick = () => {
         const introSection = document.querySelector("section#about");
         const resumeContainer = document.querySelector(".resume-container");
@@ -44,7 +45,7 @@ export default function About() {
                     <h3 className="subheading">Meeting me / getting in touch</h3> <p>
                         If you'd like to get to know me personally or meet me (e.g. just to chat, or for a meal), I welcome such opportunities; click the link below. Please be sure to leave a short note about yourself and why you'd like to meet me. Short of that, feel free to add me on Facebook (again, with a note, please), or email me. I love meeting new people, and find cultivating good relationships with people to be a source of strength. </p>
                     <section className="button-container">
-                        <button onClick={onResumeButtonClick}>Meet Pradyumna</button>
+                        <button onClick={() => { internalRedirectTo("/meet") }}>Schedule A Meeting</button>
                     </section>
                     <h3 className="subheading">Non-academic interests / Things I enjoy talking about</h3>
                     <p>
