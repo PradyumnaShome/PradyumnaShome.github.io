@@ -1,11 +1,23 @@
 talks:
   - title: "PRISM: Protections Impeding Side-channel Attacks in Microarchitecture"
-    venue: Illinois Computer Science Research Experiences for Undergraduates (REU)
+    venues:
+      - name: Illinois Computer Science Research Experiences for Undergraduates (REU)
+        date: August 2020
     link: https://youtu.be/ZOvbU7Ewe18
-    date: August 2020
   - title: "Broadway: Scaling Programming Education Through a Distributed Autograding Framework"
-    venue: Undergraduate Research Symposium, University of Illinois at Urbana-Champaign
+    venues:
+      - name: Undergraduate Research Symposium, University of Illinois at Urbana-Champaign
+        date: April 2020
     link: https://youtu.be/POBtjU52GCk
-    date: April 2020
 
-publications: []
+publications:
+  - title: "Opening Pandora's Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data"
+    authors:
+      - Jose Rodrigo Sanchez Vicarte
+      - Pradyumna Shome
+      - Adam Morrison
+      - David Kohlbrenner
+      - Christopher W. Fletcher
+    venue: "In preparation for International Symposium for Computer Architecture (ISCA)"
+    type: conference
+    date: "May 2021"

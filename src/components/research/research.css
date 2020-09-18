@@ -16,3 +16,18 @@ section#research {
 section#research .subheading {
     color: teal;
 }
+
+.author-highlight {
+    font-weight: bold;
+    /* color: rgb(42, 91, 255); */
+}
+
+section#research a:hover {
+    color: inherit;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-color: transparent;
+}
+
+span.publication-conference {
+    
+}
