@@ -16,13 +16,13 @@ const Nav = (props) => (
                 </Scroll>
             </li>
             <li>
-                <Scroll type="id" element="awards">
-                    <a href="#">Awards and Honors</a>
+                <Scroll type="id" element="experience">
+                    <a href="#">Experience</a>
                 </Scroll>
             </li>
             <li>
-                <Scroll type="id" element="experience">
-                    <a href="#">Experience</a>
+                <Scroll type="id" element="awards">
+                    <a href="#">Awards and Honors</a>
                 </Scroll>
             </li>
             <li>

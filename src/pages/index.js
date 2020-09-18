@@ -47,8 +47,8 @@ class Index extends React.Component {
         <main id="main">
           <About/>
           <Research/>
-          <Awards/>
           <Experience/>
+          <Awards/>
           <Music/>
           <Contact/>
         </main>
