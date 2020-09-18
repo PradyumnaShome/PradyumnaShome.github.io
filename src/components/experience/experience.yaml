@@ -35,12 +35,21 @@
   icon: /images/experience/SPR@I.png
   description:
       - 'Advisor: <a href="https://cwfletcher.net">Prof. Christopher W. Fletcher</a>'
-      - Investigating the effects of dynamic overclocking and cache compression on memory access times.
-      - Evaluating dynamic information flow tracking (DIFT) tools to protect against leakage of confidential data
-      - Studying how modern computer architectural features such as speculative execution, dynamic branch prediction, and out of order execution make hardware increasingly prone to microarchitectural cache, timing, and contention-based side-channel attacks
-      - Analyzing the efficacy of security measures such as Trusted Execution Environments (TEEs), Oblivious RAM, and cache / processor pinning
-      - Performing extensive literature surveys of adjacent fields, and proposed hardware optimizations to find shortcomings in state-of-the-art techniques in secure processor design
-      - Learning to use tools such as the gem5 simulator, Intel VTune for analyzing the program control flow, and static/dynamic code analyzers
+      - UIUC CS Research Experiences for Undergraduates (REU) Participant, Summer 2020
+      - '### Project: Relationship Between Cache Compression and Dynamic Overclocking'
+      - - Investigating the effects of dynamic overclocking and cache compression on memory access times and CPU temperature
+        - Using Intel VTune to analyze the program control flow and hot spots 
+      - '### Project: Static and Dynamic IFT for Tracking Private Information Leakage'
+      - - Researching and using tools that perform static/dynamic code analysis and annotate code with securitylabels based on lattice-based access control models
+        - Studying how modern computer architectural features such as speculative execution, multiple issue,and out of order execution make hardware increasingly prone to microarchitectural cache, timing, and contention-based side-channel attacks
+        - Devising novel schemes and improving existing schemes to prevent data leakage on processors, through taint analysis, information flow tracking (IFT), and analysis of branch predictor design
+      - '### Project: Microarchitectural Optimizations Vulnerable To Side-channel Attacks'
+      - - Conducting extensive literature survey on vulnerabilities in hardware security topics
+        - Identifying vulnerable code patterns in open-source software, and brainstorming real-world threat models that enable end-to-end exploitation
+        - Implementing hardware optimizations in gem5 processor simulator’s O3CPU
+        - Analyzing pipeline diagrams to help debug instructions flow through various stages
+        - Developing multiple iterations of litmus tests to ensure memory correctness
+
 - type: research
   organization: Blender Lab, NLP Research at Illinois
   link: https://blender.cs.illinois.edu
@@ -51,6 +60,7 @@
       - 'Advisor: <a href="http://blender.cs.illinois.edu/hengji.html">Prof. Heng Ji</a>'
       - Conducting literature survey on event schema induction from multi-{media, lingual} representations using graph neural nets (GNNs).
       - Annotating videos for Yoga Robot, and learning more about the benefits of Attention Models and Transformers in encoding long-term phrase dependencies.
+      - Participate in NLP Reading Group and Seminar - discussion of recent papers in the field of information extraction and natural language understanding
 - type: industry
   organization: Salesforce
   link: https://salesforce.com

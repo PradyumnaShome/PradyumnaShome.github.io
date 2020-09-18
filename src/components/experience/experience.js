@@ -27,6 +27,17 @@ function ExperienceItem(props) {
             <ul>
                 {
                     item.description.map((bulletPoint, bulletIndex) => {
+                        if (Array.isArray(bulletPoint)) {
+                            return <ul>
+                                {
+                                    bulletPoint.map((subItem, subItemIndex) => {
+                                        return <li key={subItemIndex}>
+                                            {subItem}
+                                        </li>
+                                    })
+                                }
+                            </ul>
+                        }
                         return <li key={bulletIndex}>
                             {htmlToReactParser.parse(md.render(bulletPoint))}
                         </li>;
