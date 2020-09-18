@@ -1,5 +1,7 @@
 import React from "react";
 import researchData from "./research.yaml";
+import markdownIt from "markdown-it";
+import htmlToReact from "html-to-react";
 import './research.css';
 
 export function Talks() {
@@ -16,7 +18,14 @@ export function Talks() {
                         <strong className="paper-title">
                             <a href={item.link}>
                                 {item.title}</a>
-                        </strong>, {item.venue}, {item.date}
+                        </strong>,
+                        {
+                            item.venues.map((venue, idx) => {
+                                return <p>
+                                    {venue.name}, {venue.date}
+                                </p>
+                            })
+                        }
                     </p>
                 </li>
             })}
@@ -24,21 +33,51 @@ export function Talks() {
     </section>
 }
 
+export function AuthorList(props) {
+    const authors = props.authors;
+    const MY_FULL_NAME = "Pradyumna Shome";
+    let authorList = [];
+    authors.forEach((author, idx) => {
+        let prefix = "";
+        if (idx > 0 && idx != authors.length - 1) {
+            prefix = ", ";
+        } else if (idx == authors.length - 1) {
+            prefix = ", and ";
+        }
+
+        authorList.push(prefix);
+        if (author.startsWith(MY_FULL_NAME)) {
+            authorList.push(<span class="author-highlight">{author}</span>);
+        } else {
+            authorList.push(<span>{author}</span>);
+        }
+    });
+    return authorList;
+}
+
 export function Publications() {
     if (researchData.publications.length == 0) {
         return null;
     }
+
+    const md = markdownIt({
+        html: false,
+        linkify: true
+    });
+    const htmlToReactParser = new htmlToReact.Parser();
 
     return <section>
         <h3 className="subheading">Publications</h3>
         <ol>
             {researchData.publications.map((item, idx) => {
                 return <li key={idx}>
+                    <strong className="paper-title">
+                        <a href={item.link}>
+                            {item.title}</a>
+                    </strong>
                     <p>
-                        <strong className="paper-title">
-                            <a href={item.link}>
-                                {item.title}</a>
-                        </strong>; item.authors; {item.venue}, {item.date}
+                        <AuthorList authors={item.authors} />
+                        . <span className={"publication-" + item.type}>{item.venue}</span>. {item.date}.
                     </p>
                 </li>
             })}
