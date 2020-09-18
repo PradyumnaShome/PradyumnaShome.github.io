@@ -11,7 +11,6 @@ button.tablinks {
 }
 
 section#experience {
-  color: white;
   background-color: var(--color-experience-bg); 
 }
 
@@ -37,30 +36,29 @@ section.experience-item img {
   border-radius: 10%;
 }
 
-section.experience-item h3 {
+section.experience-item header {
   margin-top: 3vh !important;
   margin-bottom: 0;
   display: inline-block;
   vertical-align: top;
-  color: white !important;
   font-family: "Merriweather", sans-serif;
   font-size: 1.3em;
   font-weight: bolder;
+  width: 80%;
 }
 
-section.experience-item h3 span.organization {
+section.experience-item span.organization {
   display: inline;
   font-size: 1em;
   font-weight: bold;
   color: white !important;
-  margin-bottom: 0 !important;
 }
 
 section.experience-item span.separator {
   margin: 1%;
 }
 
-section.experience-item h3 span.role {
+section.experience-item span.role {
   display: block;
   font-size: 0.8em;
   color: white !important;
@@ -99,6 +97,10 @@ button.tablinks {
     text-align: center;
   }
 
+  span.separator {
+    display: none;
+  }
+
   section.experience-item article.description {
     text-align: left;
     margin-left: 10% !important;
@@ -111,5 +113,19 @@ button.tablinks {
     display: inline-block !important;
     width: 35vw !important;
     height: 35vw !important;
+  }
+}
+
+@include breakpoint(large) {
+  section.experience-item {
+    text-align: center;
+  }
+
+  section.experience-item article.description {
+    text-align: left;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    margin-top: 4vh;
+    padding-bottom: 1vh !important;
   }
 }

@@ -13,7 +13,7 @@ function ExperienceItem(props) {
     const itemClassName = "experience-item experience-active experience-" + item.type;
     return <section className={itemClassName}>
         <img src={item.icon} alt="" />
-        <h3>
+        <header>
             <span className="organization">
                 <a href={item.link}>{item.organization}</a>
             </span>
@@ -22,7 +22,7 @@ function ExperienceItem(props) {
                 <span className="separator">·</span>
                 <span className="duration">{item.duration}</span>
             </span>
-        </h3>
+        </header>
         <article className="description">
             <ul>
                 {

@@ -1,0 +1,10 @@
+.g-recaptcha {
+  display: inline-block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  max-width: calc(100% - #{_size(element-margin) * 2});
+}
+
+section#contact {
+    background-color: royalblue;
+}
