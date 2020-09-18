@@ -1,6 +1,5 @@
 import React from 'react';
 import ReCAPTCHA from "react-google-recaptcha";
-import './contact.css';
 
 export default function Contact() {
     return <section id="contact" className="main special">
