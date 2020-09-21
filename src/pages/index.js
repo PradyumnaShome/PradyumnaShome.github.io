@@ -12,6 +12,7 @@ import Music from '../components/music/music'
 import Contact from '../components/contact/contact'
 import Nav from '../components/Nav'
 
+import profilePhoto from '../../assets/images/portrait.png';
 
 class Index extends React.Component {
   constructor(props) {
@@ -21,7 +22,7 @@ class Index extends React.Component {
     }
   }
 
-  _handleWaypointEnter= () => {
+  _handleWaypointEnter = () => {
     this.setState(() => ({ stickyNav: false }));
   }
 
@@ -33,7 +34,40 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Pradyumna Shome" />
+        <Helmet
+          title="Pradyumna Shome"
+          meta={
+            [
+              {
+                name: "description",
+                content: "CS @ Illinois '21 | Security Researcher at FPSG"
+              },
+              {
+                name: "og:title",
+                content: "Pradyumna Shome"
+              },
+              {
+                name: "og:type",
+                content: "website"
+              },
+              {
+                name: "og:image",
+                content: profilePhoto
+              },
+              {
+                name: "og:image:width",
+                content: "1024"
+              },
+              {
+                name: "og:image:height",
+                content: "1024"
+              },
+              {
+                name: "og:image:type",
+                content: "image/png"
+              }
+            ]}
+        />
 
         <Header />
 
@@ -45,12 +79,12 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <main id="main">
-          <About/>
-          <Research/>
-          <Experience/>
-          <Awards/>
-          <Music/>
-          <Contact/>
+          <About />
+          <Research />
+          <Experience />
+          <Awards />
+          <Music />
+          <Contact />
         </main>
 
       </Layout>
