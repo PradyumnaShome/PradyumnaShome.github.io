@@ -7,6 +7,15 @@ import profilePhoto from '../../assets/images/portrait.png';
 
 const Header = (props) => (
     <header id="header" className="alt">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:url" content="https://pradyumnashome.com" />
+        <meta property="og:title" content="Pradyumna Shome" />
+        <meta property="og:description" content="CS @ Illinois '21 | Security Researcher at FPSG" />
+        <meta property="og:image" content="https://pradyumnashome.com/assets/images/portrait.png" />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="1024" />
+        <meta property="og:image:type" content="image/png" />
         <span className="logo"><img src={profilePhoto} alt="" /></span>
         <h1>
             <Link to="/">Pradyumna Shome</Link>
