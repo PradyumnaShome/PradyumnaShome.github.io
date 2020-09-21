@@ -12,7 +12,7 @@ import Music from '../components/music/music'
 import Contact from '../components/contact/contact'
 import Nav from '../components/Nav'
 
-import profilePhoto from '../../assets/images/portrait.png';
+import profilePhoto from '../assets/images/portrait.png';
 
 class Index extends React.Component {
   constructor(props) {
