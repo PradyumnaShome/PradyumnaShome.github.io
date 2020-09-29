@@ -5,7 +5,10 @@
   duration: September 2020 - Present
   icon: /images/experience/facebook.png
   description:
-      - PDU Product Platform, Privacy and Data Use Org
+      - Privacy Control Infrastructure, Privacy and Data Use Org
+      - Building a highly structured, loosely coupled, and decentralized framework to support 2 billion daily mutations to profile-level privacy settings, using Ent, an internal entity framework and Hack (PHP)
+      - Framework simplifies legal compliance, improves developer experience, and reduces the impact of high-severity incidents
+      - Creating data migration scripts to transition users to the new framework, and ensuring privacy policies have identical behaviors through trace equivalence checking
 - type: teaching
   organization: Coding Together
   link: https://codingtogether.us/
@@ -68,6 +71,7 @@
   duration: June 2019 - August 2019
   icon: /images/experience/salesforce.svg
   description:
+      - Records Experience, Platform Cloud
       - Created web app to automatically suggest test plans for a new user story, through natural language processing of the acceptance criteria, using JavaScript (ES2017), Apex, SOQL, Web Components, and Jest for unit tests.
       - Reduced 13 engineering work days spent manually compiling test plans per sprint planning session.
       - Developed UI for Einstein Modeling’s first Business Card Scanner, that uses OCR and Named Entity Recognition to automate the organization of business contact information.
@@ -101,6 +105,7 @@
   duration: July 2018 - August 2018
   icon: /images/experience/virtusa.png
   description:
+      - Media and Content Division
       - Created serverless cloud app and supporting data lake to model, process, and aggregate computer vision data for predictive analytics, using Python, AWS Lambda, Amazon API Gateway, and Amazon DynamoDB
       - Implemented reference business intelligence (BI) tool, using NLP generative models (LDA, NTM) to gain insights on social media reactions to popular films and TV shows, using Boto 3, Amazon QuickSight, and Amazon SageMaker
 - type: industry
