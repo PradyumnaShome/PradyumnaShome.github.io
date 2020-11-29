@@ -28,6 +28,6 @@ section#research a:hover {
     border-color: transparent;
 }
 
-span.publication-conference {
-    
+span p {
+   display: inline; 
 }

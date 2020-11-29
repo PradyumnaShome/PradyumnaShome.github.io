@@ -37,6 +37,13 @@ export function AuthorList(props) {
     const authors = props.authors;
     const MY_FULL_NAME = "Pradyumna Shome";
     let authorList = [];
+
+    const md = markdownIt({
+        html: true,
+        linkify: false
+    });
+    const htmlToReactParser = new htmlToReact.Parser();
+
     authors.forEach((author, idx) => {
         let prefix = "";
         if (idx > 0 && idx != authors.length - 1) {
@@ -46,10 +53,11 @@ export function AuthorList(props) {
         }
 
         authorList.push(prefix);
+        const renderedAuthor = htmlToReactParser.parse(md.render(author));
         if (author.startsWith(MY_FULL_NAME)) {
-            authorList.push(<span class="author-highlight">{author}</span>);
+            authorList.push(<span class="author-highlight">{renderedAuthor}</span>);
         } else {
-            authorList.push(<span>{author}</span>);
+            authorList.push(<span>{renderedAuthor}</span>);
         }
     });
     return authorList;
@@ -59,12 +67,6 @@ export function Publications() {
     if (researchData.publications.length == 0) {
         return null;
     }
-
-    const md = markdownIt({
-        html: false,
-        linkify: true
-    });
-    const htmlToReactParser = new htmlToReact.Parser();
 
     return <section>
         <h3 className="subheading">Publications</h3>

@@ -13,11 +13,13 @@ talks:
 publications:
   - title: "Opening Pandora's Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data"
     authors:
-      - Jose Rodrigo Sanchez Vicarte
-      - Pradyumna Shome
-      - Adam Morrison
-      - David Kohlbrenner
-      - Christopher W. Fletcher
-    venue: "In preparation for International Symposium for Computer Architecture (ISCA)"
+      - <a href="https://jose-sv.github.io">Jose Rodrigo Sanchez Vicarte</a>
+      - <a href="https://pradyumnashome.com">Pradyumna Shome</a>
+      - <a href="https://www.linkedin.com/in/nandeeka-nayak">Nandeeka Nayak</a>
+      - <a href="https://cs.stanford.edu/people/trippel">Caroline Trippel</a>
+      - <a href="https://cs.tau.ac.il/~mad">Adam Morrison</a>
+      - <a href="https://davidkohlbrenner.com">David Kohlbrenner</a>
+      - <a href="http://cwfletcher.net">Christopher W. Fletcher</a>
+    venue: "In submission for International Symposium on Computer Architecture (ISCA)"
     type: conference
     date: "May 2021"
