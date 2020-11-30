@@ -1,7 +1,5 @@
 import React from "react";
 import researchData from "./research.yaml";
-import markdownIt from "markdown-it";
-import htmlToReact from "html-to-react";
 import './research.css';
 
 export function Talks() {
@@ -34,33 +32,29 @@ export function Talks() {
 }
 
 export function AuthorList(props) {
+    const allCollaborators = researchData.collaborators;
     const authors = props.authors;
     const MY_FULL_NAME = "Pradyumna Shome";
-    let authorList = [];
 
-    const md = markdownIt({
-        html: true,
-        linkify: false
-    });
-    const htmlToReactParser = new htmlToReact.Parser();
-
-    authors.forEach((author, idx) => {
-        let prefix = "";
-        if (idx > 0 && idx != authors.length - 1) {
-            prefix = ", ";
-        } else if (idx == authors.length - 1) {
-            prefix = ", and ";
+    getPrefix = (idx, list) => {
+        if (idx > 0 && idx !== list.length - 1) {
+            return ", ";
+        } else if (idx === list.length - 1) {
+            return ", and ";
         }
+    }
 
-        authorList.push(prefix);
-        const renderedAuthor = htmlToReactParser.parse(md.render(author));
+    return authors.map((author, idx) => {
+        const authorLink = allCollaborators[author]?.url ?? `https://google.com/search?q=${author}`;
+        const authorLinkElement = <a href={authorLink} target="_blank">{author}</a>;
+        let authorSpan = <span>{authorLinkElement}</span>;
         if (author.startsWith(MY_FULL_NAME)) {
-            authorList.push(<span class="author-highlight">{renderedAuthor}</span>);
-        } else {
-            authorList.push(<span>{renderedAuthor}</span>);
+            authorSpan = <span class="author-highlight">{authorLinkElement}</span>;
         }
+
+        const prefix = this.getPrefix(idx, authors);
+        return [prefix, authorSpan];
     });
-    return authorList;
 }
 
 export function Publications() {
