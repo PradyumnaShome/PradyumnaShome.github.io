@@ -36,29 +36,29 @@ export function AuthorList(props) {
     const authors = props.authors;
     const MY_FULL_NAME = "Pradyumna Shome";
 
-    getPrefix = (idx, list) => {
-        if (idx > 0 && idx !== list.length - 1) {
-            return ", ";
-        } else if (idx === list.length - 1) {
-            return ", and ";
-        }
-    }
-
     return authors.map((author, idx) => {
+        let getPrefix = (idx, list) => {
+            if (idx > 0 && idx !== list.length - 1) {
+                return ", ";
+            } else if (idx === list.length - 1) {
+                return ", and ";
+            }
+        }
+
         const authorLink = allCollaborators[author]?.url ?? `https://google.com/search?q=${author}`;
-        const authorLinkElement = <a href={authorLink} target="_blank">{author}</a>;
+        const authorLinkElement = <a href={authorLink} target="_blank" rel="noopener">{author}</a>;
         let authorSpan = <span>{authorLinkElement}</span>;
         if (author.startsWith(MY_FULL_NAME)) {
             authorSpan = <span class="author-highlight">{authorLinkElement}</span>;
         }
 
-        const prefix = this.getPrefix(idx, authors);
+        const prefix = getPrefix(idx, authors);
         return [prefix, authorSpan];
     });
 }
 
 export function Publications() {
-    if (researchData.publications.length == 0) {
+    if (researchData.publications.length === 0) {
         return null;
     }
 
