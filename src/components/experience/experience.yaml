@@ -1,3 +1,13 @@
+- type: research
+  organization: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2021/index.html
+  role: Shadow Program Committee Member
+  duration: November 2020 - Present
+  icon: /images/experience/ieeessp.png
+  description:
+      - Reviewing 5-15 submissions to the IEEE Symposium on Security and Privacy, a top-tier academic conference on security and privacy
+      - Debating papers in program committee (PC) meeting and deciding on a program
+      - Learning how to write high-quality reviews and understanding the challenges faced by reviewers reading multiple papers which may not always be in their area of expertise
 - type: industry
   organization: Facebook
   link: https://facebook.com
