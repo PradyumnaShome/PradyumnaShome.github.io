@@ -18,7 +18,7 @@
       - Privacy Control Infrastructure, Privacy and Data Use Org
       - Building a highly structured, loosely coupled, and decentralized framework to support 2 billion daily mutations to profile-level privacy settings, using Ent, an internal entity framework and Hack (PHP)
       - Framework simplifies legal compliance, improves developer experience, and reduces the impact of high-severity incidents
-      - Creating data migration scripts to transition users to the new framework, and ensuring privacy policies have identical behaviors through trace equivalence checking
+      - Orchestrating data migration scripts to transition users to the new framework, while ensuring privacy policies have identical behaviors through trace equivalence checking
 - type: teaching
   organization: Coding Together
   link: https://codingtogether.us/
@@ -48,20 +48,16 @@
   icon: /images/experience/SPR@I.png
   description:
       - 'Advisor: <a href="https://cwfletcher.net">Prof. Christopher W. Fletcher</a>'
-      - UIUC CS Research Experiences for Undergraduates (REU) Participant, Summer 2020
-      - '### Project: Relationship Between Cache Compression and Dynamic Overclocking'
-      - - Investigating the effects of dynamic overclocking and cache compression on memory access times and CPU temperature
-        - Using Intel VTune to analyze the program control flow and hot spots 
-      - '### Project: Static and Dynamic IFT for Tracking Private Information Leakage'
-      - - Researching and using tools that perform static/dynamic code analysis and annotate code with securitylabels based on lattice-based access control models
-        - Studying how modern computer architectural features such as speculative execution, multiple issue,and out of order execution make hardware increasingly prone to microarchitectural cache, timing, and contention-based side-channel attacks
-        - Devising novel schemes and improving existing schemes to prevent data leakage on processors, through taint analysis, information flow tracking (IFT), and analysis of branch predictor design
-      - '### Project: Microarchitectural Optimizations Vulnerable To Side-channel Attacks'
-      - - Conducting extensive literature survey on vulnerabilities in hardware security topics
-        - Identifying vulnerable code patterns in open-source software, and brainstorming real-world threat models that enable end-to-end exploitation
-        - Implementing hardware optimizations in gem5 processor simulator’s O3CPU
-        - Analyzing pipeline diagrams to help debug instructions flow through various stages
-        - Developing multiple iterations of litmus tests to ensure memory correctness
+      - Worked with Jose Rodrigo Sanchez Vicarte (University of Illinois at Urbana-Champaign), Nandeeka Nayak (University of Illinois at Urbana-Champaign), Caroline Trippel (Stanford University), Adam Morrison (Tel Aviv University), and David Kohlbrenner (University of Washington)
+      - Participated in Illinois CS Research Experiences for Undergraduates (REU), Summer 2020
+      - '*Vulnerability Scanning For Next-Generation Microarchitectural Side-channel Attacks*'
+      - - Developing dynamic analysis tool to automatically identify software vulnerable to side-channel attacks
+      - '*Microarchitectural Optimizations Vulnerable To Side-channel Attacks*'
+      - - Identified leaky hardware optimizations, performed a security analysis, evaluated on gem5 processor simulator, and submitted a paper to ISCA 2021
+      - '*Information Flow Tracking To Calculate Speculative Worst-Case Execution Time (WCET)*'
+      - - Attempted to build a side-channel resilient branch predictor
+      - '*Relationship Between Cache Compression and Dynamic Overclocking*'
+      - - Attempted to identify evidence of cache compression on modern Intel processors
 
 - type: research
   organization: Blender Lab, NLP Research at Illinois
@@ -71,8 +67,8 @@
   icon: /images/experience/uiucnlp.jpg
   description:
       - 'Advisor: <a href="http://blender.cs.illinois.edu/hengji.html">Prof. Heng Ji</a>'
-      - Conducting literature survey on event schema induction from multi-{media, lingual} representations using graph neural nets (GNNs).
-      - Annotating videos for Yoga Robot, and learning more about the benefits of Attention Models and Transformers in encoding long-term phrase dependencies.
+      - Conducting literature survey on event schema induction from multi-{media, lingual} representations using graph neural nets (GNNs)
+      - Annotating videos for Yoga Robot, and learning more about the benefits of Attention Models and Transformers in encoding long-term phrase dependencies
       - Participate in NLP Reading Group and Seminar - discussion of recent papers in the field of information extraction and natural language understanding
 - type: industry
   organization: Salesforce
@@ -82,10 +78,10 @@
   icon: /images/experience/salesforce.svg
   description:
       - Records Experience, Platform Cloud
-      - Created web app to automatically suggest test plans for a new user story, through natural language processing of the acceptance criteria, using JavaScript (ES2017), Apex, SOQL, Web Components, and Jest for unit tests.
-      - Reduced 13 engineering work days spent manually compiling test plans per sprint planning session.
-      - Developed UI for Einstein Modeling’s first Business Card Scanner, that uses OCR and Named Entity Recognition to automate the organization of business contact information.
-      - Ideated and built intern-matching social app using Python and Jinja, that helps bolster personal connections and surfaces common interests.
+      - Created web app to automatically suggest test plans for a new user story, through natural language processing of the acceptance criteria, using JavaScript (ES2017), Apex, SOQL, Web Components, and Jest for unit tests
+      - Reduced 13 engineering work days spent manually compiling test plans per sprint planning session
+      - Developed UI for Einstein Modeling’s first Business Card Scanner, that uses OCR and Named Entity Recognition to automate the organization of business contact information
+      - Ideated and built intern-matching social app using Python and Jinja, that helps bolster personal connections and surfaces common interests
 - type: teaching
   organization: University of Illinois at Urbana-Champaign
   link: http://cs241.cs.illinois.edu
@@ -125,10 +121,10 @@
   duration: April 2018 - February 2019
   icon: /images/experience/hackillinois.png
   description:
-      - Developed Go microservices to enable user authentication, authorization, event registration, and notifications via mobile app clients, including CI / CD pipeline (Travis, AWS CodePipeline, Amazon ECS).
-      - Added features such as user mocking, OAuth single sign-on, multi-tier decision review, templated mail, error handling and CRUD (with MongoDB).
-      - Created QR code scanner in Android app to manage event check-in and track participant statistics for meals and mini-events.
-      - Used MkDocs, a Markdown documentation generator to create a <a href="https://docs.hackillinois.org/">dedicated documentation website</a> for API consumers.
+      - Developed Go microservices to enable user authentication, authorization, event registration, and notifications via mobile app clients, including CI / CD pipeline (Travis, AWS CodePipeline, Amazon ECS)
+      - Added features such as user mocking, OAuth single sign-on, multi-tier decision review, templated mail, error handling and CRUD (with MongoDB)
+      - Created QR code scanner in Android app to manage event check-in and track participant statistics for meals and mini-events
+      - Used MkDocs, a Markdown documentation generator to create a <a href="https://docs.hackillinois.org/">dedicated documentation website</a> for API consumers
 - type: industry
   organization: Reflections | Projections
   link: https://reflectionsprojections.org
@@ -136,9 +132,9 @@
   duration: January 2018 - September 2018
   icon: /images/experience/rp.png
   description:
-      - Principal full-stack developer of website written in ES6 using ReactJS, Webpack, and Nginx.
-      - Integrated microservices-based in-house registration API that brought in 2200+ applicants.
-      - Mentored junior developers through code review and pair programming.
+      - Principal full-stack developer of website written in ES6 using ReactJS, Webpack, and Nginx
+      - Integrated microservices-based in-house registration API that brought in 2200+ applicants
+      - Mentored junior developers through code review and pair programming
 - type: industry
   organization: Ashwini Charitable Trust
   link: https://ashwinitrust.org
@@ -146,6 +142,6 @@
   duration: April 2016 - May 2016
   icon: /images/experience/act.jpg
   description:
-      - Built mockups of proposed new website from scratch.
-      - Migrated website to Wordpress, to allow anyone to create and update content without having to resort to technical tools.
-      - Incorporated search engine optimization to better target volunteers and potential donors.
+      - Built mockups of proposed new website from scratch
+      - Migrated website to Wordpress, to allow anyone to create and update content without having to resort to technical tools
+      - Incorporated search engine optimization to better target volunteers and potential donors

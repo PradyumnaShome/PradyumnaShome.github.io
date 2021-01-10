@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import './about.css';
 
@@ -43,15 +42,15 @@ export default function About() {
                     <p>
                         I am a senior majoring in <a href="https://cs.illinois.edu">Computer Science</a> at the <a href="https://illinois.edu">University of Illinois at Urbana-Champaign</a>, advised by <a href="http://cwfletcher.net">Chris Fletcher</a>.
                         On campus, I've been involved in research, teaching, and the student community.
-                        As a member of <a href="https://spri.engr.illinois.edu">Security and Privacy Research at Illinois</a>, I research microarchitectural side-channel attacks, in the domain of hardware and systems security.
-                        I am also interested in privacy-preserving computation, secure multi-party computation (MPC), usable security, Internet security and privacy, and distributed systems.
+                        As a member of <a href="https://spri.engr.illinois.edu">Security and Privacy Research at Illinois</a>, I research microarchitectural side-channel attacks, in the domain of software and hardware systems security.
+                        I am also interested in applied cryptography, Web, and usable security.
                         I am the Lead Course Assistant for <a href="http://cs241.cs.illinois.edu">Illinois CS 241: System Programming</a>.
                         In the past, I've helped organize <a href="https://hackillinois.org">HackIllinois</a> and the <a href="https://reflectionsprojections.org">Reflections | Projections technology conference</a>.
                         I've had industry experience through software engineering internships at <a href="https://salesforce.com">Salesforce</a> and <a href="https://virtusa.com">Virtusa</a>.
-                        I am currently a Software Engineering Intern in the Privacy and Data Use organization at <a href="https://facebook.com">Facebook</a>, working on Privacy Control Infrastructure.
+                        Most recently, I was a Software Engineering Intern in the Privacy and Data Use organization at <a href="https://facebook.com">Facebook</a>, working on Privacy Control Infrastructure.
                     </p>
                     <h3 className="subheading">Meeting me / getting in touch</h3> <p>
-                        If you'd like to get to know me personally or meet me (e.g. just to chat, or for a meal), I welcome such opportunities; click the link below. Please be sure to leave a short note about yourself and why you'd like to meet me. Short of that, feel free to add me on Facebook (again, with a note, please), or email me. I love meeting new people, and find cultivating good relationships with people to be a source of strength. </p>
+                        If you'd like to get to know me personally or meet me (e.g. just to chat, or for a meal), I welcome such opportunities. Either click the link below, email me, use the contact form, or connect with me on social media. Please be sure to leave a short note about yourself and why you'd like to meet me. I love meeting new people, and find cultivating good relationships with people to be a source of strength. </p>
                     <section className="button-container">
                         <button onClick={() => { internalRedirectTo("/meet") }}>Schedule A Meeting</button>
                     </section>
@@ -71,7 +70,7 @@ export default function About() {
                         startups,
                         table tennis,
                         tennis,
-                        tech news,
+                        technology,
                         venture capitalism
                     </p>
                     <h3 className="subheading">Hiring me</h3>
@@ -79,7 +78,7 @@ export default function About() {
                         I'm looking for opportunities in the security, privacy, and systems space. Please reach out via email if you're offering the following opportunities!
                         <ul>
                             <li>Graduate Research Assistant (Ph.D.) - starting Fall 2021</li>
-                            <li>Research/Software Engineering Intern - starting Summer 2021</li>
+                            <li>Research Intern - starting Summer 2021</li>
                         </ul>
                     </p>
                 </section>
