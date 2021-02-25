@@ -31,11 +31,6 @@ const Nav = (props) => (
                     <a href="#">Music</a>
                 </Scroll>
             </li>
-            <li>
-                <Scroll type="id" element="contact">
-                    <a href="#">Contact</a>
-                </Scroll>
-            </li>
         </Scrollspy>
     </nav>
 )

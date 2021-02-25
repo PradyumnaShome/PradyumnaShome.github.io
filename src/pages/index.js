@@ -9,7 +9,6 @@ import Research from '../components/research/research'
 import Awards from '../components/awards/awards'
 import Experience from '../components/experience/experience'
 import Music from '../components/music/music'
-import Contact from '../components/contact/contact'
 import Nav from '../components/Nav'
 
 import profilePhoto from '../assets/images/portrait.png';
@@ -40,7 +39,7 @@ class Index extends React.Component {
             [
               {
                 name: "description",
-                content: "CS @ Illinois '21 | Security Researcher at FPSG"
+                content: "CS @ Illinois '21 | Researcher at Security and Privacy Research at Illinois"
               },
               {
                 name: "og:title",
@@ -52,7 +51,7 @@ class Index extends React.Component {
               },
               {
                 name: "og:image",
-                content: profilePhoto
+                content: {profilePhoto}
               },
               {
                 name: "og:image:width",
@@ -84,7 +83,6 @@ class Index extends React.Component {
           <Experience />
           <Awards />
           <Music />
-          <Contact />
         </main>
 
       </Layout>
