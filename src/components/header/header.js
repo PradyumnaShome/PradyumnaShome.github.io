@@ -5,7 +5,7 @@ import './header.css';
 
 import profilePhoto from '../../assets/images/portrait.png';
 
-const Header = (props) => (
+const Header = () => (
     <header id="header" className="alt">
         <span className="logo"><img src={profilePhoto} alt="" /></span>
         <h1>

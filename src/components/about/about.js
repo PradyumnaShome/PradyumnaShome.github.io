@@ -49,12 +49,14 @@ export default function About() {
                         I've had industry experience through software engineering internships at <a href="https://salesforce.com">Salesforce</a> and <a href="https://virtusa.com">Virtusa</a>.
                         Most recently, I was a Software Engineering Intern in the Privacy and Data Use organization at <a href="https://facebook.com">Facebook</a>, working on Privacy Control Infrastructure.
                     </p>
-                    <h3 className="subheading">Meeting me / getting in touch</h3> <p>
-                        If you'd like to get to know me personally or meet me (e.g. just to chat, or for a meal), I welcome such opportunities. Either click the link below, email me, use the contact form, or connect with me on social media. Please be sure to leave a short note about yourself and why you'd like to meet me. I love meeting new people, and find cultivating good relationships with people to be a source of strength. </p>
+                    <h3 className="subheading">Meeting me</h3>
+                    <p>
+                        I'd love to meet you! If you want to set up a time to chat, I only ask that you leave a short note about yourself and why you're interesting in getting in touch. I recommend starting with email or Twitter.
+                    </p>
                     <section className="button-container">
                         <button onClick={() => { internalRedirectTo("/meet") }}>Schedule A Meeting</button>
                     </section>
-                    <h3 className="subheading">Non-academic interests / Things I enjoy talking about</h3>
+                    <h3 className="subheading">Personal interests</h3>
                     <p>
                         Board game strategies,
                         bubble tea places around the world,
@@ -75,10 +77,9 @@ export default function About() {
                     </p>
                     <h3 className="subheading">Hiring me</h3>
                     <p>
-                        I'm looking for opportunities in the security, privacy, and systems space. Please reach out via email if you're offering the following opportunities!
+                        I'm looking for opportunities in computer security, privacy, systems, and applied cryptography. Please reach out via email if you're offering the following opportunities!
                         <ul>
                             <li>Graduate Research Assistant (Ph.D.) - starting Fall 2021</li>
-                            <li>Research Intern - starting Summer 2021</li>
                         </ul>
                     </p>
                 </section>
