@@ -3,7 +3,7 @@ import experienceData from "./experience.yaml";
 import markdownIt from "markdown-it";
 import htmlToReact from "html-to-react";
 
-function ExperienceItem(props) {
+const ExperienceItem = function (props) {
     const md = markdownIt({
         html: true,
         linkify: true
@@ -24,7 +24,9 @@ function ExperienceItem(props) {
             </span>
         </header>
         <article className="description">
-            <ul>
+            <strong id="icon" className="fa fa-play collapse-button collapse" onClick={(event) => handleCollapsing(event, props)}/>
+            Details
+            <ul className="collapsible collapsed">
                 {
                     item.description.map((bulletPoint, bulletIndex) => {
                         if (Array.isArray(bulletPoint)) {
@@ -48,6 +50,35 @@ function ExperienceItem(props) {
     </section>
 }
 
+const handleCollapsing = (event) => {
+    const COLLAPSED_ELEMENT_CLASSNAME = "collapsed";
+
+    // Make the description visible
+    const elementDescription = event.currentTarget.nextElementSibling;
+    elementDescription.classList.toggle(COLLAPSED_ELEMENT_CLASSNAME);
+    
+    // Toggle the appearance of the collapse button/arrow
+    if (event.currentTarget.classList.contains("collapse")) {
+        event.currentTarget.classList.remove("collapse");
+        event.currentTarget.classList.add("expand");
+    } else {
+        event.currentTarget.classList.remove("expand");
+        event.currentTarget.classList.add("collapse");
+    }
+}
+
+const ExperienceItemList = (props) => {
+    const experienceThis = props.experienceThis;
+    return <section className="experience-items">
+        {
+            experienceData.map((item, index) => {
+                if (experienceThis.state.visibleSection === "all" || experienceThis.state.visibleSection === item.type) {
+                    return <ExperienceItem data={item} key={index} />
+                }
+            })
+        }
+    </section>
+}
 
 export default class Experience extends Component {
     constructor() {
@@ -72,17 +103,6 @@ export default class Experience extends Component {
 
         const experienceThis = this;
 
-        const ExperienceItemList = () => {
-            return <section className="experience-items">
-                {
-                    experienceData.map((item, index) => {
-                        if (experienceThis.state.visibleSection === "all" || experienceThis.state.visibleSection === item.type) {
-                            return <ExperienceItem data={item} key={index} />
-                        }
-                    })
-                }
-            </section>
-        }
 
         return <section id="experience" className="main special">
             <header className="major">
@@ -98,7 +118,7 @@ export default class Experience extends Component {
                 <button className="tablinks"
                     onClick={(event) => setVisibleSection(event, 'teaching')}>Teaching</button>
             </section>
-            <ExperienceItemList />
+            <ExperienceItemList experienceThis={experienceThis} />
         </section>
     }
 }
