@@ -92,6 +92,24 @@ button.tablinks {
   font-weight: bold;
 }
 
+ul.collapsed {
+  display: none;
+}
+
+.collapse-button.expand {
+  transform: rotate(90deg);
+  transition: transform 0.25s linear;
+}
+
+.collapse-button.collapse {
+  transform: rotate(0);
+  transition: transform 0.25s linear; 
+}
+
+.collapse-button {
+  margin-right: 0.7em;
+}
+
 @include breakpoint(small) {
   section.experience-item {
     text-align: center;
