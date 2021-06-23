@@ -3,14 +3,47 @@ import experienceData from "./experience.yaml";
 import markdownIt from "markdown-it";
 import htmlToReact from "html-to-react";
 
-const ExperienceItem = function (props) {
+const ExperienceItemDescription = function (props) {
     const md = markdownIt({
         html: true,
         linkify: true
     });
     const htmlToReactParser = new htmlToReact.Parser();
+    const description = props.data;
+    if (!description) {
+        return null;
+    }
+    return <article className="description">
+        <strong id="icon" className="fa fa-play collapse-button collapse" onClick={(event) => handleCollapsing(event, props)} />
+            Details
+            <ul className="collapsible collapsed">
+            {
+                description.map((bulletPoint, bulletIndex) => {
+                    if (Array.isArray(bulletPoint)) {
+                        return <ul>
+                            {
+                                bulletPoint.map((subItem, subItemIndex) => {
+                                    return <li key={subItemIndex}>
+                                        {subItem}
+                                    </li>
+                                })
+                            }
+                        </ul>
+                    }
+                    debugger;
+                    return <li key={bulletIndex}>
+                        {htmlToReactParser.parse(md.render(bulletPoint))}
+                    </li>;
+                })
+            }
+        </ul>
+    </article>
+}
+
+const ExperienceItem = function (props) {
     const item = props.data;
     const itemClassName = "experience-item experience-active experience-" + item.type;
+
     return <section className={itemClassName}>
         <img src={item.icon} alt="" />
         <header>
@@ -23,30 +56,7 @@ const ExperienceItem = function (props) {
                 <span className="duration">{item.duration}</span>
             </span>
         </header>
-        <article className="description">
-            <strong id="icon" className="fa fa-play collapse-button collapse" onClick={(event) => handleCollapsing(event, props)}/>
-            Details
-            <ul className="collapsible collapsed">
-                {
-                    item.description.map((bulletPoint, bulletIndex) => {
-                        if (Array.isArray(bulletPoint)) {
-                            return <ul>
-                                {
-                                    bulletPoint.map((subItem, subItemIndex) => {
-                                        return <li key={subItemIndex}>
-                                            {subItem}
-                                        </li>
-                                    })
-                                }
-                            </ul>
-                        }
-                        return <li key={bulletIndex}>
-                            {htmlToReactParser.parse(md.render(bulletPoint))}
-                        </li>;
-                    })
-                }
-            </ul>
-        </article>
+        <ExperienceItemDescription data={item.description} />
     </section>
 }
 
@@ -56,7 +66,7 @@ const handleCollapsing = (event) => {
     // Make the description visible
     const elementDescription = event.currentTarget.nextElementSibling;
     elementDescription.classList.toggle(COLLAPSED_ELEMENT_CLASSNAME);
-    
+
     // Toggle the appearance of the collapse button/arrow
     if (event.currentTarget.classList.contains("collapse")) {
         event.currentTarget.classList.remove("collapse");

@@ -1,3 +1,10 @@
+- type: industry
+  organization: Facebook
+  link: https://about.facebook.com
+  role: Software Engineer
+  duration: Incoming
+  icon: /images/experience/facebook.png
+  description:
 - type: research
   organization: IEEE Symposium on Security and Privacy
   link: https://www.ieee-security.org/TC/SP2021/index.html
@@ -8,9 +15,27 @@
       - Reviewed 8 submissions to the IEEE Symposium on Security and Privacy, a top-tier academic conference on security and privacy
       - Debated papers in program committee (PC) meeting and decided on a program
       - Improved my ability to write high-quality reviews and understood the challenges in reading multiple papers out of my area of expertisee
+- type: research
+  organization: FPSG, Security and Privacy Research at Illinois
+  link: https://spri.engr.illinois.edu
+  role: Research Assistant
+  duration: August 2019 - May 2021
+  icon: /images/experience/SPR@I.png
+  description:
+      - 'Advisor: <a href="https://cwfletcher.net">Prof. Christopher W. Fletcher</a>'
+      - Worked with Jose Rodrigo Sanchez Vicarte (University of Illinois at Urbana-Champaign), Nandeeka Nayak (University of Illinois at Urbana-Champaign), Caroline Trippel (Stanford University), Adam Morrison (Tel Aviv University), and David Kohlbrenner (University of Washington)
+      - Participated in Illinois CS Research Experiences for Undergraduates (REU), Summer 2020
+      - '*Vulnerability Scanning For Next-Generation Microarchitectural Side-channel Attacks*'
+      - - Developing dynamic analysis tool to automatically identify software vulnerable to side-channel attacks
+      - '*Microarchitectural Optimizations Vulnerable To Side-channel Attacks*'
+      - - Identified leaky hardware optimizations, performed a security analysis, evaluated on gem5 processor simulator, and submitted a paper to ISCA 2021
+      - '*Information Flow Tracking To Calculate Speculative Worst-Case Execution Time (WCET)*'
+      - - Attempted to build a side-channel resilient branch predictor
+      - '*Relationship Between Cache Compression and Dynamic Overclocking*'
+      - - Attempted to identify evidence of cache compression on modern Intel processors
 - type: industry
   organization: Facebook
-  link: https://facebook.com
+  link: https://about.facebook.com
   role: Software Engineering Intern
   duration: September 2020 - December 2020
   icon: /images/experience/facebook.png
@@ -41,25 +66,6 @@
       - Answer student questions on online Q&A forum <a href="https://us.edstem.org">Ed</a>
       - Discussed CS applications for people outside the tech industry, and potential next steps for deepening knowledge in the field
 - type: research
-  organization: FPSG, Security and Privacy Research at Illinois
-  link: https://spri.engr.illinois.edu
-  role: Research Assistant
-  duration: August 2019 - Present
-  icon: /images/experience/SPR@I.png
-  description:
-      - 'Advisor: <a href="https://cwfletcher.net">Prof. Christopher W. Fletcher</a>'
-      - Worked with Jose Rodrigo Sanchez Vicarte (University of Illinois at Urbana-Champaign), Nandeeka Nayak (University of Illinois at Urbana-Champaign), Caroline Trippel (Stanford University), Adam Morrison (Tel Aviv University), and David Kohlbrenner (University of Washington)
-      - Participated in Illinois CS Research Experiences for Undergraduates (REU), Summer 2020
-      - '*Vulnerability Scanning For Next-Generation Microarchitectural Side-channel Attacks*'
-      - - Developing dynamic analysis tool to automatically identify software vulnerable to side-channel attacks
-      - '*Microarchitectural Optimizations Vulnerable To Side-channel Attacks*'
-      - - Identified leaky hardware optimizations, performed a security analysis, evaluated on gem5 processor simulator, and submitted a paper to ISCA 2021
-      - '*Information Flow Tracking To Calculate Speculative Worst-Case Execution Time (WCET)*'
-      - - Attempted to build a side-channel resilient branch predictor
-      - '*Relationship Between Cache Compression and Dynamic Overclocking*'
-      - - Attempted to identify evidence of cache compression on modern Intel processors
-
-- type: research
   organization: Blender Lab, NLP Research at Illinois
   link: https://blender.cs.illinois.edu
   role: Research Assistant
@@ -86,7 +92,7 @@
   organization: University of Illinois at Urbana-Champaign
   link: http://cs241.cs.illinois.edu
   role: "Lead Course Assistant, CS 241: System Programming"
-  duration: January 2019 - Present
+  duration: January 2019 - May 2021
   icon: /images/experience/uiuc.png
   description:
       - 'Instructor: <a href="https://cs.illinois.edu/about/people/faculty/angrave">Prof. Lawrence Angrave</a>'
