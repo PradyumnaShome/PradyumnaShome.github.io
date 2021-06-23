@@ -12,7 +12,7 @@ const Header = () => (
             <Link to="/">Pradyumna Shome</Link>
         </h1>
         <p>
-            CS @ Illinois '21 | Security &amp; Privacy Researcher
+            Software Engineer and Researcher in Computer Security &amp; Privacy
         </p>
         <ul className="icons">
             <li>
@@ -37,6 +37,12 @@ const Header = () => (
                 <a href="https://twitter.com/PradyumnaShome" className="icon
                                 fa-twitter alt">
                     <span className="label">Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://scholar.google.com/citations?user=om4Ot2kAAAAJ" className="icon
+                                fa-google alt">
+                    <span className="label">Google Scholar</span>
                 </a>
             </li>
             <li>

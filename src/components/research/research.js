@@ -68,7 +68,7 @@ export function Publications() {
             {researchData.publications.map((item, idx) => {
                 return <li key={idx}>
                     <strong className="paper-title">
-                        <a href={item.link}>
+                        <a href={"documents/papers/" + item.link}>
                             {item.title}</a>
                     </strong>
                     <p>
