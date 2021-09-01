@@ -50,9 +50,6 @@ export default function About() {
                     <p>
                         I'd love to meet you! If you want to set up a time to chat, I only ask that you leave a short note about yourself and why you're interesting in getting in touch. I recommend starting with email or Twitter.
                     </p>
-                    <section className="button-container">
-                        <button onClick={() => { internalRedirectTo("/meet") }}>Schedule A Meeting</button>
-                    </section>
                     <h3 className="subheading">Personal interests</h3>
                     <p>
                         Board game strategies,
