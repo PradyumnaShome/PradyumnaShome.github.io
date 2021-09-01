@@ -5,16 +5,17 @@
   duration: Incoming
   icon: /images/experience/facebook.png
   description:
-- type: research
-  organization: IEEE Symposium on Security and Privacy
-  link: https://www.ieee-security.org/TC/SP2021/index.html
-  role: Shadow Program Committee Member
-  duration: November 2020 - February 2021
-  icon: /images/experience/ieeessp.png
+- type: industry
+  organization: AxisMED
+  link: https://axismed.org
+  role: Sourcing and Outreach
+  duration: August 2021 - Present
+  icon: /images/experience/axismed.png
   description:
-      - Reviewed 8 submissions to the IEEE Symposium on Security and Privacy, a top-tier academic conference on security and privacy
-      - Debated papers in program committee (PC) meeting and decided on a program
-      - Improved my ability to write high-quality reviews and understood the challenges in reading multiple papers out of my area of expertisee
+      - AxisMED is a pre-incubator designed to introduce students to the vast innovation opportunities available on the University of Illinois at Urbana-Champaign campus. Our program, led by Carle Illinois College of Medicine students, bridges the gap between medicine, engineering, and business. By the end of this two-semester program, you’ll not only have a real product but also be equipped with the business and marketing skills to take it to the next level.
+      - Source spotlight speakers, advisors for our student teams, and funding by connecting with venture capitalists, founders, healthcare professionals, and academics
+      - Outreach to improve engagement with UIUC Engineering community
+      - Interested in being a spotlight speaker, advising a student startup, or funding a team? Please reach out at <a href="mailto:pradyumna@axismed.org">pradyumna@axismed.org</a>!
 - type: research
   organization: FPSG, Security and Privacy Research at Illinois
   link: https://spri.engr.illinois.edu
@@ -33,6 +34,29 @@
       - - Attempted to build a side-channel resilient branch predictor
       - '*Relationship Between Cache Compression and Dynamic Overclocking*'
       - - Attempted to identify evidence of cache compression on modern Intel processors
+- type: teaching
+  organization: University of Illinois at Urbana-Champaign
+  link: http://cs241.cs.illinois.edu
+  role: "Lead Course Assistant, CS 241: System Programming"
+  duration: January 2019 - May 2021
+  icon: /images/experience/uiuc.png
+  description:
+      - 'Instructor: <a href="https://cs.illinois.edu/about/people/faculty/angrave">Prof. Lawrence Angrave</a>'
+      - Recipient of the <a href="https://cs.illinois.edu/about/awards/undergraduate-scholarships-awards/outstanding-course-assistants">Outstanding Course Assistant Award</a> by the Department of Computer Science, for my efforts at improving the course
+      - Lead the assignment development team, continually updating assignments, and ensuring they help meet learning objectives
+      - Teach a lab section, conduct office hours, and develop assignments to help students learn Linux system programming concepts
+      - Contribute content to and maintain <a href="http://cs241.cs.illinois.edu/coursebook/index.html">course textbook</a> and website, and conduct technical and behavioral interviews for prospective staff members
+      - Teach a lab section, conduct office hours, manage course logistics, onboard and mentor new staff, and answer student questions on online Q&A platform
+- type: research
+  organization: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2021/index.html
+  role: Shadow Program Committee Member
+  duration: November 2020 - February 2021
+  icon: /images/experience/ieeessp.png
+  description:
+      - Reviewed 8 submissions to the IEEE Symposium on Security and Privacy, a top-tier academic conference on security and privacy
+      - Debated papers in program committee (PC) meeting and decided on a program
+      - Improved my ability to write high-quality reviews and understood the challenges in reading multiple papers out of my area of expertisee
 - type: industry
   organization: Facebook
   link: https://about.facebook.com
@@ -88,19 +112,6 @@
       - Reduced 13 engineering work days spent manually compiling test plans per sprint planning session
       - Developed UI for Einstein Modeling’s first Business Card Scanner, that uses OCR and Named Entity Recognition to automate the organization of business contact information
       - Ideated and built intern-matching social app using Python and Jinja, that helps bolster personal connections and surfaces common interests
-- type: teaching
-  organization: University of Illinois at Urbana-Champaign
-  link: http://cs241.cs.illinois.edu
-  role: "Lead Course Assistant, CS 241: System Programming"
-  duration: January 2019 - May 2021
-  icon: /images/experience/uiuc.png
-  description:
-      - 'Instructor: <a href="https://cs.illinois.edu/about/people/faculty/angrave">Prof. Lawrence Angrave</a>'
-      - Recipient of the <a href="https://cs.illinois.edu/about/awards/undergraduate-scholarships-awards/outstanding-course-assistants">Outstanding Course Assistant Award</a> by the Department of Computer Science, for my efforts at improving the course
-      - Lead the assignment development team, continually updating assignments, and ensuring they help meet learning objectives
-      - Teach a lab section, conduct office hours, and develop assignments to help students learn Linux system programming concepts
-      - Contribute content to and maintain <a href="http://cs241.cs.illinois.edu/coursebook/index.html">course textbook</a> and website, and conduct technical and behavioral interviews for prospective staff members
-      - Teach a lab section, conduct office hours, manage course logistics, onboard and mentor new staff, and answer student questions on online Q&A platform
 - type: teaching
   organization: University of Illinois at Urbana-Champaign
   link: https://courses.engr.illinois.edu/cs233/fa2018/
