@@ -1,7 +1,12 @@
+# Visual Studio Code
+*.code-workspace
+
 # Project dependencies
 .cache
 node_modules
 yarn-error.log
+
+# Project uses yarn
 package-lock.json
 
 # Build directory
