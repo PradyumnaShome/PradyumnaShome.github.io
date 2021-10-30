@@ -1,10 +1,20 @@
 - type: industry
-  organization: Facebook
-  link: https://about.facebook.com
+  organization: Meta
+  link: https://meta.com
   role: Software Engineer
-  duration: Incoming
-  icon: /images/experience/facebook.png
+  duration: September 2021 - Present
+  icon: /images/experience/meta.webp
   description:
+- type: industry
+  organization: Wave Learning Festival
+  link: https://wavelf.org
+  role: Fundraising Analyst
+  duration: September 2021 - Present
+  icon: /images/experience/wave-learning-festival.png
+  description:
+      - Wave was founded to address longstanding educational inequities that have been exacerbated by COVID-19. As the pandemic disrupts traditional educational opportunities for students worldwide, we offer free exploratory workshops, core tutoring support, and engaging speaker events
+      - Source grants and fill out applications
+      - Contribute to and edit pool of knowledge that hastens application process
 - type: industry
   organization: AxisMED
   link: https://axismed.org
