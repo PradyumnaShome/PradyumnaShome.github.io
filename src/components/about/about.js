@@ -40,7 +40,7 @@ export default function About() {
                 <section>
                     <h3 className="subheading">Bio</h3>
                     <p>
-                        Hello! I'm an incoming Software Engineer at Facebook, based in the San Francisco Bay Area.
+                        Hello! I'm a Software Engineer at Meta (formerly Facebook), based in the San Francisco Bay Area.
                         I grew up in Bangalore and moved to Champaign-Urbana in 2017 to pursue a Bachelor of Science in <a href="https://cs.illinois.edu">Computer Science</a> at the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>, where I was fortunate to be advised by <a href="http://cwfletcher.net">Chris Fletcher</a>.
                         As a member of <a href="https://spri.engr.illinois.edu">Security and Privacy Research at Illinois</a>, I researched microarchitectural side-channel attacks, which resulted in a conference paper at <a href="https://www.iscaconf.org/isca2021/program/#v-a">ISCA</a>.
                         I was heavily involved as a Course Assistant for <a href="http://cs241.cs.illinois.edu">Illinois CS 241: System Programming</a> under <a href="https://cs.illinois.edu/about/people/faculty/angrave">Lawrence Angrave</a>, and helped organize <a href="https://hackillinois.org">HackIllinois</a> and the <a href="https://reflectionsprojections.org">Reflections | Projections technology conference</a>.
