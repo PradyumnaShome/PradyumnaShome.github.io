@@ -1,149 +1,40 @@
-.experience-tab-selector {
-  margin: 1vh;
-}
-
-button.tablinks.tablink-active {
-  background-color: var(--color-experience-tab-active) !important;
-}
-
-button.tablinks {
-  margin: 1vh;
-}
-
-section#experience {
-  background-color: var(--color-experience-bg); 
-}
-
-section#experience h2 {
-  color: white !important;
-  font-weight: bold;
-}
-
-section.experience-item {
-  color: white !important;
-  background-color: var(--color-experience-card-bg); 
-  border: 0vh solid #ff0055;
-  margin-bottom: 3vh;
-  text-align: left;
-  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4), 0 8px 25px 0 rgba(0, 0, 0, 0.4);
-}
-
-section.experience-item img {
-  display: inline-block;
-  height: 12vh;
-  width: 12vh;
-  margin: 2vh 2vh;
-  border-radius: 10%;
-}
-
-section.experience-item header {
-  margin-top: 3vh !important;
-  margin-bottom: 0;
-  display: inline-block;
-  vertical-align: top;
-  font-family: "Merriweather", sans-serif;
-  font-size: 1.3em;
-  font-weight: bolder;
-  width: 80%;
-}
-
-section.experience-item span.organization {
-  display: inline;
-  font-size: 1em;
-  font-weight: bold;
-  color: white !important;
-}
-
-section.experience-item span.separator {
-  margin: 1%;
-}
-
-section.experience-item span.role {
-  display: block;
-  font-size: 0.8em;
-  color: white !important;
-  margin-bottom: 0;
-}
-
-section.experience-item article.description {
-  display: block;
-  font-family: "Montserrat", sans-serif;
-  margin-left: 15%;
-  margin-right: 5%;
-  padding-bottom: calc(3vh);
-  font-size: 0.9em;
-  word-wrap: break-word;
-}
-
 p {
-  word-wrap: break-word;
+    word-wrap: break-word;
 }
 
 h2:after {
-  margin-left: auto !important;
-  margin-right: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 button.tablinks:focus {
-  outline: none;
+    outline: none;
 }
 
 button.tablinks {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 ul.collapsed {
-  display: none;
+    display: none;
 }
 
 .collapse-button.expand {
-  transform: rotate(90deg);
-  transition: transform 0.25s linear;
+    transform: rotate(90deg);
+    transition: transform 0.25s linear;
 }
 
 .collapse-button.collapse {
-  transform: rotate(0);
-  transition: transform 0.25s linear; 
+    transform: rotate(0);
+    transition: transform 0.25s linear;
 }
 
 .collapse-button {
-  margin-right: 0.7em;
+    margin-right: 0.7em;
 }
 
 @include breakpoint(small) {
-  section.experience-item {
-    text-align: center;
-  }
-
-  span.separator {
-    display: none;
-  }
-
-  section.experience-item article.description {
-    text-align: left;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
-    margin-top: 4vh;
-    padding-bottom: 1vh !important;
-  }
-
-  section.experience-item img {
-    display: inline-block !important;
-    width: 35vw !important;
-    height: 35vw !important;
-  }
-}
-
-@include breakpoint(large) {
-  section.experience-item {
-    text-align: center;
-  }
-
-  section.experience-item article.description {
-    text-align: left;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
-    margin-top: 4vh;
-    padding-bottom: 1vh !important;
-  }
+    span.separator {
+        display: none;
+    }
 }
