@@ -73,12 +73,16 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
+      - name: Debug bash commands
+        run: |
+            pwd
+            cd /home/runner/work/PradyumnaShome.github.io/PradyumnaShome.github.io
       - name: Deploy Gatsby to AWS S3
       # You may pin to the exact commit or the version.
         uses: jonelantha/gatsby-s3-action@v1
         with:
           # Destination S3 Bucket
-          dest-s3-bucket: pradyumnashome.github.io 
+          dest-s3-bucket: pradyumnashome.com
           # Browser cache duration (sec) for cache control headers
           browser-cache-duration: 7890000
           # CDN cache duration (sec) for cache control headers (sec)
