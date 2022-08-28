@@ -38,7 +38,7 @@ class Index extends React.Component {
             [
               {
                 name: "description",
-                content: "CS @ Illinois '21 | Researcher at Security and Privacy Research at Illinois"
+                content: "Researcher in Computer Security and Privacy"
               },
               {
                 name: "og:title",

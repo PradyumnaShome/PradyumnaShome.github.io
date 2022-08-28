@@ -40,11 +40,16 @@ export default function About() {
                 <section>
                     <h3 className="subheading">Bio</h3>
                     <p>
-                        Hello! I'm a Software Engineer at Meta (formerly Facebook), based in the San Francisco Bay Area.
-                        I grew up in Bangalore and moved to Champaign-Urbana in 2017 to pursue a Bachelor of Science in <a href="https://cs.illinois.edu">Computer Science</a> at the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>, where I was fortunate to be advised by <a href="http://cwfletcher.net">Chris Fletcher</a>.
+                        Hello! I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a> researching <a href="https://scp.cc.gatech.edu">computer security and privacy</a>.
+
+                        I grew up in Bangalore and moved to Champaign-Urbana in 2017 to pursue a Bachelor of Science in <a href="https://cs.illinois.edu">Computer Science</a> at the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>, where I was advised by the fantastic <a href="http://cwfletcher.net">Chris Fletcher</a>.
+
                         As a member of <a href="https://spri.engr.illinois.edu">Security and Privacy Research at Illinois</a>, I researched microarchitectural side-channel attacks, which resulted in a conference paper at <a href="https://www.iscaconf.org/isca2021/program/#v-a">ISCA</a>.
                         I was heavily involved as a Course Assistant for <a href="http://cs241.cs.illinois.edu">Illinois CS 241: System Programming</a> under <a href="https://cs.illinois.edu/about/people/faculty/angrave">Lawrence Angrave</a>, and helped organize <a href="https://hackillinois.org">HackIllinois</a> and the <a href="https://reflectionsprojections.org">Reflections | Projections technology conference</a>.
+
                         During breaks from school, I interned at <a href="https://about.facebook.com">Facebook</a> on Privacy Control Infrastructure, <a href="https://salesforce.com">Salesforce</a> on Records Experience, and <a href="https://virtusa.com">Virtusa</a> in the Media and Content Division.
+                        
+                        After undergrad and prior to my PhD, I moved to the San Francisco Bay Area where I was a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a>.
                     </p>
                     <h3 className="subheading">Meeting me</h3>
                     <p>

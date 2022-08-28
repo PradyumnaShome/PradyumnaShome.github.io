@@ -1,4 +1,8 @@
 talks:
+  - title: "Prime+Probe 1, JavaScript 0: Overcoming Browser-based Side-Channel Defenses"
+    venues:
+      - name: Clean Slate Processor Design Seminar, University of Illinois at Urbana-Champaign
+        date: May 2021
   - title: "PRISM: Protections Impeding Side-channel Attacks in Microarchitecture"
     venues:
       - name: Illinois Computer Science Research Experiences for Undergraduates (REU)

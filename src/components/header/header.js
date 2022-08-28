@@ -12,7 +12,7 @@ const Header = () => (
             <Link to="/">Pradyumna Shome</Link>
         </h1>
         <p>
-            Software Engineer and Researcher in Computer Security &amp; Privacy
+            Computer Scientist and Researcher in Computer Security &amp; Privacy
         </p>
         <ul className="icons">
             <li>
