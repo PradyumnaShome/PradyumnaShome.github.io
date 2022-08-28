@@ -8,22 +8,16 @@ export function AwardList() {
     }
 
     return <section>
-        {
-            Object.keys(awards).reverse().map(year => {
-                return <section key={year}>
-                    <h3 className="subheading" key={year}>{year}</h3>
-                    <ol>
-                        {
-                            awards[year].map((award, index) => {
+            <ol>
+                {
+                    awards.map((award, index) => {            
                                 return <li key={index}>
-                                    {award}
-                                </li>
-                            })
+                                    {award.name} ({award.year})
+                                </li>                 
                         }
-                    </ol>
-                </section>
-            })
-        }
+                    )
+                }
+            </ol>
     </section>
 }
 
