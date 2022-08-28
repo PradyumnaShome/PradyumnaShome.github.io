@@ -6,11 +6,9 @@ export default function Music() {
         <header className="major">
             <h2>Music</h2>
             <p>
-                I enjoy listening to and playing music.
-                Although I frequently explore new styles, my go-to genres are Western art music, rock, tropical house, and big room house.
-                In particular, I have been playing the piano for several years and have tried my hand at production.
-                Enjoy listening to some of my early efforts at digital music composition. 
-                Feel free to follow me on <a href="https://open.spotify.com/user/x1lo68pet3v5jq25s7r8zakyq">Spotify</a>.
+                I've been playing the piano for many years, have tried my hand at music production, and am always discovering new music to listen to.
+                Genres I've been exploring recently include K-pop, Mandopop, video game soundtracks, alternative rock, sea shanties, and more.
+                Enjoy listening to some of my early efforts at digital music composition and feel free to follow me on <a href="https://open.spotify.com/user/x1lo68pet3v5jq25s7r8zakyq" target="_blank">Spotify</a>.
             </p>
         </header>
         <p id="soundcloud">
