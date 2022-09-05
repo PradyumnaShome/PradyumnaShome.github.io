@@ -31,3 +31,16 @@ section#research a:hover {
 span p {
    display: inline; 
 }
+
+li.award {
+    color: red;
+}
+
+ul.venue-list, ul.award-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul.venue-list li, ul.award-list li {
+    padding: 0;
+}

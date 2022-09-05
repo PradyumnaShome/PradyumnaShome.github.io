@@ -27,6 +27,8 @@ publications:
     venue: "International Symposium on Computer Architecture (ISCA)"
     type: conference
     date: "June 2021"
+    awards:
+      - "Intel Hardware Security Academic Award Honorable Mention"
     link: 2021_isca_pandora.pdf
 
 collaborators:
