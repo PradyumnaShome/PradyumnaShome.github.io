@@ -12,19 +12,19 @@ export function Talks() {
         <ol>
             {researchData.talks.map((item, idx) => {
                 return <li key={idx}>
-                    <p>
                         <strong className="paper-title">
                             <a href={item.link}>
                                 {item.title}</a>
                         </strong>,
+                        <ul className="venue-list">
                         {
                             item.venues.map((venue, idx) => {
-                                return <p>
+                                return <li key={idx}>
                                     {venue.name}, {venue.date}
-                                </p>
+                                </li>
                             })
                         }
-                    </p>
+                        </ul>
                 </li>
             })}
         </ol>
@@ -46,10 +46,10 @@ export function AuthorList(props) {
         }
 
         const authorLink = allCollaborators[author]?.url ?? `https://google.com/search?q=${author}`;
-        const authorLinkElement = <a href={authorLink} target="_blank" rel="noopener">{author}</a>;
-        let authorSpan = <span>{authorLinkElement}</span>;
+        const authorLinkElement = <a href={authorLink} target="_blank" rel="noreferrer">{author}</a>;
+        let authorSpan = <span key={author}>{authorLinkElement}</span>;
         if (author.startsWith(MY_FULL_NAME)) {
-            authorSpan = <span class="author-highlight">{authorLinkElement}</span>;
+            authorSpan = <span key={author} className="author-highlight">{authorLinkElement}</span>;
         }
 
         const prefix = getPrefix(idx, authors);
@@ -75,10 +75,26 @@ export function Publications() {
                         <AuthorList authors={item.authors} />
                         . <span className={"publication-" + item.type}>{item.venue}</span>. {item.date}.
                     </p>
+                    <AwardList item={item}/>
                 </li>
             })}
         </ol>
     </section>
+}
+
+export function AwardList(props) {
+    if (!props || !props.item || !props.item.awards || props.item.awards.length === 0) {
+        return null;
+    }
+    const awardList = props.item.awards;
+
+    return <ul className="award-list">
+        {
+        awardList.map((award, _) => {
+            return <li key={award} className="award">🏆 {award}</li>; 
+        })
+        }
+    </ul>
 }
 
 export default function Research() {

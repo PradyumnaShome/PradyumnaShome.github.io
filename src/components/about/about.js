@@ -4,7 +4,6 @@ import './about.css';
 
 
 export default function About() {
-    const internalRedirectTo = (linkSuffix) => window.location.href = "/meet";
     const onResumeButtonClick = () => {
         const introSection = document.querySelector("section#about");
         const resumeContainer = document.querySelector(".resume-container");
@@ -38,7 +37,7 @@ export default function About() {
                     <h2>About Me</h2>
                 </header>
                 <section>
-                    <h3 className="subheading">Bio</h3>
+                    <h3 className="subheading ">Bio</h3>
                     <p>
                         Hello! I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a> researching <a href="https://scp.cc.gatech.edu">computer security and privacy</a>.
 
