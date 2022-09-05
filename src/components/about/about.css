@@ -1,6 +1,5 @@
 section#about {
   background-color: var(--color-intro-card-bg);
-  font-family: "Montserrat", sans-serif;
   text-align: left;
 }
 
@@ -25,11 +24,6 @@ section.button-container {
 
 section.button-container button {
   margin: 2%;
-}
-
-section.main {
-  font-weight: 100;
-  font-family: "Montserrat";
 }
 
 header.major h2 {

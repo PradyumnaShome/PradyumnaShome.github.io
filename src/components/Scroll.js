@@ -15,6 +15,7 @@ class Scroll extends React.Component {
     constructor() {
         super();
         this.handleClick = this.handleClick.bind(this);
+        this.onKeyDown = this.onKeyDown.bind(this);
     }
     componentDidMount() {
         smoothscroll.polyfill();
@@ -39,6 +40,20 @@ class Scroll extends React.Component {
         }
         scroll ? ( this.scrollTo(elem, offset, timeout) ) : console.log(`Element not found: ${element}`); // eslint-disable-line
     }
+    onKeyDown(e) {
+        console.log(e.key);
+        const keyPressToSectionMap = {
+            1: "about",
+            2: "research",
+            3: "awards",
+            4: "music"
+        };
+        const KEY_CODE_0  = 48;
+        const elem = document.getElementById(keyPressToSectionMap[e.keyCode - KEY_CODE_0]);
+        const offset = 10;
+        const timeout = 300;
+        this.scrollTo(elem, offset, timeout);    
+    }
     scrollTo(element, offSet = 0, timeout = null) {
         const elemPos = element ? element.getBoundingClientRect().top + window.pageYOffset : 0;
         if (timeout) {
@@ -51,9 +66,9 @@ class Scroll extends React.Component {
         return (
             <Element>
                 {typeof(this.props.children) === 'object' ? (
-                    React.cloneElement(this.props.children, { onClick: this.handleClick })
+                    React.cloneElement(this.props.children, { onClick: this.handleClick, onKeyDown: this.onKeyDown, tabIndex: 0 })
                 ) : (
-                    <span onClick={this.handleClick}>{this.props.children}</span>
+                    <span onClick={this.handleClick} onKeyDown={this.onKeyDown} tabIndex="0">{this.props.children}</span>
                 )}
             </Element>
         );
