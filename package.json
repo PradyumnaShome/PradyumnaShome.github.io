@@ -2,7 +2,7 @@
   "name": "pradyumna-shome-website",
   "description": "Pradyumna Shome's Personal Website",
   "version": "1.0.0",
-  "author": "Pradyumna Shome",   
+  "author": "Pradyumna Shome",
   "dependencies": {
     "ftp-deploy": "^2.3.3",
     "gatsby": "^3.8.0",
