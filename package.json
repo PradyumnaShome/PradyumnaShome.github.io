@@ -2,7 +2,7 @@
   "name": "pradyumna-shome-website",
   "description": "Pradyumna Shome's Personal Website",
   "version": "1.0.0",
-  "author": "Pradyumna Shome",
+  "author": "Pradyumna Shome",   
   "dependencies": {
     "ftp-deploy": "^2.3.3",
     "gatsby": "^3.8.0",
@@ -22,12 +22,16 @@
     "react-scroll-to-element": "^0.2.0",
     "react-scrollspy": "^3.3.5",
     "react-waypoint": "^8.0.3",
-    "sass": "^1.35.1"
+    "sass": "^1.35.1",
+    "source-map": "^0.8.0-beta.0"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
+  "resolutions": {
+    "source-map": "^0.8.0-beta.0"
+  },
   "scripts": {
     "deploy": "gatsby build && gatsby-plugin-s3 deploy",
     "start": "gatsby clean && gatsby develop",
