@@ -1,4 +1,7 @@
 import React from 'react';
+import PersonalInterests from '../PersonalInterests/PersonalInterests';
+import CollapsibleSection from '../CollapsibleSection/CollapsibleSection';
+import Links from'../Links/Links';
 
 import './about.css';
 
@@ -37,10 +40,13 @@ export default function About() {
                     <h2>About Me</h2>
                 </header>
                 <section>
-                    <h3 className="subheading ">Bio</h3>
+                    <h3 className="subheading">Biography</h3>
+                    <CollapsibleSection heading="Full" heading-size="medium" visible={true}>
                     <p>
                         Hello! I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a> researching <a href="https://scp.cc.gatech.edu">computer security and privacy</a>.
+                    </p>
 
+                    <p>
                         I grew up in Bangalore and moved to Champaign-Urbana in 2017 to pursue a Bachelor of Science in <a href="https://cs.illinois.edu">Computer Science</a> at the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>, where I was advised by the fantastic <a href="http://cwfletcher.net">Chris Fletcher</a>.
 
                         As a member of <a href="https://spri.engr.illinois.edu">Security and Privacy Research at Illinois</a>, I researched microarchitectural side-channel attacks, which resulted in a conference paper at <a href="https://www.iscaconf.org/isca2021/program/#v-a">ISCA</a>.
@@ -50,31 +56,19 @@ export default function About() {
                         
                         After undergrad and prior to my PhD, I moved to the San Francisco Bay Area where I was a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a>.
                     </p>
+                    </CollapsibleSection>
+
+                    <CollapsibleSection heading="Short" heading-size="medium" visible={false}>
+                        <p>
+                        Pradyumna Shome is a PhD student in Computer Science at the Georgia Institute of Technology, researching hardware security and microarchitectural side-channel attacks. His research has been published at ISCA and has won an Honorable Mention at the Intel Hardware Security Academic Award. He has a BS in Computer Science from the University of Illinois Urbana-Champaign, and was previously a Software Engineer at Meta.
+                        </p>
+                    </CollapsibleSection>
                     <h3 className="subheading">Meeting me</h3>
                     <p>
                         I'd love to meet you! If you want to set up a time to chat, I only ask that you leave a short note about yourself and why you're interesting in getting in touch. I recommend starting with email or Twitter.
                     </p>
-                    <h3 className="subheading">Personal interests</h3>
-                    <p>
-                        Board game strategies,
-                        bubble tea places around the world,
-                        education,
-                        electronic music,
-                        investing,
-                        Marvel comics and the Marvel Cinematic Universe (MCU), 
-                        mental health,
-                        music production,
-                        philosophy,
-                        productivity tips,
-                        psychology,
-                        romantic relationships,
-                        startups,
-                        table tennis,
-                        tennis,
-                        technology,
-                        venture capitalism,
-                        Western art music
-                    </p>
+                    <PersonalInterests/>
+                    <Links/>
                 </section>
                 <section className="button-container">
                     <button onClick={onResumeButtonClick}>View Résumé</button>
