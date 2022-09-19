@@ -1,0 +1,14 @@
+.CollapsibleSection h2, .CollapsibleSection h3, .CollapsibleSection h4 {
+    display: inline-block;
+}
+
+.CollapsibleSection span {
+    margin-right: 1em;
+    display: inline-block;
+    transform: rotate(0deg);
+    transition: transform 0.25s linear;
+}
+.CollapsibleSection span.visible {
+    transform: rotate(90deg);
+    transition: transform 0.25s linear;
+}
