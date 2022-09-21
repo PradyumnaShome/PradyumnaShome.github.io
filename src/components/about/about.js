@@ -60,7 +60,7 @@ export default function About() {
 
                     <CollapsibleSection heading="Short" heading-size="medium" visible={false}>
                         <p>
-                        Pradyumna Shome is a PhD student in Computer Science at the Georgia Institute of Technology, researching hardware security and microarchitectural side-channel attacks. His research has been published at ISCA and has won an Honorable Mention at the Intel Hardware Security Academic Award. He has a BS in Computer Science from the University of Illinois Urbana-Champaign, and was previously a Software Engineer at Meta.
+                        Pradyumna Shome is a PhD student in Computer Science at the Georgia Institute of Technology, researching hardware security and microarchitectural side-channel attacks. His research has been published at ISCA and has won an Honorable Mention at the Intel Hardware Security Academic Award. Prior to his PhD, he graduated with a BS in Computer Science from the University of Illinois Urbana-Champaign advised by Christopher W. Fletcher, and then worked as a Software Engineer at Meta. He has been on the Shadow Program Committee for the IEEE Symposium on Security &amp; Privacy, as the sole undergrad.
                         </p>
                     </CollapsibleSection>
                     <h3 className="subheading">Meeting me</h3>
