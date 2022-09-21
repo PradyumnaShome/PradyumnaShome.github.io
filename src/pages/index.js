@@ -29,7 +29,7 @@ class Index extends React.Component {
   }
 
   render() {
-
+    
     return (
       <Layout>
         <Helmet
@@ -50,7 +50,7 @@ class Index extends React.Component {
               },
               {
                 name: "og:image",
-                content: {profilePhoto}
+                content: profilePhoto
               },
               {
                 name: "og:image:width",
