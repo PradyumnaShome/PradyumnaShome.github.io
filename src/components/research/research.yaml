@@ -1,4 +1,9 @@
 talks:
+  - title: "Small World with High Risks: A Study of Security Threats in the npm Ecosystem"
+    venues:
+      - name: Security Seminar, School of Cybersecurity and Privacy, Georgia Institute of Technology
+        date: September 2022
+    link: https://twitter.com/GaTechCyber/status/1575178686336073728?s=20&t=a3uyMcAwRMBB_00RUdz0XA
   - title: "Prime+Probe 1, JavaScript 0: Overcoming Browser-based Side-Channel Defenses"
     venues:
       - name: Clean Slate Processor Design Seminar, University of Illinois at Urbana-Champaign
