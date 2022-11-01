@@ -36,6 +36,12 @@ peerReviewedPublications:
       - "Intel Hardware Security Academic Award Honorable Mention"
     link: 2021_isca_pandora.pdf
 
+otherPublications:
+  - title: "SoK: Rowhammer in the post-TRR Era"
+    authors:
+      - Pradyumna Shome
+    link: SoK__Rowhammer_in_the_post_TRR_Era.pdf
+
 collaborators:
   Pradyumna Shome:
     url: "https://pradyumnashome.com"
