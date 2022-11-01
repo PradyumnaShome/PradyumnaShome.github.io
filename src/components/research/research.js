@@ -36,6 +36,12 @@ export function AuthorList(props) {
     const authors = props.authors;
     const MY_FULL_NAME = "Pradyumna Shome";
 
+    if (authors.length === 1) {
+        const author = authors[0];
+        const authorLink = allCollaborators[author]?.url ?? `https://google.com/search?q=${author}`;
+        const authorLinkElement = <a href={authorLink} target="_blank" rel="noreferrer">{author}</a>;
+        return <span key={author} className="author-highlight">{authorLinkElement}</span>
+    }
     return authors.map((author, idx) => {
         let getPrefix = (idx, list) => {
             if (idx > 0 && idx !== list.length - 1) {
@@ -58,17 +64,18 @@ export function AuthorList(props) {
 }
 
 export function Publications() {
-    if (researchData.publications.length === 0) {
+    if (researchData.peerReviewedPublications.length === 0) {
         return null;
     }
 
     return <section>
         <h3 className="subheading">Publications</h3>
+        <h4 className="subheading">Peer-Reviewed</h4>
         <ol>
-            {researchData.publications.map((item, idx) => {
+            {researchData.peerReviewedPublications.map((item, idx) => {
                 return <li key={idx}>
                     <strong className="paper-title">
-                        <a href={"documents/papers/" + item.link}>
+                        <a href={"documents/papers/" + item.link} target="_blank" rel="noreferrer">
                             {item.title}</a>
                     </strong>
                     <p>
@@ -79,6 +86,21 @@ export function Publications() {
                 </li>
             })}
         </ol>
+        <h4 className="subheading">Other</h4>
+        <ol>
+            {researchData.otherPublications.map((item, idx) => {
+                return <li key={idx}>
+                    <strong className="paper-title">
+                        <a href={"documents/papers/" + item.link} target="_blank" rel="noreferrer">
+                            {item.title}</a>
+                    </strong>
+                    <p>
+                        <AuthorList authors={item.authors} />
+                    </p>
+                    <AwardList item={item}/>
+                </li>
+            })}
+        </ol> 
     </section>
 }
 
