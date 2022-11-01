@@ -19,7 +19,7 @@ talks:
         date: April 2020
     link: https://youtu.be/POBtjU52GCk
 
-publications:
+peerReviewedPublications:
   - title: "Opening Pandora's Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data"
     authors:
       - Jose Rodrigo Sanchez Vicarte
