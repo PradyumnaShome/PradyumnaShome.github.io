@@ -1,5 +1,9 @@
 .logo img {
   border-radius: 50%;
-  height: 25vh;
-  width: 25vh;
+  height: 40vh;
+  width: 40vh;
+}
+
+#header, #header.alt {
+  padding: 4em 5em 1em 5em;
 }

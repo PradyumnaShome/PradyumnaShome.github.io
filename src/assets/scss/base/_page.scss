@@ -42,8 +42,11 @@
 	}
 
 :root {
-    --color-intro-card-bg: rgb(0, 21, 43);
-    --color-intro-card-fg: white;
+	--color-background: #FFFFF8;
+	--color-text: #333;
+	--color-accent: #6eac21;
+	--color-link-default: var(--color-accent);
+	--color-link-hover: var(--color-text);
 }
 
 header.major h2 {
@@ -51,7 +54,21 @@ header.major h2 {
   text-align: center;
 }
 
-section.main {
+section.main.special {
 	font-weight: 200;
 	font-family: "Prompt";
+	background-color: var(--color-section-background) !important;
+	color: var(--color-text);
+}
+
+section.main a {
+	color: var(--color-link-default) !important;
+}
+
+section.main a:hover {
+	color:var(--color-link-hover) !important;
+}
+
+header.major h2:after {
+	background-color: var(--color-text) !important;
 }

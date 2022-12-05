@@ -1,5 +1,5 @@
 section#awards h2 {
-    color: tomato;
+    color: tomato !important;
 }
 
 section#awards {
