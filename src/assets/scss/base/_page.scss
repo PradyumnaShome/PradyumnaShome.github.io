@@ -42,7 +42,7 @@
 	}
 
 :root {
-	--color-background: #FFFFF8;
+	--color-background: #d9f7ff;
 	--color-text: #333;
 	--color-accent: #6eac21;
 	--color-link-default: var(--color-accent);
@@ -57,8 +57,8 @@ header.major h2 {
 section.main.special {
 	font-weight: 200;
 	font-family: "Prompt";
-	background-color: var(--color-section-background) !important;
-	color: var(--color-text);
+	background-color: var(--color-background) !important;
+	color: var(--color-text) !important;
 }
 
 section.main a {
