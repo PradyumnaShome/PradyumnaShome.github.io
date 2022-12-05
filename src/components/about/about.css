@@ -1,5 +1,6 @@
 section#about {
   background-color: var(--color-intro-card-bg);
+  color: var(--color-intro-card-fg);
   text-align: left;
 }
 
@@ -14,8 +15,9 @@ section#about {
   height: 100vh;
 }
 
-section#about :is(h1, h2, h3, h4, h5, h6) {
-  color: rgb(187, 255, 109) !important;
+section.main :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--color-text) !important;
+  font-weight: bold;
 }
 
 section.button-container {
@@ -24,6 +26,8 @@ section.button-container {
 
 section.button-container button {
   margin: 2%;
+  color: black;
+  background-color: var(--color-text);
 }
 
 header.major h2 {
@@ -33,12 +37,5 @@ header.major h2 {
 }
 
 section#about h2 {
-  color: rgb(187, 255, 109) !important;
-}
-
-a.button-fancy {
-  background-color: #0066ffbe !important;
-  color: rgb(187, 255, 109) !important;
-  text-align: center;
-  margin: auto;
+  color: rgb(154, 0, 111) !important;
 }

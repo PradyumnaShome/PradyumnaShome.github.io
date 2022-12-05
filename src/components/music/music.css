@@ -2,3 +2,7 @@ section#music {
   background-color: teal;
   text-align: left;
 }
+
+section#music header h2 {
+  color: rgb(36, 176, 167) !important;
+}

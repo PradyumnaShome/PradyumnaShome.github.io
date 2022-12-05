@@ -43,18 +43,11 @@ export default function About() {
                     <h3 className="subheading">Biography</h3>
                     <CollapsibleSection heading="Full" heading-size="medium" visible={true}>
                     <p>
-                        Hello! I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a> advised by <a href="https://faculty.cc.gatech.edu/~genkin/">Daniel Genkin</a>. My research interests lie in <a href="https://scp.cc.gatech.edu">computer security and privacy</a>, focusing on hardware security and microarchitectural side-channel attacks. I'm the Founder and Organizer of the <a href="https://gt-security-seminar.github.io">Georgia Institute of Technology Security Seminar</a>, a venue for students and faculty to present, learn about, and discuss cutting-edge security and privacy research papers published at leading academic conferences.
+                        I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a> advised by <a href="https://faculty.cc.gatech.edu/~genkin/">Daniel Genkin</a>. My research interests lie in  <a href="https://scp.cc.gatech.edu">computer security and privacy</a>, focusing on hardware security and microarchitectural side-channel attacks. I founded and organize the <a href="https://securityseminar.cc.gatech.edu">Georgia Institute of Technology Security Seminar</a>, a venue for students and faculty to present, learn about, and discuss cutting-edge security and privacy research papers published at leading academic conferences.
                     </p>
                     <p>
                         Before my PhD, I was a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a> and lived in the San Francisco Bay Area.
                         I earned a Bachelor of Science in <a href="https://cs.illinois.edu">Computer Science</a> from the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a> where I was advised by the fantastic <a href="http://cwfletcher.net">Chris Fletcher</a>.
-                    </p>
-
-                    <p>
-                        As a member of <a href="https://spri.engr.illinois.edu">Security and Privacy Research at Illinois</a>, I researched microarchitectural side-channel attacks, which resulted in a conference paper at <a href="https://www.iscaconf.org/isca2021/program/#v-a">ISCA</a>.
-                        I was heavily involved as a Course Assistant for <a href="http://cs241.cs.illinois.edu">Illinois CS 241: System Programming</a> under <a href="https://cs.illinois.edu/about/people/faculty/angrave">Lawrence Angrave</a>, and helped organize <a href="https://hackillinois.org">HackIllinois</a> and the <a href="https://reflectionsprojections.org">Reflections | Projections technology conference</a>.
-
-                        During breaks from school, I interned at <a href="https://about.facebook.com">Facebook</a> on Privacy Control Infrastructure, <a href="https://salesforce.com">Salesforce</a> on Records Experience, and <a href="https://virtusa.com">Virtusa</a> in the Media and Content Division.
                     </p>
                     </CollapsibleSection>
 

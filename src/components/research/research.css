@@ -4,7 +4,7 @@
 }
 
 section#research h2 {
-    color: slateblue;
+    color: slateblue !important;
 }
 
 section#research {

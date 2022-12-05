@@ -28,8 +28,15 @@ class Index extends React.Component {
     this.setState(() => ({ stickyNav: true }));
   }
 
+
+  componentDidMount() {
+      const sectionBackgrounds = ["white", "#d9f7ff", "#ffe5fb", "#faffc7", "#ffbab2", "#ffc7e0", "#c7ffba"];
+      var root = document.querySelector(":root");
+      const randomSectionBackground = sectionBackgrounds[Math.floor(Math.random() * sectionBackgrounds.length)];
+      root.style.setProperty('--color-section-background', randomSectionBackground);
+  }
+
   render() {
-    
     return (
       <Layout>
         <Helmet
