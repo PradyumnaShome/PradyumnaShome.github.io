@@ -1,9 +1,20 @@
+#header, #header.alt {
+  padding: 4em 5em 1em 5em;
+}
+
 .logo img {
   border-radius: 50%;
   height: 40vh;
   width: 40vh;
 }
 
-#header, #header.alt {
-  padding: 4em 5em 1em 5em;
+@media screen and (max-width: 739px) {
+  .logo img {
+    height: auto;
+  }
+
+  .icons li {
+    margin: 2%;
+    padding: 0;
+  }
 }
