@@ -12,9 +12,7 @@ const Header = () => (
             <Link to="/">Pradyumna Shome</Link>
         </h1>
         <p>
-            PhD student in Computer Science
-            <br/>
-            Georgia Institute of Technology
+            PhD student in Computer Science at Georgia Institute of Technology
         </p>
         <ul className="icons">
             <li>
