@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
 import Layout from '../components/layout'
+import Links from '../components/links/links'
 import Header from '../components/header/header'
 import About from '../components/about/about'
 import Research from '../components/research/research'
@@ -81,6 +82,7 @@ class Index extends React.Component {
           <Research />
           <Awards />
           <Music />
+          <Links />
         </main>
 
       </Layout>
