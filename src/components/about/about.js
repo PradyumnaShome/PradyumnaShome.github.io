@@ -1,7 +1,6 @@
 import React from 'react';
 import PersonalInterests from '../PersonalInterests/PersonalInterests';
 import CollapsibleSection from '../CollapsibleSection/CollapsibleSection';
-import Links from'../Links/Links';
 
 import './about.css';
 
@@ -61,7 +60,6 @@ export default function About() {
                         I'd love to meet you! If you want to set up a time to chat, I only ask that you leave a short note about yourself and why you're interesting in getting in touch. I recommend starting with email or Twitter.
                     </p>
                     <PersonalInterests/>
-                    <Links/>
                 </section>
                 <section className="button-container">
                     <button onClick={onResumeButtonClick}>View Résumé</button>

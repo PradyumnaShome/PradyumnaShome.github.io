@@ -1,0 +1,5 @@
+section#Links {
+  background-color: var(--color-intro-card-bg);
+  color: var(--color-intro-card-fg);
+  text-align: left;
+}

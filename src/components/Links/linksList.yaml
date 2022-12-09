@@ -1,3 +1,93 @@
-links:
+- type: Personal
+  links:
   - text: Remembering Reed Oei
     url: http://reedoei.com/files/LifeOfReedOei.pdf
+    description: ""
+
+- type: Tools
+  links:
+  - text: Detexify
+    url: http://detexify.kirelabs.org/classify.html
+    description: Draw a symbol and get the LaTex command for it.
+  - text: Hoogle
+    url: https://hoogle.haskell.org/
+    description: Haskell API search engine. Easy way to find library functions.
+
+- type: Newsletters
+  links:
+  - text: Farnam Street
+    url: https://fs.blog/
+    description: "Newsletter about mental models, insights, and rationality."
+
+- type: Tips
+  links:
+  - text: Learn X in Y minutes
+    url: https://learnxinyminutes.com/
+    description: Compact lessons for many programming languages.
+  - text: Visualizing git operations
+    url: https://git-school.github.io/visualizing-git/
+    description: Enter git commands and view animations of how the tree is modified.
+  - text: How to change the font size in LaTeX
+    url: https://texblog.org/2012/08/29/changing-the-font-size-in-latex/
+    description: ""
+  - text: The Unofficial Secret Hitler Strategy Guide
+    url: https://secrethitler.tartanllama.xyz/
+    description:
+
+- type: Advice
+  links:
+  - text: Calendar. Not to-do lists.
+    url: https://deviparikh.medium.com/calendar-in-stead-of-to-do-lists-9ada86a512dd
+    description: Time management advice by Devi Parikh
+  - text: 'Reflecting on CS Graduate Admissions'
+    url: https://da-data.blogspot.com/2015/03/reflecting-on-cs-graduate-admissions.html
+    description: David Andersen discusses how CS PhD admissions are handled when he chaired the committee.
+  - text: 'My productivity app is a never-ending .txt file'
+    url: https://jeffhuang.com/productivity_text_file/
+    description: "Jeff Huang's project management tool of choice"
+  - text: Craig Zilles' advice for undergraduates
+    url: https://zilles.cs.illinois.edu/ugrad_advice.html
+    description: CS-oriented
+  - text: Craig Zilles' advice for graduate students
+    url: https://zilles.cs.illinois.edu/grad_advice.html
+    description: Collecion of advice for PhD students
+  - text: Advice on Getting a Start into Research by Tao Xie
+    url: http://taoxie.cs.illinois.edu/adviceonresearch.html
+    description: ""
+  - text: Advice for undergraduates by Andrej Karpathy
+    url: https://cs.stanford.edu/people/karpathy/advice.html
+    description: ""
+  - text: Matt Might's Blog
+    url: https://matt.might.net/articles/
+    description: Advice on applying to CS PhD programs, succeeding in grad school, applying to faculty jobs, functional programming, productivity, programming languages, compilers, mathematics, scientific writing, presentations, UNIX, security, health, home improvement, academia, travel, transitioning to medicine from CS, and more.
+  - text: Grad School Resources by Kalpesh Krishna
+    url: https://martiansideofthemoon.github.io/2018/05/29/grad-resources.html
+    description: Collection of advice on applying to and succeeding in graduate school in Computer Science, from numerous professors and students.
+
+- type: Career
+  links:
+  - text: Venture Capital Fellowship Programs
+    url: https://www.profellow.com/fellowships/13-fellowships-for-venture-capital-funding/
+    description: ""
+  - text: Advice from a frequent hackathon mentor
+    url: https://hackathonmentor.medium.com/
+    description: Resume advice is great.
+  - text: CS PhD Statements of Purpose
+    url: https://cs-sop.org
+    description: See the application materials of many admitted PhD students.
+
+- type: Miscellaneous
+  links:
+  - text: Taxonomy of conversation
+    url: https://docs.google.com/document/d/16qw-xcdINEcASdNa6VqDLm8Uj-v6OozFsdh6UrDT-_A/
+    description: ""
+  - text: Gaby Goldberg's Web3 Reading List
+    url: https://gabygoldberg.notion.site/f7050e62461143d49345e7b46eb5576b?v=c02511c4230c44ce9a1a03c9757da524
+    description: Useful to get yourself caught up on Web3 and the decentralized Internet
+  - text: web3 starter pack 🏄🏾‍♂️
+    url: https://docs.google.com/document/d/1SWJw_NTyUvgdB_asRzsnVyKjciW8dZbeqQeUeWsEiQc/
+    description: ""
+  - text: A Guide to Cold Emailing by Tucker Max
+    url: https://hbr.org/2016/09/a-guide-to-cold-emailing
+    description:
+
