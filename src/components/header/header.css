@@ -4,8 +4,8 @@
 
 .logo img {
   border-radius: 50%;
-  height: 40vh;
-  width: 40vh;
+  height: calc(10vh + 10vw);
+  width: calc(10vh + 10vw);
 }
 
 @media screen and (max-width: 739px) {
