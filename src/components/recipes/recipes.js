@@ -8,7 +8,7 @@ export function ImageModal(props) {
         return <section className="image-modal-background" onClick={() => props.setIsModalVisible(false)}>
             <section className="image-modal-container">
                 <span className="close">&times;</span>
-                <img id="image-modal" src={"images/recipes/" + props.recipe.imageUrl} onClick={() => {}}/>
+                <img id="image-modal" src={"/images/recipes/" + props.recipe.imageUrl} onClick={() => {}}/>
                 <strong>{props.recipe.name}</strong>
             </section>
         </section>;
@@ -35,7 +35,7 @@ export default function Recipes() {
         <section className="recipe-grid">
             {cookingData.recipes.map((item, idx) => {
                 return <div className="recipe-item">
-                        <img className="recipe-image" src={"images/recipes/" + item.imageUrl} onClick={() => onPhotoClicked(item)}/>
+                        <img className="recipe-image" src={"/images/recipes/" + item.imageUrl} onClick={() => onPhotoClicked(item)}/>
                         <div className="recipe-metadata">
                             <strong className="recipe-name">
                                 <a href= {item.recipeUrl} target="_blank" rel="noreferrer noopener">
