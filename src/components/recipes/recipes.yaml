@@ -1,0 +1,82 @@
+recipes:
+- name: Honey Garlic Glazed Salmon
+  recipeUrl: "https://www.delish.com/cooking/recipe-ideas/recipes/a55762/honey-garlic-glazed-salmon-recipe/"
+  imageUrl: honey_garlic_glazed_salmon.jpg
+- name: Tofu Scramble
+  recipeUrl: "https://www.delish.com/cooking/recipe-ideas/a32392063/tofu-scramble-recipe/"
+  imageUrl: tofu_scramble.png
+- name: Grilled Chicken with Herbs Sandwich
+  recipeUrl: "https://www.allrecipes.com/recipe/15641/grilled-chicken-with-herbs/"
+  imageUrl: grilled_chicken_with_herbs_sandwich.jpeg
+- name: Chicken in Arrabbiata
+  recipeUrl: ""
+  imageUrl: chicken_in_arrabbiata.png
+- name: Cajun Lemon Fish
+  recipeUrl: "https://www.food.com/recipe/baked-cajun-fish-42383"
+  imageUrl: cajun_lemon_fish.jpg
+- name: Teriyaki Chicken
+  recipeUrl: "https://www.cookingclassy.com/teriyaki-chicken/"
+  imageUrl: teriyaki_chicken.jpeg
+- name: Salsa Chicken
+  recipeUrl: "https://www.allrecipes.com/recipe/16700/salsa-chicken/"
+  imageUrl: salsa_chicken.png
+- name: Oatmeal with Fruits and Nuts
+  recipeUrl: "https://cooking.nytimes.com/recipes/1012920-steel-cut-oatmeal-with-fruit"
+  imageUrl: oatmeal_with_fruits_and_nuts.png
+- name: Omelette
+  recipeUrl: ""
+  imageUrl: omelette.jpeg
+- name: Roasted Vegetables and Spiced Chicken
+  recipeUrl: ""
+  imageUrl: roasted_vegetables_and_spiced_chicken.png
+- name: Baked Vegetables
+  recipeUrl: ""
+  imageUrl: baked_vegetables.png
+- name: Enchiladas
+  recipeUrl: "https://www.allrecipes.com/recipe/47374/easy-chicken-enchiladas/"
+  imageUrl: enchiladas.jpeg
+- name: Egg Curry
+  recipeUrl: "https://www.allrecipes.com/recipe/254254/indian-egg-curry/"
+  imageUrl: egg_curry.jpeg
+- name: Ground Chicken Curry
+  recipeUrl: ""
+  imageUrl: ground_chicken_curry.png
+- name: Pasta with Mixed Vegetables
+  recipeUrl: "https://www.allrecipes.com/recipe/16847/pasta-with-vegetables/"
+  imageUrl: pasta_with_mixed_vegetables.png
+- name: Burrito
+  recipeUrl:
+  imageUrl: burrito.png
+- name: Lasagna
+  recipeUrl:
+  imageUrl: lasagna.jpeg
+- name: Risotto with Pomodoro Chicken
+  recipeUrl: "https://www.cookinglight.com/recipes/basic-risotto-recipe"
+  imageUrl: risotto_with_pomodoro_chicken.png
+- name: Pound Cake
+  recipeUrl: ""
+  imageUrl: "pound_cake.png"
+- name: Cheesecake
+  recipeUrl: ""
+  imageUrl: "cheesecake.jpeg"
+- name: Brownies
+  recipeUrl:
+  imageUrl: brownies.jpeg
+- name: Ants on a Log
+  recipeUrl:
+  imageUrl: ants_on_a_log.jpeg
+- name: Chocolate Chip Muffins
+  recipeUrl:
+  imageUrl: chocolate_chip_muffins.png
+- name: Kao Pad
+  recipeUrl:
+  imageUrl: kao_pad.jpeg
+- name: Stir-Fried Vegetables in Hoisin
+  recipeUrl:
+  imageUrl: stir_fried_vegetables_in_hoisin.jpeg
+- name: Pizza
+  recipeUrl:
+  imageUrl: pizza.jpeg
+- name: Cookies with Sprinkles
+  recipeUrl:
+  imageUrl: cookies_with_sprinkles.jpeg
