@@ -63,6 +63,25 @@ export function AuthorList(props) {
     });
 }
 
+export function PublicationExtra(props) {
+    return <a href={"documents/papers/" + props.extra.link}>{props.extra.title}</a>;
+}
+
+export function PublicationExtras(props) {
+    if (props.item.extras.length === 0) {
+        return null;
+    }
+    return <ul>    
+        {
+            props.item.extras.map((item, idx) => {
+                return <li>
+                    <PublicationExtra extra={item}/>
+                </li>
+            })
+        }
+    </ul> 
+}
+
 export function Publications() {
     if (researchData.peerReviewedPublications.length === 0) {
         return null;
@@ -83,6 +102,7 @@ export function Publications() {
                         . <span className={"publication-" + item.type}>{item.venue}</span>. {item.date}.
                     </p>
                     <AwardList item={item}/>
+                    <PublicationExtras item={item}/>
                 </li>
             })}
         </ol>
