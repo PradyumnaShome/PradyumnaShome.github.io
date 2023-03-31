@@ -1,46 +1,49 @@
 talks:
-  - title: "Small World with High Risks: A Study of Security Threats in the npm Ecosystem"
-    venues:
-      - name: Security Seminar, School of Cybersecurity and Privacy, Georgia Institute of Technology
-        date: September 2022
-    link: https://twitter.com/GaTechCyber/status/1575178686336073728?s=20&t=a3uyMcAwRMBB_00RUdz0XA
-  - title: "Prime+Probe 1, JavaScript 0: Overcoming Browser-based Side-Channel Defenses"
-    venues:
-      - name: Clean Slate Processor Design Seminar, University of Illinois at Urbana-Champaign
-        date: May 2021
-  - title: "PRISM: Protections Impeding Side-channel Attacks in Microarchitecture"
-    venues:
-      - name: Illinois Computer Science Research Experiences for Undergraduates (REU)
-        date: August 2020
-    link: https://youtu.be/ZOvbU7Ewe18
-  - title: "Broadway: Scaling Programming Education Through a Distributed Autograding Framework"
-    venues:
-      - name: Undergraduate Research Symposium, University of Illinois at Urbana-Champaign
-        date: April 2020
-    link: https://youtu.be/POBtjU52GCk
+- title: "Small World with High Risks: A Study of Security Threats in the npm Ecosystem"
+  venues:
+  - name: Security Seminar, School of Cybersecurity and Privacy, Georgia Institute of Technology
+    date: September 2022
+  link: https://twitter.com/GaTechCyber/status/1575178686336073728?s=20&t=a3uyMcAwRMBB_00RUdz0XA
+- title: "Prime+Probe 1, JavaScript 0: Overcoming Browser-based Side-Channel Defenses"
+  venues:
+  - name: Clean Slate Processor Design Seminar, University of Illinois at Urbana-Champaign
+    date: May 2021
+- title: "PRISM: Protections Impeding Side-channel Attacks in Microarchitecture"
+  venues:
+  - name: Illinois Computer Science Research Experiences for Undergraduates (REU)
+    date: August 2020
+  link: https://youtu.be/ZOvbU7Ewe18
+- title: "Broadway: Scaling Programming Education Through a Distributed Autograding Framework"
+  venues:
+  - name: Undergraduate Research Symposium, University of Illinois at Urbana-Champaign
+    date: April 2020
+  link: https://youtu.be/POBtjU52GCk
 
 peerReviewedPublications:
-  - title: "Opening Pandora's Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data"
-    authors:
-      - Jose Rodrigo Sanchez Vicarte
-      - Pradyumna Shome
-      - Nandeeka Nayak
-      - Caroline Trippel
-      - Adam Morrison
-      - David Kohlbrenner
-      - Christopher W. Fletcher
-    venue: "International Symposium on Computer Architecture (ISCA)"
-    type: conference
-    date: "June 2021"
-    awards:
-      - "Intel Hardware Security Academic Award Honorable Mention"
-    link: 2021_isca_pandora.pdf
+- title: "Opening Pandora's Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data"
+  authors:
+  - Jose Rodrigo Sanchez Vicarte
+  - Pradyumna Shome
+  - Nandeeka Nayak
+  - Caroline Trippel
+  - Adam Morrison
+  - David Kohlbrenner
+  - Christopher W. Fletcher
+  venue: "International Symposium on Computer Architecture (ISCA)"
+  type: conference
+  date: "June 2021"
+  awards:
+  - "Intel Hardware Security Academic Award Honorable Mention"
+  link: 2021_isca_pandora.pdf
+  extras:
+  - title: Poster
+    link: 2021_isca_pandora_poster.pdf
 
 otherPublications:
-  - title: "SoK: Rowhammer in the post-TRR Era"
-    authors:
-      - Pradyumna Shome
-    link: SoK__Rowhammer_in_the_post_TRR_Era.pdf
+- title: "SoK: Rowhammer in the post-TRR Era"
+  authors:
+  - Pradyumna Shome
+  link: SoK__Rowhammer_in_the_post_TRR_Era.pdf
 
 collaborators:
   Pradyumna Shome:
