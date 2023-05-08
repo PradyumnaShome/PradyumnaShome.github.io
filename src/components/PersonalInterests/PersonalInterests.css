@@ -1,0 +1,5 @@
+span.personal-interest, span.personal-interest > p {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}

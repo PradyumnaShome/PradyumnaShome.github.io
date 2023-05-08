@@ -22,6 +22,8 @@
     "react-scroll-to-element": "^0.2.0",
     "react-scrollspy": "^3.3.5",
     "react-waypoint": "^8.0.3",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.2",
     "sass": "^1.35.1",
     "source-map": "^0.8.0-beta.0"
   },
