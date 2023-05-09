@@ -1,4 +1,52 @@
 recipes:
+- name: Macaroon Cookies 1
+  recipeUrl: "https://sallysbakingaddiction.com/french-macarons/"
+  imageUrl: macaroon_cookies_1.png
+- name: Macaroon Cookies 2
+  recipeUrl: "https://sallysbakingaddiction.com/french-macarons/"
+  imageUrl: macaroon_cookies_2.png
+- name: Chicken Cacciatore
+  recipeUrl: "https://www.delicious.com.au/recipes/quick-chicken-cacciatore/1894df91-d6ef-4f0f-b7a8-7aafd6501ba5?current_section=recipes"
+  imageUrl: chicken_cacciatore.png
+- name: Egg Sandwiches with Veggies and Sriracha Mayo
+  recipeUrl: ""
+  imageUrl: egg_sandwiches_with_veggies_and_sriracha_mayo.png
+- name: Greek Pasta Salad
+  recipeUrl: "https://www.allrecipes.com/recipe/19389/greek-orzo-salad/"
+  imageUrl: greek_pasta_salad.png
+- name: Falafel Bowl with Jalapeno Heart
+  recipeUrl: ""
+  imageUrl: falafel_bowl_with_jalapeno_heart.png
+- name: Louisiana Chicken Gumbo
+  recipeUrl: ""
+  imageUrl: louisiana_chicken_gumbo.png
+- name: Cereal++
+  recipeUrl: ""
+  imageUrl: cereal++.png
+- name: Breakfast Tofu Scramble with Potatoes
+  recipeUrl: ""
+  imageUrl: breakfast_tofu_scramble_with_potatoes.png
+- name: Hainan Chicken Rice
+  recipeUrl: "https://christieathome.com/blog/recipe-hainan-chicken-rice/"
+  imageUrl: hainan_chicken_rice.png
+- name: Hoisin Chicken
+  recipeUrl: ""
+  imageUrl: hoisin_chicken.png
+- name: Pad Woon Sen (Thai Glass Noodle Stir Fry)
+  recipeUrl: "https://sixhungryfeet.com/pad-woon-sen-glass-noodle-stir-fry/#recipe"
+  imageUrl: thai_glass_noodles.png
+- name: Tofu Slaw with Peanut Sauce
+  recipeUrl: ""
+  imageUrl: tofu_slaw_with_peanut_sauce.png
+- name: Pad Krapow Gai (Spicy Thai Basil Tofu)
+  recipeUrl: "https://www.allrecipes.com/recipe/257938/spicy-thai-basil-chicken-pad-krapow-gai/"
+  imageUrl: thai_basil_tofu.png
+- name: US Southwest Tofu Scramble
+  recipeUrl: ""
+  imageUrl: us_southwest_tofu_scramble.png
+- name: Avocado Toast
+  recipeUrl: "https://www.eatingwell.com/recipe/8029771/avocado-toast-recipe/"
+  imageUrl: "avocado_toast.png"
 - name: Honey Garlic Glazed Salmon
   recipeUrl: "https://www.delish.com/cooking/recipe-ideas/recipes/a55762/honey-garlic-glazed-salmon-recipe/"
   imageUrl: honey_garlic_glazed_salmon.jpg
