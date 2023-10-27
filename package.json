@@ -7,6 +7,7 @@
     "ftp-deploy": "^2.3.3",
     "gatsby": "^3.8.0",
     "gatsby-cli": "^3.13.0",
+    "gatsby-plugin-google-gtag": "^5.12.3",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",

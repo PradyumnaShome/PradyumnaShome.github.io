@@ -3,6 +3,7 @@ import personalInterestsList from './personalInterestsList.yaml';
 import { remark } from 'remark';
 import remarkHtml from 'remark-html';
 import "./PersonalInterests.css";
+import CollapsibleSection from '../CollapsibleSection/CollapsibleSection';
 
 function renderMarkdown(remarkProcessor, markdown) {
     return remark().use(remarkHtml).processSync(markdown).toString();
@@ -22,10 +23,11 @@ export default function PersonalInterests() {
         />;
     });
     return <section className="PersonalInterests">
-        <h3 className="subheading">Personal interests</h3>
+        <CollapsibleSection heading="Personal interests" heading-size="medium" visible={false}>
         <p>
             <span className="personal-interest" dangerouslySetInnerHTML={{__html: zerothInterest}}/>
             {otherInterests}
         </p>
+        </CollapsibleSection>
     </section>
 }
