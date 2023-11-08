@@ -1,6 +1,5 @@
 import React from 'react';
 import PersonalInterests from '../PersonalInterests/PersonalInterests';
-import CollapsibleSection from '../CollapsibleSection/CollapsibleSection';
 
 import './about.css';
 
@@ -39,7 +38,6 @@ export default function About() {
                     <h2>About Me</h2>
                 </header>
                 <section>
-                    <CollapsibleSection heading="Biography" heading-size="medium" visible={true}>
                     <p>
                         I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a> advised by <a href="https://faculty.cc.gatech.edu/~genkin/">Daniel Genkin</a>. My research interests lie in  <a href="https://scp.cc.gatech.edu">computer security and privacy</a>, focusing on hardware security and microarchitectural side-channel attacks. I founded and organize the <a href="https://securityseminar.cc.gatech.edu">Georgia Institute of Technology Security Seminar</a>, a venue for students and faculty to present, learn about, and discuss cutting-edge security and privacy research papers published at leading academic conferences.
                     </p>
@@ -47,12 +45,10 @@ export default function About() {
                         Before my PhD, I was a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a> and lived in the San Francisco Bay Area.
                         I earned a Bachelor of Science in <a href="https://cs.illinois.edu">Computer Science</a> from the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a> where I was advised by the fantastic <a href="http://cwfletcher.net">Chris Fletcher</a>.
                     </p>
-                    </CollapsibleSection>
-                    <CollapsibleSection heading="Meeting me" heading-size="medium" visible={false}>
+                    <h3 className="subheading">Meeting me</h3>
                     <p>
                         I'd love to meet you! If you want to set up a time to chat, I only ask that you leave a short note about yourself and why you're interesting in getting in touch. I recommend starting with email or Twitter.
                     </p>
-                    </CollapsibleSection>
                     <PersonalInterests/>
                 </section>
                 <section className="button-container">

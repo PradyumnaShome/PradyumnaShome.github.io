@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 import './header.css';
 
-import profilePhoto from '../../assets/images/portrait.png';
+import profilePhoto from '../../../static/images/pradyumna-shome.webp';
 
 const Header = () => (
     <header id="header" className="alt">

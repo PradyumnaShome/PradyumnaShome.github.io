@@ -5,8 +5,7 @@ import "./links.css"
 
 // Interesting pieces of advice, bookmarks, and other things of note
 export default function Links() {
-    console.log(linksList);
-    return <section id="Links" className="main special">
+    return <section id="links" className="main special">
         <div className="spotlight">
             <div className="content">
                 <header className="major">

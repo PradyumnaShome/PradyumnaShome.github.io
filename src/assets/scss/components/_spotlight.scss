@@ -12,6 +12,8 @@
 		margin: 0 0 _size(element-margin) 0;
 
 		.content {
+			max-width: calc(_size(inner) - 2 * _size(element-margin));
+			width: 100%;
 			@include vendor('flex', '1');
 
 			> :last-child {

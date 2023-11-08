@@ -46,7 +46,8 @@ class Scroll extends React.Component {
             1: "about",
             2: "research",
             3: "awards",
-            4: "music"
+            4: "music",
+            5: "links"
         };
         const KEY_CODE_0  = 48;
         const elem = document.getElementById(keyPressToSectionMap[e.keyCode - KEY_CODE_0]);

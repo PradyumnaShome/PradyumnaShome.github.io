@@ -3,3 +3,29 @@ span.personal-interest, span.personal-interest > p {
     margin-right: 0;
     padding: 0;
 }
+
+/* Make only the container scrollable */
+#personal-interests-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+.personal-interest-item {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem 0.25rem rgba(0, 0, 0, 0.25);
+    padding: 0.35rem;
+    margin: 0.5rem;
+    font-size: small;
+    vertical-align: auto;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: bold;
+}
+
+.personal-interest-item > p {
+    margin: 0;
+    padding: 0;
+}
