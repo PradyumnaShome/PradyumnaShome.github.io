@@ -39,7 +39,7 @@ export default function About() {
                 </header>
                 <section>
                     <p>
-                        I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a> advised by <a href="https://faculty.cc.gatech.edu/~genkin/">Daniel Genkin</a>. My research interests lie in  <a href="https://scp.cc.gatech.edu">computer security and privacy</a>, focusing on hardware security and microarchitectural side-channel attacks. I founded and organize the <a href="https://securityseminar.cc.gatech.edu">Georgia Institute of Technology Security Seminar</a>, a venue for students and faculty to present, learn about, and discuss cutting-edge security and privacy research papers published at leading academic conferences.
+                        I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a>. My research interests lie broadly in  <a href="https://scp.cc.gatech.edu">computer security and privacy</a>. I founded and organize the <a href="https://securityseminar.cc.gatech.edu">Georgia Institute of Technology Security Seminar</a>, a venue for students and faculty to present, learn about, and discuss cutting-edge security and privacy research papers published at leading academic conferences. Previously, I worked on hardware security and microarchitectural side-channel attacks.
                     </p>
                     <p>
                         Before my PhD, I was a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a> and lived in the San Francisco Bay Area.
