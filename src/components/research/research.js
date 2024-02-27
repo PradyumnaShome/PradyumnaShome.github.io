@@ -68,7 +68,7 @@ export function PublicationExtra(props) {
 }
 
 export function PublicationExtras(props) {
-    if (props.item.extras.length === 0) {
+    if (!props.item.extras || props.item.extras.length === 0) {
         return null;
     }
     return <ul>    
