@@ -20,6 +20,21 @@ talks:
   link: https://youtu.be/POBtjU52GCk
 
 peerReviewedPublications:
+- title: "Data Marauding Prefetcher: Breaking Constant-Time Cryptography On Apple CPUs"
+  authors:
+  - Boru Chen
+  - Yingchen Wang
+  - Pradyumna Shome
+  - Christopher W. Fletcher
+  - David Kohlbrenner
+  - Riccardo Paccagnella
+  - Daniel Genkin
+  venue: "USENIX Security Symposium"
+  type: conference
+  date: "August 2024"
+  awards:
+  - "Real World Cryptography 2024 Talk"
+  link: 
 - title: "Opening Pandora's Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data"
   authors:
   - Jose Rodrigo Sanchez Vicarte
@@ -60,3 +75,9 @@ collaborators:
     url: "http://davidkohlbrenner.com"
   Christopher W. Fletcher:
     url: "http://cwfletcher.net"
+  Boru Chen:
+    url: "https://bluechen8.github.io"
+  Yingchen Wang:
+    url: "https://www.cs.utexas.edu/~yingchen"
+  Riccardo Paccagnella:
+    url: "https://www.cs.cmu.edu/~rpaccagn"
