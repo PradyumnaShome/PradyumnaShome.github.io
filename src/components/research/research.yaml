@@ -20,7 +20,7 @@ talks:
   link: https://youtu.be/POBtjU52GCk
 
 peerReviewedPublications:
-- title: "Data Marauding Prefetcher: Breaking Constant-Time Cryptography On Apple CPUs"
+- title: "GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers"
   authors:
   - Boru Chen
   - Yingchen Wang
