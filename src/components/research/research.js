@@ -64,6 +64,9 @@ export function AuthorList(props) {
 }
 
 export function PublicationExtra(props) {
+    if (props.extra.link.startsWith("http://") || props.extra.link.startsWith("https://")) {
+        return <a href={props.extra.link}>{props.extra.title}</a>;
+    }
     return <a href={"documents/papers/" + props.extra.link}>{props.extra.title}</a>;
 }
 
@@ -82,6 +85,28 @@ export function PublicationExtras(props) {
     </ul> 
 }
 
+export function Publication(props) {
+    let paperLink = undefined;
+    if (props.item.link.startsWith("http://") || props.item.link.startsWith("https://")) {
+        paperLink = props.item.link;
+    } else {
+        paperLink = "documents/papers/" + props.item.link;
+    };
+
+    return <li>
+        <strong className="paper-title">
+            <a href={paperLink} target="_blank" rel="noreferrer">
+                {props.item.title}</a>
+        </strong>
+        <p>
+            <AuthorList authors={props.item.authors} />
+            . <span className={"publication-" + props.item.type}>{props.item.venue}</span>. {props.item.date}.
+        </p>
+        <AwardList item={props.item}/>
+        <PublicationExtras item={props.item}/>
+    </li>
+}
+
 export function Publications() {
     if (researchData.peerReviewedPublications.length === 0) {
         return null;
@@ -92,18 +117,7 @@ export function Publications() {
         <h4 className="subheading">Peer-Reviewed</h4>
         <ol>
             {researchData.peerReviewedPublications.map((item, idx) => {
-                return <li key={idx}>
-                    <strong className="paper-title">
-                        <a href={"documents/papers/" + item.link} target="_blank" rel="noreferrer">
-                            {item.title}</a>
-                    </strong>
-                    <p>
-                        <AuthorList authors={item.authors} />
-                        . <span className={"publication-" + item.type}>{item.venue}</span>. {item.date}.
-                    </p>
-                    <AwardList item={item}/>
-                    <PublicationExtras item={item}/>
-                </li>
+                return <Publication key={idx} item={item}></Publication>
             })}
         </ol>
         <h4 className="subheading">Other</h4>

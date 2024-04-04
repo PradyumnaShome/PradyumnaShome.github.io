@@ -34,7 +34,10 @@ peerReviewedPublications:
   date: "August 2024"
   awards:
   - "Real World Cryptography 2024 Talk"
-  link: 
+  link: 2024_usenix_security_gofetch.pdf
+  extras:
+  - title: Info Page
+    link: https://gofetch.fail
 - title: "Opening Pandora's Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data"
   authors:
   - Jose Rodrigo Sanchez Vicarte
