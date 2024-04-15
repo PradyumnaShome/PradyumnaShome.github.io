@@ -40,6 +40,12 @@ const Header = () => (
                 </a>
             </li>
             <li>
+                <a rel="me" href="https://mastodon.social/@PradyumnaShome" className="icon
+                                fa-mastodon alt">
+                    <span className="label">Mastodon</span>     
+                </a>
+            </li>
+            <li>
                 <a href="https://scholar.google.com/citations?user=om4Ot2kAAAAJ" className="icon
                                 fa-google alt">
                     <span className="label">Google Scholar</span>
