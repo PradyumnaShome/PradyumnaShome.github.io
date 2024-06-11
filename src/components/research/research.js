@@ -87,16 +87,27 @@ export function PublicationExtras(props) {
 
 export function Publication(props) {
     let paperLink = undefined;
+    
+    if (!props.item.link || props.item.link.length === 0) {
+        paperLink = undefined;    
+    }
     if (props.item.link.startsWith("http://") || props.item.link.startsWith("https://")) {
         paperLink = props.item.link;
     } else {
         paperLink = "documents/papers/" + props.item.link;
     };
 
+    let linkElement = null;
+    if (paperLink) {
+        linkElement = <a href={paperLink} target="_blank" rel="noreferrer">
+                {props.item.title}</a>;
+    } else {
+        linkElement = props.item.title;
+    }
+
     return <li>
         <strong className="paper-title">
-            <a href={paperLink} target="_blank" rel="noreferrer">
-                {props.item.title}</a>
+            { linkElement }
         </strong>
         <p>
             <AuthorList authors={props.item.authors} />
