@@ -20,11 +20,11 @@ talks:
   link: https://youtu.be/POBtjU52GCk
 
 peerReviewedPublications:
-- title: Poster: “Learning Too Much About Me”:  On the Security and Privacy Concerns of Generative AI Chatbots
+- title: "Poster: “Learning Too Much About Me”:  On the Security and Privacy Concerns of Generative AI Chatbots"
   authors:
   - Pradyumna Shome
   - Miuyin Marie Yong Wong
-  venue: Symposium on Usable Privacy and Security
+  venue: Symposium on Usable Privacy and Security (SOUPS)
   type: poster
   date: August 2024
 - title: "GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers"
