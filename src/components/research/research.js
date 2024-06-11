@@ -90,8 +90,7 @@ export function Publication(props) {
     
     if (!props.item.link || props.item.link.length === 0) {
         paperLink = undefined;    
-    }
-    if (props.item.link.startsWith("http://") || props.item.link.startsWith("https://")) {
+    } else if (props.item.link.startsWith("http://") || props.item.link.startsWith("https://")) {
         paperLink = props.item.link;
     } else {
         paperLink = "documents/papers/" + props.item.link;
