@@ -27,6 +27,7 @@ peerReviewedPublications:
   venue: Symposium on Usable Privacy and Security (SOUPS)
   type: poster
   date: August 2024
+  link: 2024_soups_poster_learning_too_much_about_me.pdf
 - title: "GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers"
   authors:
   - Boru Chen
