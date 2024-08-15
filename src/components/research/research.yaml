@@ -42,6 +42,7 @@ peerReviewedPublications:
   date: "August 2024"
   awards:
   - "Real World Cryptography 2024 Talk"
+  - "2024 Pwnie Award for Best Cryptographic Attack"
   link: 2024_usenix_security_gofetch.pdf
   extras:
   - title: Info Page
