@@ -39,7 +39,11 @@ export default function About() {
                 </header>
                 <section>
                     <p>
-                        I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a>. My research interests lie broadly in  <a href="https://scp.cc.gatech.edu">computer security and privacy</a>. I founded and organize the <a href="https://securityseminar.cc.gatech.edu">Georgia Institute of Technology Security Seminar</a>, a venue for students and faculty to present, learn about, and discuss cutting-edge security and privacy research papers published at leading academic conferences. Previously, I worked on hardware security and microarchitectural side-channel attacks.
+                        I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a>, broadly interested in  <a href="https://scp.cc.gatech.edu">computer security and privacy</a>. 
+                        
+                        I'm exploring the use of applied cryptography and trusted execution environments for privacy-preserving computation, while considering the human factors that influence decision-making by end-users and developers. I've also worked on microarchitectural security and side-channel attacks.
+                        
+                        I founded and organize the <a href="https://securityseminar.cc.gatech.edu">Georgia Institute of Technology Security Seminar</a>, a venue for students and faculty to present, learn about, and discuss cutting-edge security and privacy research papers published at leading academic conferences.
                     </p>
                     <p>
                         Before my PhD, I was a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a> and lived in the San Francisco Bay Area.
