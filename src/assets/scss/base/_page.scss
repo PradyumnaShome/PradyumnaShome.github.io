@@ -43,8 +43,8 @@
 
 :root {
 	--color-background: #ffffff;
-	--color-text: #333;
-	--color-accent: #009616;
+	--color-text: rgb(28, 30, 33);
+	--color-accent: #009817;
 	--color-link-default: var(--color-accent);
 	--color-link-hover: var(--color-text);
 }
@@ -55,8 +55,8 @@ header.major h2 {
 }
 
 section.main.special {
-	font-weight: 200;
-	font-family: "inherit";
+	font-weight: 400;
+	font-family: system-ui, "apple-system", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	background-color: var(--color-background) !important;
 	color: var(--color-text) !important;
 }
