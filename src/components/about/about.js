@@ -39,10 +39,11 @@ export default function About() {
                 </header>
                 <section>
                     <p>
-                        I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a>, broadly interested in  <a href="https://scp.cc.gatech.edu">computer security and privacy</a>. 
+                        I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a>, working on <a href="https://scp.cc.gatech.edu">computer security and privacy</a>. 
                         
-                        I'm exploring the use of applied cryptography and trusted execution environments for privacy-preserving computation, while considering the human factors that influence decision-making by end-users and developers. I've also worked on microarchitectural security and side-channel attacks.
-                        
+                        My research has focused on microarchitectural security and side-channel attacks, from a theoretical and practical perspective. I'm interested in developing privacy-preserving systems that are usable by developers and end-users, using tools from applied cryptography and confidential computing. Recently, I've been looking at the privacy challenges in generative AI chatbots.
+                    </p>
+                    <p>
                         I founded and organize the <a href="https://securityseminar.cc.gatech.edu">Georgia Institute of Technology Security Seminar</a>, a venue for students and faculty to present, learn about, and discuss cutting-edge security and privacy research papers published at leading academic conferences.
                     </p>
                     <p>
@@ -53,7 +54,6 @@ export default function About() {
                     <p>
                         I'd love to meet you! If you want to set up a time to chat, I only ask that you leave a short note about yourself and why you're interesting in getting in touch. I recommend starting with email or Twitter.
                     </p>
-                    <PersonalInterests/>
                 </section>
                 <section className="button-container">
                     <button onClick={onResumeButtonClick}>View Résumé</button>

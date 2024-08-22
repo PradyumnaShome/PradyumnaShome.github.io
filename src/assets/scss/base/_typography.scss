@@ -13,20 +13,20 @@
 
 	body, input, select, textarea {
 		font-family: _font(family);
-		font-size: 12pt;
+		font-size: 11pt;
 		font-weight: _font(weight);
 		line-height: 1.65;
 
 		@include breakpoint(xlarge) {
-			font-size: 13pt;
-		}
-
-		@include breakpoint(large) {
 			font-size: 12pt;
 		}
 
-		@include breakpoint(xxsmall) {
+		@include breakpoint(large) {
 			font-size: 11pt;
+		}
+
+		@include breakpoint(xxsmall) {
+			font-size: 10pt;
 		}
 	}
 

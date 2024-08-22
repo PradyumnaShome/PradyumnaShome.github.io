@@ -1,0 +1,8 @@
+section#personal {
+  background-color: indigo;
+  text-align: left;
+}
+
+section#personal header h2 {
+  color: indigo !important;
+}

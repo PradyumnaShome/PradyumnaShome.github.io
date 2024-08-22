@@ -7,6 +7,7 @@ import Links from '../components/Links/Links'
 import Header from '../components/header/header'
 import About from '../components/about/about'
 import Research from '../components/research/research'
+import Personal from '../components/personal/personal'
 import Awards from '../components/awards/awards'
 import Music from '../components/music/music'
 import Nav from '../components/Nav'
@@ -81,6 +82,7 @@ class Index extends React.Component {
           <About />
           <Research />
           <Awards />
+          <Personal/>
           <Music />
           <Links />
         </main>
