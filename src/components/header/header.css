@@ -2,6 +2,10 @@
   padding: 4em 5em 1em 5em;
 }
 
+a[rel="me"] {
+  visibility: hidden;
+}
+
 .logo img {
   border-radius: 50%;
   height: calc(10vh + 10vw);

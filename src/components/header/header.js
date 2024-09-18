@@ -23,7 +23,7 @@ const Header = () => (
             </li>
             <li>
                 <a href="https://linkedin.com/in/pradyumna-shome" className="icon
-                                fa-linkedin alt">
+                                fa-linkedin-in alt">
                     <span className="label">LinkedIn</span>
                 </a>
             </li>
@@ -34,15 +34,15 @@ const Header = () => (
                 </a>
             </li>
             <li>
-                <a href="https://twitter.com/PradyumnaShome" className="icon
-                                fa-twitter alt">
+                <a href="https://x.com/PradyumnaShome" className="icon
+                                fa-x alt">
                     <span className="label">Twitter</span>
                 </a>
             </li>
             <li>
-                <a rel="me" href="https://mastodon.social/@PradyumnaShome" className="icon
-                                fa-mastodon alt">
-                    <span className="label">Mastodon</span>     
+                <a rel="me" href="https://mastodon.social/@PradyumnaShome"/>
+                <a href="https://mastodon.social/@PradyumnaShome" className="icon fa-mastodon alt">
+                    <span className="label">Mastodon</span>
                 </a>
             </li>
             <li>
