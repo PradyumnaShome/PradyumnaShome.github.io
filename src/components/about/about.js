@@ -38,16 +38,17 @@ export default function About() {
                     <h2>About Me</h2>
                 </header>
                 <section>
+                    <p><strong style={{"color": "red"}}>I'm applying to CS PhD programs this cycle to do research in usable privacy-enhancing technologies.</strong></p>
                     <p>
-                        I'm a PhD student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a>, working on <a href="https://scp.cc.gatech.edu">computer security and privacy</a>. 
+                        I'm a graduating MS student in Computer Science at the <a href="https://gatech.edu">Georgia Institute of Technology</a>, working on research in <a href="https://scp.cc.gatech.edu">computer security and privacy</a>. 
                         
-                        My research has focused on microarchitectural security and side-channel attacks, from a theoretical and practical perspective. I'm interested in developing privacy-preserving systems that are usable by developers and end-users, using tools from applied cryptography and confidential computing. Recently, I've been looking at the privacy challenges in generative AI chatbots.
+                        My research has focused on microarchitectural security, side-channel attacks, and usable privacy and security. I'm interested in developing privacy-preserving systems that are usable by developers and end-users, using tools from applied cryptography and confidential computing. Recently, I've been looking at the privacy challenges in generative AI chatbots.
                     </p>
                     <p>
                         I founded and organize the <a href="https://securityseminar.cc.gatech.edu">Georgia Institute of Technology Security Seminar</a>, a venue for students and faculty to present, learn about, and discuss cutting-edge security and privacy research papers published at leading academic conferences.
                     </p>
                     <p>
-                        Before my PhD, I was a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a> and lived in the San Francisco Bay Area.
+                        Previously, I was a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a> and lived in the San Francisco Bay Area.
                         I earned a Bachelor of Science in <a href="https://cs.illinois.edu">Computer Science</a> from the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a> where I was advised by the fantastic <a href="http://cwfletcher.net">Chris Fletcher</a>.
                     </p>
                     <h3 className="subheading">Meeting me</h3>

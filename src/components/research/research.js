@@ -168,7 +168,7 @@ export default function Research() {
         <header className="major">
             <h2>Research</h2>
         </header>
-        <Talks />
         <Publications />
+        <Talks />
     </section>
 }
