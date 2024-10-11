@@ -9,8 +9,11 @@ const Header = () => (
     <header id="header" className="alt">
         <span className="logo"><img src={profilePhoto} alt="" /></span>
         <h1>
-            <Link to="/">Pradyumna Shome</Link>
+            <Link to="/">Pradyumna Shome<br/></Link>
         </h1>
+        <p>
+            <code>IPA: prədˈjʊmnə ʃoʊm</code> or <code>Phonetic: pruhd-yiuhm-nuh shohm</code>
+        </p>
         <p>
             Researcher in Computer Security and Privacy at Georgia Institute of Technology
         </p>
