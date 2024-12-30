@@ -15,7 +15,7 @@ const Header = () => (
             <code>IPA: prədˈjʊmnə ʃoʊm</code> or <code>Phonetic: pruhd-yiuhm-nuh shohm</code>
         </p>
         <p>
-            Researcher in Computer Security and Privacy at Georgia Institute of Technology
+            Researcher in Computer Security and Privacy | Usable Privacy Enhancing Technologies
         </p>
         <ul className="icons">
             <li>

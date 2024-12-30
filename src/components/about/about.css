@@ -1,7 +1,7 @@
 section#about {
   background-color: var(--color-intro-card-bg);
   color: var(--color-intro-card-fg);
-  text-align: left;
+  text-align: justify;
 }
 
 .resume-container, .cv-container {
