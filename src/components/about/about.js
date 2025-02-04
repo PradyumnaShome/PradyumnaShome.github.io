@@ -42,7 +42,7 @@ export default function About() {
                         <strong style={{"color": "red"}}>I'm applying to CS PhD programs this cycle to do research in usable privacy enhancing technologies.</strong>
                     </p>
                     <p>
-                        I'm a Researcher at <a href="https://cmu.edu"></a>Carnegie Mellon University</a> within the <a href="https://cylab.cmu.edu"></a>CyLab Security and Privacy Institute</a> and <a href="https://hcii.cmu.edu">Human-Computer Interaction Institute</a>. I hold an MS in Computer Science from the <a href="https://gatech.edu">Georgia Institute of Technology</a>, where my work explored microarchitectural side-channel attacks and usable security.
+                        I'm a Researcher at <a href="https://cmu.edu"></a>Carnegie Mellon University</a> within the <a href="https://cylab.cmu.edu">CyLab Security and Privacy Institute</a> and <a href="https://hcii.cmu.edu">Human-Computer Interaction Institute</a>. I hold an MS in Computer Science from the <a href="https://gatech.edu">Georgia Institute of Technology</a>, where my work explored microarchitectural side-channel attacks and usable security.
                         I'm passionate about building privacy-preserving systems that are accessible to both developers and end-users, leveraging applied cryptography and confidential computing. Recently, I’ve been investigating privacy challenges in generative AI chatbots.
                     </p> 
                     <p> 
