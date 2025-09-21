@@ -1,4 +1,8 @@
 talks:
+- title: "From Speculative Execution to Speculative Privacy: Bridging Technological and Human Challenges"
+  venues:
+  - name: Max Planck Institute for Security and Privacy
+    date: March 2025
 - title: "Small World with High Risks: A Study of Security Threats in the npm Ecosystem"
   venues:
   - name: Security Seminar, School of Cybersecurity and Privacy, Georgia Institute of Technology
@@ -67,10 +71,21 @@ peerReviewedPublications:
     link: 2021_isca_pandora_poster.pdf
 
 otherPublications:
+- title: "Why Johnny Can't Use Agents: Industry Aspirations vs. User Realities with AI Agent Software"
+  authors:
+  - Pradyumna Shome
+  - Sashreek Krishnan
+  - Sauvik Das
+  venue: arXiv
+  type: paper
+  date: September 2025
+  link: 2025-Why-Johnny-Can't-Use-Agents-Industry-Aspirations-vs-User-Realities-with-AI-Agent-Software.pdf
 - title: "SoK: Rowhammer in the Post-TRR Era"
   authors:
   - Pradyumna Shome
   link: SoK__Rowhammer_in_the_Post-TRR_Era.pdf
+  venue: ""
+  date: December 2022
 
 collaborators:
   Pradyumna Shome:
@@ -95,3 +110,7 @@ collaborators:
     url: "https://www.cs.cmu.edu/~rpaccagn"
   Daniel Genkin:
     url: "https://faculty.cc.gatech.edu/~genkin"
+  Sashreek Krishnan:
+    url: "https://www.linkedin.com/in/sashreek-krishnan"
+  Sauvik Das:
+    url: "https://sauvikdas.mecom"

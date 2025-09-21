@@ -40,9 +40,9 @@ export function AuthorList(props) {
         const author = authors[0];
         const authorLink = allCollaborators[author]?.url ?? `https://google.com/search?q=${author}`;
         const authorLinkElement = <a href={authorLink} target="_blank" rel="noreferrer">{author}</a>;
-        return <span key={author} className="author-highlight">{authorLinkElement}</span>
+        return <span key={author} className="author-highlight">{authorLinkElement}. </span>
     }
-    return authors.map((author, idx) => {
+    const authorsListView = authors.map((author, idx) => {
         let getPrefix = (idx, list) => {
             if (idx > 0 && idx !== list.length - 1) {
                 return ", ";
@@ -61,6 +61,7 @@ export function AuthorList(props) {
         const prefix = getPrefix(idx, authors);
         return [prefix, authorSpan];
     });
+    return [...authorsListView, ". "];
 }
 
 export function PublicationExtra(props) {
@@ -104,13 +105,15 @@ export function Publication(props) {
         linkElement = props.item.title;
     }
 
+    const dateElement = props.item.date + "." ?? <></>;
+    const shouldShowVenue = String(props.item.venue);
     return <li>
         <strong className="paper-title">
             { linkElement }
         </strong>
         <p>
             <AuthorList authors={props.item.authors} />
-            . <span className={"publication-" + props.item.type}>{props.item.venue}</span>. {props.item.date}.
+            {shouldShowVenue ? <span className={"publication-" + props.item.type}>{props.item.venue}.</span> : <></>} {props.item.date + "." ?? <></>}
         </p>
         <AwardList item={props.item}/>
         <PublicationExtras item={props.item}/>
@@ -133,16 +136,7 @@ export function Publications() {
         <h4 className="subheading">Other</h4>
         <ol>
             {researchData.otherPublications.map((item, idx) => {
-                return <li key={idx}>
-                    <strong className="paper-title">
-                        <a href={"documents/papers/" + item.link} target="_blank" rel="noreferrer">
-                            {item.title}</a>
-                    </strong>
-                    <p>
-                        <AuthorList authors={item.authors} />
-                    </p>
-                    <AwardList item={item}/>
-                </li>
+                return <Publication key={idx} item={item}></Publication>
             })}
         </ol> 
     </section>

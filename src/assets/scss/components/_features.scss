@@ -4,6 +4,7 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
+@use "sass:math";
 /* Features */
 
 	.features {
@@ -16,7 +17,7 @@
 		list-style: none;
 
 		li {
-			width: calc(#{(100% / 3)} - #{_size(element-margin)});
+			width: calc(math.div(100%, 3)) - #{_size(element-margin)};
 			margin-left: _size(element-margin);
 			margin-top: (_size(element-margin) * 1.5);
 			padding: 0;
@@ -34,7 +35,7 @@
 
 		@include breakpoint(medium) {
 			li {
-				width: calc(#{(100% / 2)} - #{_size(element-margin)});
+				width: calc(#{math.div(100%, 2)} - #{_size(element-margin)});
 
 				&:nth-child(3) {
 					margin-top: (_size(element-margin) * 1.5);
