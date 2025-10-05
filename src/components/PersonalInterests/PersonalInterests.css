@@ -1,31 +1,100 @@
-span.personal-interest, span.personal-interest > p {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
+.PersonalInterests {
+    margin-top: 3em;
 }
 
-/* Make only the container scrollable */
-#personal-interests-container {
+.PersonalInterests .subheading {
+    color: #43291f;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+}
+
+.personal-interests-categories {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.interest-category {
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(34,111,84,0.25);
+    box-shadow: 0 2px 8px rgba(34,111,84,0.1);
+    transition: all 0.25s ease;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+@media (max-width: 1200px) {
+    .personal-interests-categories {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .personal-interests-categories {
+        grid-template-columns: 1fr;
+    }
+}
+
+.interest-category:hover {
+    background: rgba(255,255,255,0.95);
+    border-color: rgba(34,111,84,0.4);
+    box-shadow: 0 4px 12px rgba(34,111,84,0.15);
+    transform: translateY(-2px);
+}
+
+.category-title {
+    color: #226f54 !important;
+    font-size: 1.05em !important;
+    font-weight: 600 !important;
+    margin: 0 0 16px 0 !important;
+    letter-spacing: -0.01em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(34,111,84,0.15);
+}
+
+.category-interests {
     display: flex;
-    flex: 0 0 auto;
     flex-wrap: wrap;
-    overflow-x: auto;
+    gap: 8px;
 }
 
 .personal-interest-item {
-    border-radius: 0.5rem;
-    box-shadow: 0 0 0.5rem 0.25rem rgba(0, 0, 0, 0.25);
-    padding: 0.35rem;
-    margin: 0.5rem;
-    font-size: small;
-    vertical-align: auto;
+    background: rgba(34,111,84,0.12);
+    border: 1px solid rgba(34,111,84,0.25);
+    border-radius: 12px;
+    padding: 6px 14px;
+    font-size: 0.85em;
+    font-weight: 500;
+    color: rgba(67,41,31,0.9);
     display: inline-block;
     white-space: nowrap;
-    text-align: center;
-    font-weight: bold;
+    transition: all 0.15s ease;
+}
+
+.personal-interest-item:hover {
+    background: rgba(34,111,84,0.18);
+    border-color: rgba(34,111,84,0.4);
+    transform: translateY(-1px);
 }
 
 .personal-interest-item > p {
     margin: 0;
     padding: 0;
+    display: inline;
+}
+
+.personal-interest-item a {
+    color: #226f54 !important;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.personal-interest-item a:hover {
+    border-bottom-color: #226f54;
 }

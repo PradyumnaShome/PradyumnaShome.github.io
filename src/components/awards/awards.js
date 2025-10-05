@@ -2,30 +2,31 @@ import React from "react";
 import awards from "./awards.yaml";
 import './awards.css';
 
-export function AwardList() {
-    if (awards.length === 0) {
+export function AwardCategory({title, awardsList}) {
+    if (!awardsList || awardsList.length === 0) {
         return null;
     }
 
-    return <section>
-            <ol>
-                {
-                    awards.map((award, index) => {            
-                                return <li key={index}>
-                                    {award.name} ({award.year})
-                                </li>                 
-                        }
-                    )
-                }
-            </ol>
-    </section>
+    return <div className="award-category">
+        <h3 className="subheading">{title}</h3>
+        <ol>
+            {
+                awardsList.map((award, index) => {
+                    return <li key={index}>
+                        {award.name} ({award.year})
+                    </li>
+                })
+            }
+        </ol>
+    </div>
 }
 
 export default function Awards() {
     return <section id="awards" className="main special">
         <header className="major">
-            <h2>Awards and Honors</h2>
+            <h2>Awards</h2>
         </header>
-        <AwardList />
+        <AwardCategory title="Academic" awardsList={awards.academic} />
+        <AwardCategory title="Community" awardsList={awards.community} />
     </section>
 }

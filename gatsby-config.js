@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'Pradyumna Shome',
-    description: ``,
+    description: `Co-Founder and Founding Engineer at Stealth Startup. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design.`,
     author: `Pradyumna Shome`,
     siteUrl: `https://pradyumnashome.com`,
+    image: `/portrait.png`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',

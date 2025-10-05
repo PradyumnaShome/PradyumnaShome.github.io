@@ -1,4 +1,9 @@
 talks:
+- title: "Why Johnny Can't Use Agents: Industry Aspirations vs. User Realities with AI Agent Software"
+  venues:
+  - name: Ploutos World
+    date: October 2025
+  link: https://cmu-spuds.github.io/why-johnny-can-t-use-agents/
 - title: "From Speculative Execution to Speculative Privacy: Bridging Technological and Human Challenges"
   venues:
   - name: Max Planck Institute for Security and Privacy

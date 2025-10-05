@@ -35,24 +35,40 @@ export default function About() {
         <div className="spotlight">
             <div className="content">
                 <header className="major">
-                    <h2>About Me</h2>
+                    <h2>About</h2>
                 </header>
                 <section>
                     <p>
-                        I'm a Researcher at <a href="https://cmu.edu">Carnegie Mellon University</a> within the <a href="https://cylab.cmu.edu">CyLab Security and Privacy Institute</a> and <a href="https://hcii.cmu.edu">Human-Computer Interaction Institute</a>. I hold an MS in Computer Science from the <a href="https://gatech.edu">Georgia Institute of Technology</a>, where my work explored microarchitectural side-channel attacks and usable security.
-                        I'm passionate about building privacy-preserving systems that are accessible to both developers and end-users, leveraging applied cryptography and confidential computing. Recently, I’ve been investigating privacy challenges in generative AI chatbots.
-                    </p> 
-                    <p> 
-                        I founded the <a href="https://securityseminar.cc.gatech.edu">Georgia Institute of Technology Security Seminar</a>, a vibrant forum where students and faculty engage with cutting-edge security and privacy research presented at leading academic conferences. 
+                        I enjoy building socio-technical systems that combine intellectually rich computer science challenges with tangible user value. Currently focused on consumer AI for design, my work spans confidential computing, microarchitectural side-channel attacks, and human-AI collaboration. I'm particularly interested in making complex technologies accessible and usable—whether it's privacy-preserving cryptography for Web3 systems or intuitive interfaces for AI agents. I approach problems with technical rigor while staying deeply curious about how people interact with complex systems, and I find satisfaction in communicating these ideas clearly across diverse audiences.
                     </p>
-                    <p> 
-                        Prior to my MS, I was a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a> in the San Francisco Bay Area.
-                        I earned a BS in <a href="https://cs.illinois.edu">Computer Science</a> from the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>, advised by <a href="http://cwfletcher.net">Chris Fletcher</a>.
-                    </p>
-                    <h3 className="subheading">Meeting me</h3>
-                    <p>
-                        I'd love to meet you! If you want to set up a time to chat, I only ask that you leave a short note about yourself and why you're interesting in getting in touch. I recommend starting with email or <s>Twitter</s> X.
-                    </p>
+                    <div className="info-cards">
+                        <div className="info-card">
+                            <img src="/images/computer-security-and-privacy-card-icon.png" alt="Security" className="info-icon" />
+                            <h3 className="info-title">Computer Security & Privacy</h3>
+                            <ul className="project-list">
+                                <li>Microarchitectural Side-Channel Attacks</li>
+                                <li>Confidential Computing for Web3</li>
+                                <li>Security and Privacy of Generative AI Chatbots</li>
+                            </ul>
+                        </div>
+                        <div className="info-card">
+                            <img src="/images/ai-card-icon.png" alt="AI" className="info-icon" />
+                            <h3 className="info-title">Artificial Intelligence</h3>
+                            <ul className="project-list">
+                                <li>Why Johnny Can't Use Agents</li>
+                                <li>Consumer AI for Design</li>
+                            </ul>
+                        </div>
+                        <div className="info-card">
+                            <img src="/images/software-engineering-card-logo.png" alt="Software Engineering" className="info-icon" />
+                            <h3 className="info-title">Software Engineering</h3>
+                            <ul className="project-list">
+                                <li>Messenger Growth</li>
+                                <li>Meta Privacy Control Infrastructure</li>
+                                <li>Test Plan Generation Automation</li>
+                            </ul>
+                        </div>
+                    </div>
                 </section>
                 <section className="button-container">
                     <button onClick={onResumeButtonClick}>View Résumé</button>

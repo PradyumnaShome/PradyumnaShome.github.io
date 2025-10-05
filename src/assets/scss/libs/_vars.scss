@@ -19,42 +19,43 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family:				('Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif),
+		family-heading:		('Space Grotesk', 'Inter', sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
-		weight-bold:		400,
-		letter-spacing:		-0.025em
+		weight-bold:		600,
+		letter-spacing:		-0.02em
 	);
 
 // Palette.
 	$palette: (
-		bg:					#935d8c,
-		fg:					rgba(255,255,255,0.65),
-		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.5),
-		border:				rgba(255,255,255,0.35),
-		border-bg:			rgba(255,255,255,0.075),
-		border2:			rgba(255,255,255,0.75),
-		border2-bg:			rgba(255,255,255,0.2),
+		bg:					#f4f0bb,
+		bg2:				#87c38f,
+		fg:					rgba(67,41,31,0.92),
+		fg-bold:			#43291f,
+		fg-light:			rgba(67,41,31,0.75),
+		border:				rgba(34,111,84,0.3),
+		border-bg:			rgba(34,111,84,0.15),
+		border2:			rgba(34,111,84,0.5),
+		border2-bg:			rgba(34,111,84,0.2),
 
 		invert: (
 			bg:				#ffffff,
 			bg-alt:			#f7f7f7,
-			fg:				#636363,
-			fg-bold:		#636363,
-			fg-light:		rgba(99,99,99,0.25),
-			border:			#dddddd,
-			border-bg:		rgba(222,222,222,0.25),
-			border2:		#dddddd,
-			border2-bg:		rgba(222,222,222,0.5),
+			fg:				#43291f,
+			fg-bold:		#226f54,
+			fg-light:		rgba(67,41,31,0.5),
+			border:			rgba(34,111,84,0.2),
+			border-bg:		rgba(34,111,84,0.1),
+			border2:		rgba(34,111,84,0.3),
+			border2-bg:		rgba(34,111,84,0.15),
 		),
 
-		accent:				#8cc9f0,
-		accent1:			#efa8b0,
-		accent2:			#c79cc8,
-		accent3:			#a89cc8,
-		accent4:			#9bb2e1,
-		accent5:			#8cc9f0,
-		bg1:				#e37682,
-		bg2:				#5f4d93
+		accent:				#226f54,
+		accent1:			#c85a3f,
+		accent2:			#87c38f,
+		accent3:			#1a5640,
+		accent4:			#43291f,
+		accent5:			#226f54,
+		bg1:				#87c38f,
 	);

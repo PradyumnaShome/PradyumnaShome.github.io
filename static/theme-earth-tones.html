@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradyumna Shome - Earth Tones Theme</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+        :root {
+            --color-bg-cream: #f4f0bb;
+            --color-bg-sage: #87c38f;
+            --color-green-dark: #226f54;
+            --color-green-darker: #1a5640;
+            --color-green-light: #87c38f;
+            --color-brown: #43291f;
+            --color-terracotta: #c85a3f;
+
+            --color-text-primary: rgba(67,41,31,0.92);
+            --color-text-secondary: rgba(67,41,31,0.85);
+            --color-text-muted: rgba(67,41,31,0.75);
+            --color-text-subtle: rgba(67,41,31,0.7);
+            --color-text-footer: rgba(67,41,31,0.55);
+
+            --color-accent-primary: var(--color-green-dark);
+            --color-accent-secondary: var(--color-terracotta);
+
+            --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
+            --font-family-heading: 'Space Grotesk', 'Inter', sans-serif;
+            --font-family-mono: 'Courier New', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family-base);
+            background: linear-gradient(135deg, var(--color-bg-cream) 0%, var(--color-bg-sage) 100%);
+            color: var(--color-text-primary);
+            line-height: 1.6;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid rgba(34,111,84,0.3);
+        }
+
+        .profile-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            border: 4px solid rgba(34,111,84,0.4);
+            background: rgba(255,255,255,0.3);
+        }
+
+        h1 {
+            font-family: var(--font-family-heading);
+            font-size: 3.5em;
+            font-weight: 700;
+            color: var(--color-accent-primary);
+            margin-bottom: 0.3em;
+            letter-spacing: -0.04em;
+        }
+
+        .pronunciation {
+            font-family: var(--font-family-mono);
+            font-size: 1em;
+            color: var(--color-text-subtle);
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            font-family: var(--font-family-heading);
+            font-size: 2.2em;
+            font-weight: 600;
+            color: var(--color-accent-primary);
+            margin: 1.5em 0 0.8em;
+            letter-spacing: -0.03em;
+        }
+
+        h3 {
+            font-family: var(--font-family-heading);
+            font-size: 1.5em;
+            font-weight: 600;
+            color: var(--color-accent-secondary);
+            margin: 1.2em 0 0.6em;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-family: var(--font-family-base);
+            font-size: 1.25em;
+            color: rgba(67,41,31,0.82);
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            margin-bottom: 1.5em;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .social-link {
+            color: var(--color-text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: rgba(34,111,84,0.2);
+            transition: all 0.2s;
+        }
+
+        .social-link:hover {
+            background: rgba(34,111,84,0.35);
+            transform: translateY(-2px);
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(34,111,84,0.2);
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            font-size: 1.05em;
+        }
+
+        p a {
+            color: var(--color-accent-primary);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        p a:hover {
+            border-bottom-color: var(--color-accent-primary);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.85em 2.2em;
+            background: var(--color-accent-primary);
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            margin: 0.5em 0.5em 0.5em 0;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+            font-family: var(--font-family-base);
+            letter-spacing: -0.01em;
+        }
+
+        .button:hover {
+            background: var(--color-green-darker);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(34, 111, 84, 0.35);
+        }
+
+        .button-secondary {
+            background: transparent;
+            color: var(--color-accent-secondary);
+            border: 2px solid var(--color-accent-secondary);
+        }
+
+        .button-secondary:hover {
+            background: var(--color-accent-secondary);
+            color: #ffffff;
+        }
+
+        .spotlight {
+            background: rgba(34,111,84,0.15);
+            padding: 35px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid var(--color-accent-primary);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .publication-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .publication-item {
+            background: rgba(34,111,84,0.1);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--color-accent-secondary);
+            transition: all 0.3s;
+        }
+
+        .publication-item:hover {
+            background: rgba(34,111,84,0.18);
+            transform: translateX(5px);
+            box-shadow: 0 6px 16px rgba(34,111,84,0.2);
+        }
+
+        .paper-title {
+            font-size: 1.25em;
+            font-weight: 600;
+            color: var(--color-accent-primary);
+            display: block;
+            margin-bottom: 0.5em;
+        }
+
+        .paper-title a {
+            color: var(--color-accent-primary);
+            text-decoration: none;
+        }
+
+        .paper-title a:hover {
+            color: var(--color-green-darker);
+        }
+
+        .authors {
+            color: var(--color-text-secondary);
+            margin-bottom: 0.5em;
+            font-size: 0.95em;
+        }
+
+        .author-highlight {
+            font-weight: 600;
+            color: var(--color-brown);
+        }
+
+        .venue {
+            color: var(--color-text-muted);
+            font-style: italic;
+            font-size: 0.9em;
+        }
+
+        .awards {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        .award-badge {
+            display: inline-block;
+            background: rgba(200,90,63,0.15);
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-top: 8px;
+            color: var(--color-accent-secondary);
+            font-weight: 500;
+        }
+
+        .publication-extras {
+            list-style: none;
+            padding: 0;
+            margin-top: 12px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .publication-extras a {
+            color: var(--color-accent-primary);
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: 500;
+            padding: 4px 12px;
+            background: rgba(34,111,84,0.15);
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .publication-extras a:hover {
+            background: rgba(34,111,84,0.25);
+        }
+
+        .highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin: 30px 0;
+        }
+
+        .highlight-box {
+            background: rgba(34,111,84,0.12);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid rgba(34,111,84,0.25);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .highlight-box:hover {
+            background: rgba(34,111,84,0.2);
+            border-color: rgba(34,111,84,0.5);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(34,111,84,0.2);
+        }
+
+        .highlight-box h3 {
+            margin-top: 0;
+            color: var(--color-accent-secondary);
+        }
+
+        .highlight-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            color: var(--color-text-footer);
+            font-size: 0.95em;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 736px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            h2 {
+                font-size: 1.75em;
+            }
+            .highlights {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="profile-photo"></div>
+            <h1>Pradyumna Shome</h1>
+            <p class="pronunciation">IPA: prədˈjʊmnə ʃoʊm</p>
+            <p class="subtitle">Researcher at Carnegie Mellon University<br>Usable Privacy Enhancing Technologies</p>
+
+            <div class="social-links">
+                <a href="mailto:pradyumna.shome@gmail.com" class="social-link">Email</a>
+                <a href="https://linkedin.com/in/pradyumna-shome" class="social-link">LinkedIn</a>
+                <a href="https://github.com/PradyumnaShome" class="social-link">GitHub</a>
+                <a href="https://x.com/PradyumnaShome" class="social-link">X/Twitter</a>
+                <a href="https://scholar.google.com/citations?user=om4Ot2kAAAAJ" class="social-link">Scholar</a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a Researcher at <a href="https://cmu.edu">Carnegie Mellon University</a> within the <a href="https://cylab.cmu.edu">CyLab Security and Privacy Institute</a> and <a href="https://hcii.cmu.edu">Human-Computer Interaction Institute</a>. I hold an MS in Computer Science from the <a href="https://gatech.edu">Georgia Institute of Technology</a>, where my work explored microarchitectural side-channel attacks and usable security.
+            </p>
+            <p>
+                I'm passionate about building privacy-preserving systems that are accessible to both developers and end-users, leveraging applied cryptography and confidential computing. Recently, I've been investigating privacy challenges in generative AI chatbots.
+            </p>
+
+            <div class="highlights">
+                <div class="highlight-box">
+                    <span class="highlight-icon">🎓</span>
+                    <h3>Security Seminar</h3>
+                    <p>Founded the <a href="https://securityseminar.cc.gatech.edu">Georgia Tech Security Seminar</a>, a vibrant forum where students and faculty engage with cutting-edge security and privacy research from leading academic conferences.</p>
+                </div>
+                <div class="highlight-box">
+                    <span class="highlight-icon">💼</span>
+                    <h3>Industry Experience</h3>
+                    <p>Previously a Software Engineer on Messenger Growth at <a href="https://meta.com">Meta</a> in the San Francisco Bay Area, working on large-scale systems and user growth.</p>
+                </div>
+                <div class="highlight-box">
+                    <span class="highlight-icon">🔬</span>
+                    <h3>Research Interests</h3>
+                    <p>Microarchitectural side-channels, confidential computing, usable security, and privacy in AI systems. Focused on making complex security technology accessible to everyone.</p>
+                </div>
+            </div>
+
+            <p>
+                I earned a BS in <a href="https://cs.illinois.edu">Computer Science</a> from the <a href="https://illinois.edu">University of Illinois Urbana-Champaign</a>, advised by <a href="http://cwfletcher.net">Chris Fletcher</a>.
+            </p>
+
+            <a href="#" class="button">View Résumé</a>
+            <a href="#" class="button-secondary">View CV</a>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+
+            <h3>Peer-Reviewed</h3>
+            <ul class="publication-list">
+                <li class="publication-item">
+                    <span class="paper-title">
+                        <a href="#">GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers</a>
+                    </span>
+                    <p class="authors">
+                        Boru Chen, Yingchen Wang, <span class="author-highlight">Pradyumna Shome</span>, Christopher W. Fletcher, David Kohlbrenner, Riccardo Paccagnella, Daniel Genkin
+                    </p>
+                    <p class="venue">USENIX Security Symposium. August 2024.</p>
+                    <ul class="awards">
+                        <li><span class="award-badge">🏆 Real World Cryptography 2024 Talk</span></li>
+                        <li><span class="award-badge">🏆 2024 Pwnie Award for Best Cryptographic Attack</span></li>
+                    </ul>
+                    <ul class="publication-extras">
+                        <li><a href="https://gofetch.fail">Info Page</a></li>
+                    </ul>
+                </li>
+
+                <li class="publication-item">
+                    <span class="paper-title">
+                        <a href="#">Opening Pandora's Box: A Systematic Study of New Ways Microarchitecture Can Leak Private Data</a>
+                    </span>
+                    <p class="authors">
+                        Jose Rodrigo Sanchez Vicarte, <span class="author-highlight">Pradyumna Shome</span>, Nandeeka Nayak, Caroline Trippel, Adam Morrison, David Kohlbrenner, Christopher W. Fletcher
+                    </p>
+                    <p class="venue">International Symposium on Computer Architecture (ISCA). June 2021.</p>
+                    <ul class="awards">
+                        <li><span class="award-badge">🏆 Intel Hardware Security Academic Award Honorable Mention</span></li>
+                    </ul>
+                    <ul class="publication-extras">
+                        <li><a href="#">PDF</a></li>
+                        <li><a href="#">Poster</a></li>
+                    </ul>
+                </li>
+
+                <li class="publication-item">
+                    <span class="paper-title">
+                        <a href="#">Poster: "Learning Too Much About Me": On the Security and Privacy Concerns of Generative AI Chatbots</a>
+                    </span>
+                    <p class="authors">
+                        <span class="author-highlight">Pradyumna Shome</span>, Miuyin Marie Yong Wong
+                    </p>
+                    <p class="venue">Symposium on Usable Privacy and Security (SOUPS). August 2024.</p>
+                </li>
+            </ul>
+
+            <h3>Other Publications</h3>
+            <ul class="publication-list">
+                <li class="publication-item">
+                    <span class="paper-title">
+                        <a href="#">Why Johnny Can't Use Agents: Industry Aspirations vs. User Realities with AI Agent Software</a>
+                    </span>
+                    <p class="authors">
+                        <span class="author-highlight">Pradyumna Shome</span>, Sashreek Krishnan, Sauvik Das
+                    </p>
+                    <p class="venue">arXiv. September 2025.</p>
+                </li>
+
+                <li class="publication-item">
+                    <span class="paper-title">
+                        <a href="#">SoK: Rowhammer in the Post-TRR Era</a>
+                    </span>
+                    <p class="authors">
+                        <span class="author-highlight">Pradyumna Shome</span>
+                    </p>
+                    <p class="venue">December 2022.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="talks">
+            <h2>Selected Talks</h2>
+            <div class="spotlight">
+                <h3>"From Speculative Execution to Speculative Privacy"</h3>
+                <p><strong>Max Planck Institute for Security and Privacy</strong> • March 2025</p>
+                <p>Bridging technological and human challenges in modern computing security.</p>
+            </div>
+
+            <div class="spotlight">
+                <h3>"Prime+Probe 1, JavaScript 0"</h3>
+                <p><strong>Clean Slate Processor Design Seminar, UIUC</strong> • May 2021</p>
+                <p>Overcoming browser-based side-channel defenses in modern web applications.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p>I'd love to meet you! If you want to set up a time to chat, I only ask that you leave a short note about yourself and why you're interested in getting in touch. I recommend starting with email or X.</p>
+            <a href="mailto:pradyumna.shome@gmail.com" class="button">Email Me</a>
+            <a href="https://x.com/PradyumnaShome" class="button-secondary">Message on X</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Pradyumna Shome • Theme Preview: Earth Tones</p>
+        </footer>
+    </div>
+</body>
+</html>

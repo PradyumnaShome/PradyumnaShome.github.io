@@ -1,30 +1,45 @@
-- name: "Pwnie Award for Best Cryptographic Attack, \"GoFetch: Breaking Constant-Time Cryptographic Implementations Using Data Memory-Dependent Prefetchers\""
-  year: 2024
-- name: "Community Engagement Award, School of Computer Science, Georgia Institute of Technology"
-  year: 2023
-- name: "Best Paper, CS 7001 Conference on Graduate Studies in Computing at Georgia Institute of Technology, \"SoK: Rowhammer in the Post-TRR Era\""
-  year: 2022
-- name: Intel Hardware Security Academic Award Honorable Mention
-  year: 2022
-- name: IEEE S&P Symposium Shadow Program Committee Invitation (sole undergraduate among senior PhD students and postdoctoral researchers)
-  year: 2021
-- name: Malwarebytes Cybersecurity Scholarship, Malwarebytes
-  year: 2020
-- name: Illinois Engineering Achievement Scholarship, UIUC Grainger College of Engineering
-  year: 2020
-- name: Outstanding Course Assistant Award, UIUC Department of Computer Science
-  year: 2020
-- name: Kleiner Perkins Engineering Fellowship Finalist, Kleiner Perkins Caufield & Byers
-  year: 2019
-- name: Illinois Engineering Achievement Scholarship, UIUC Grainger College of Engineering
-  year: 2019
-- name: Forbes Under 30 Scholar, Forbes
-  year: 2019
-- name: Illinois Engineering Achievement Scholarship, UIUC Grainger College of Engineering
-  year: 2018
-- name: "SPIMBot Hall of Hame, UIUC CS 233: Computer Architecture (Spring 2018)"
-  year: 2018
-- name: Edmund J. James Scholar Program, UIUC Grainger College of Engineering
-  year: 2017
-- name: AP Scholar with Distinction, College Board
-  year: 2017
+academic:
+  - name: Pwnie Award for Best Cryptographic Attack
+    year: 2024
+  - name: Intel Hardware Security Academic Award Honorable Mention
+    year: 2022
+  - name: Shadow Program Committee Member, IEEE Symposium on Security and Privacy
+    year: 2021
+  - name: Malwarebytes Cybersecurity Scholarship, Malwarebytes
+    year: 2020
+  - name: Illinois Engineering Achievement Scholarship, UIUC Grainger College of Engineering
+    year: 2020
+  - name: Outstanding Course Assistant Award, UIUC Department of Computer Science
+    year: 2020
+  - name: Kleiner Perkins Engineering Fellowship Finalist, Kleiner Perkins Caufield & Byers
+    year: 2019
+  - name: 8VC Fellowship Finalist, 8VC
+    year: 2019
+  - name: Illinois Engineering Achievement Scholarship, UIUC Grainger College of Engineering
+    year: 2019
+  - name: Forbes Under 30 Scholar, Forbes
+    year: 2019
+  - name: Illinois Engineering Achievement Scholarship, UIUC Grainger College of Engineering
+    year: 2018
+  - name: Edmund J. James Scholar Program, UIUC Grainger College of Engineering
+    year: 2017
+  - name: AP Scholar with Distinction, College Board
+    year: 2017
+  - name: Regional Finalist, TCS IT Wiz
+    year: 2016
+  - name: Zonal Excellence Award, National Cyber Olympiad, Science Olympiad Foundation
+    year: 2015
+  - name: National Finalist at CBSE Science Fair, Central Board of Secondary Education India
+    year: 2014
+
+community:
+  - name: Community Engagement Award, School of Computer Science, Georgia Institute of Technology
+    year: 2023
+  - name: Judge, Sustainathon (Sustainability-themed hackathon), Cybernautica (Cyber Festival), National Public School, HSR Layout
+    year: 2022
+  - name: Panel Member, Q&A Session With CS Upperclassmen, Women in Computer Science, UIUC
+    year: 2020
+  - name: Event Co-Lead, Mindzoeked Treasure Hunt, Odyssey Festival, National Public School, HSR Layout
+    year: 2016
+  - name: VIP Entourage at March-Past Ceremony, Sports Day, National Public School, HSR Layout
+    year: 2015

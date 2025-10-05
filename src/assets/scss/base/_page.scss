@@ -26,8 +26,7 @@
 	body, .body {
 		background-color: _palette(bg);
 		@include vendor('background-image', (
-			'url("../images/overlay.png")',
-			'linear-gradient(45deg, #{_palette(bg1)} 15%, #{_palette(bg2) 85%})',
+			'linear-gradient(135deg, #{_palette(bg)} 0%, #{_palette(bg2)} 100%)',
 		));
 
 		// Prevents animation/transition "flicker" on page load.
@@ -42,33 +41,40 @@
 	}
 
 :root {
-	--color-background: #ffffff;
-	--color-text: rgb(28, 30, 33);
-	--color-accent: #009817;
+	--color-background: rgba(255,255,255,0.95);
+	--color-text: #43291f;
+	--color-accent: #226f54;
+	--color-accent-secondary: #c85a3f;
 	--color-link-default: var(--color-accent);
-	--color-link-hover: var(--color-text);
+	--color-link-hover: #1a5640;
 }
 
 header.major h2 {
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
 }
 
 section.main.special {
 	font-weight: 400;
-	font-family: system-ui, "apple-system", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
 	background-color: var(--color-background) !important;
 	color: var(--color-text) !important;
+	border-radius: 0;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+	margin-bottom: 40px;
 }
 
 section.main a {
 	color: var(--color-link-default) !important;
+	border-bottom: 2px solid transparent;
+	transition: border-color 0.2s;
 }
 
 section.main a:hover {
-	color:var(--color-link-hover) !important;
+	color: var(--color-link-hover) !important;
+	border-bottom-color: var(--color-link-hover);
 }
 
 header.major h2:after {
-	background-color: var(--color-text) !important;
+	background-color: var(--color-accent) !important;
 }

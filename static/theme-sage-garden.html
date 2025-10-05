@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sage Garden Theme Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #5a7d5f 0%, #4a6b52 100%);
+            color: rgba(255,255,255,0.85);
+            line-height: 1.6;
+            font-weight: 300;
+            letter-spacing: -0.015em;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.35);
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 0.5em;
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: 400;
+            color: #ffffff;
+            margin: 1.5em 0 0.8em;
+            letter-spacing: -0.025em;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            font-weight: 400;
+            color: #d4a574;
+            margin: 1.2em 0 0.6em;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: rgba(255,255,255,0.65);
+            font-weight: 300;
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            font-size: 1.05em;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.75em 2em;
+            background: #d4a574;
+            color: #4a6b52;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 400;
+            margin: 0.5em 0.5em 0.5em 0;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+        }
+
+        .button:hover {
+            background: #e0b585;
+            transform: translateY(-2px);
+        }
+
+        .button-secondary {
+            background: transparent;
+            color: #a8d5ba;
+            border: 2px solid #a8d5ba;
+        }
+
+        .button-secondary:hover {
+            background: #a8d5ba;
+            color: #4a6b52;
+        }
+
+        .spotlight {
+            background: rgba(255,255,255,0.075);
+            padding: 30px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #d4a574;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature-box {
+            background: rgba(255,255,255,0.05);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .feature-box h3 {
+            margin-top: 0;
+            color: #a8d5ba;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 1.5em;
+        }
+
+        li {
+            margin-bottom: 0.8em;
+            position: relative;
+        }
+
+        li:before {
+            content: "▸";
+            position: absolute;
+            left: -1.5em;
+            color: #d4a574;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-size: 3em;
+            color: #d4a574;
+            font-weight: 600;
+        }
+
+        .stat-label {
+            color: rgba(255,255,255,0.65);
+            font-size: 0.9em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Dr. Sage Garden</h1>
+            <p class="subtitle">Assistant Professor • Human-Computer Interaction • University of Example</p>
+        </header>
+
+        <section>
+            <h2>About</h2>
+            <p>I am a researcher and educator specializing in human-centered design and sustainable technology. My work explores the intersection of natural interfaces and digital systems, focusing on creating technology that enhances rather than overwhelms human experience.</p>
+            <p>Currently, I lead the Organic Computing Lab at the University of Example, where our team investigates novel interaction paradigms inspired by natural systems. Our recent work has been recognized with awards from ACM CHI and featured in leading HCI venues.</p>
+            <div class="spotlight">
+                <h3>Research Interests</h3>
+                <p>My research spans several interconnected areas: designing calm technology that respects human attention, developing sustainable computing practices, and exploring biomimetic approaches to interface design. I'm particularly interested in how we can learn from natural ecosystems to create more resilient and harmonious digital environments.</p>
+            </div>
+            <a href="#" class="button">View Publications</a>
+            <a href="#" class="button-secondary">Download CV</a>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="features">
+                <div class="feature-box">
+                    <h3>EcoInteract</h3>
+                    <p>A framework for designing energy-aware interfaces that adapt to environmental conditions and user context.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Natural Gestures</h3>
+                    <p>Exploring gesture-based interaction inspired by botanical movements and organic patterns.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Sustainable UX</h3>
+                    <p>Measuring and reducing the environmental impact of digital products through thoughtful design.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Research Impact</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">42</div>
+                    <div class="stat-label">Publications</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">1,850+</div>
+                    <div class="stat-label">Citations</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Awards</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">15</div>
+                    <div class="stat-label">PhD Students</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recent News</h2>
+            <ul>
+                <li><strong>October 2024:</strong> Our paper on "Calm Computing: Designing for Peripheral Attention" won Best Paper at CHI 2024</li>
+                <li><strong>September 2024:</strong> Keynote speaker at SustainIT Conference in Copenhagen</li>
+                <li><strong>August 2024:</strong> New NSF grant awarded for "Biomimetic Interface Design" research</li>
+                <li><strong>July 2024:</strong> Featured in Nature article on sustainable computing practices</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Get In Touch</h2>
+            <p>I'm always interested in collaborating with researchers, students, and industry partners who share a passion for human-centered, sustainable technology. Feel free to reach out to discuss potential projects or opportunities.</p>
+            <a href="#" class="button">Email Me</a>
+            <a href="#" class="button-secondary">Schedule Meeting</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Sage Garden • Theme Preview: Sage Garden</p>
+        </footer>
+    </div>
+</body>
+</html>

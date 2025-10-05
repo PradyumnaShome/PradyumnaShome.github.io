@@ -9,13 +9,13 @@ const Header = () => (
     <header id="header" className="alt">
         <span className="logo"><img src={profilePhoto} alt="" /></span>
         <h1>
-            <Link to="/">Pradyumna Shome<br/></Link>
+            Pradyumna Shome
         </h1>
         <p>
             <code>IPA: prədˈjʊmnə ʃoʊm</code> or <code>Phonetic: pruhd-yiuhm-nuh shohm</code>
         </p>
         <p>
-            Researcher at Carnegie Mellon University | Usable Privacy Enhancing Technologies
+            Co-Founder and Founding Engineer at Stealth Startup
         </p>
         <ul className="icons">
             <li>

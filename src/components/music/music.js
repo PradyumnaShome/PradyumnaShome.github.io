@@ -8,7 +8,7 @@ export default function Music() {
         </header>
         <p>
             I've been playing the piano for many years, have tried my hand at music production, and am always discovering new music to listen to.
-            Genres I've been exploring recently include K-pop, Mandopop, video game soundtracks, alternative rock, sea shanties, and more.
+            Currently, I'm listening to Charlotte de Witte (techno), Nena (Neue Deutsche Welle), Nightwish (symphonic metal), Céline Dion (Adult Contemporary), Ludovico Einaudi (Neo-Classical Piano), and Bon Entendeur (French Electro).
             Enjoy listening to some of my early efforts at digital music composition and feel free to follow me on <a href="https://open.spotify.com/user/x1lo68pet3v5jq25s7r8zakyq" target="_blank">Spotify</a>.
         </p>
         <p id="soundcloud">

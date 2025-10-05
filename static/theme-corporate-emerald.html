@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Emerald Theme Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #1a5441 0%, #0f3d2e 100%);
+            color: rgba(255,255,255,0.90);
+            line-height: 1.6;
+            font-weight: 300;
+            letter-spacing: -0.015em;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.25);
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 0.5em;
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: 400;
+            color: #ffffff;
+            margin: 1.5em 0 0.8em;
+            letter-spacing: -0.025em;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            font-weight: 400;
+            color: #b89e94;
+            margin: 1.2em 0 0.6em;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: rgba(255,255,255,0.75);
+            font-weight: 300;
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.15);
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            font-size: 1.05em;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.75em 2em;
+            background: #b89e94;
+            color: #0f3d2e;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 400;
+            margin: 0.5em 0.5em 0.5em 0;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+        }
+
+        .button:hover {
+            background: #c8aea4;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(184, 158, 148, 0.3);
+        }
+
+        .button-secondary {
+            background: transparent;
+            color: #7eb8a8;
+            border: 2px solid #7eb8a8;
+        }
+
+        .button-secondary:hover {
+            background: #7eb8a8;
+            color: #0f3d2e;
+        }
+
+        .spotlight {
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #b89e94;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature-box {
+            background: rgba(255,255,255,0.03);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.15);
+            transition: all 0.2s;
+        }
+
+        .feature-box:hover {
+            background: rgba(255,255,255,0.06);
+            border-color: rgba(255,255,255,0.25);
+        }
+
+        .feature-box h3 {
+            margin-top: 0;
+            color: #7eb8a8;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 1.5em;
+        }
+
+        li {
+            margin-bottom: 0.8em;
+            position: relative;
+        }
+
+        li:before {
+            content: "▸";
+            position: absolute;
+            left: -1.5em;
+            color: #b89e94;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-size: 3em;
+            color: #b89e94;
+            font-weight: 600;
+        }
+
+        .stat-label {
+            color: rgba(255,255,255,0.70);
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: rgba(255,255,255,0.5);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Dr. Emerald Montgomery</h1>
+            <p class="subtitle">Distinguished Professor • Computational Systems • Institute of Advanced Studies</p>
+        </header>
+
+        <section>
+            <h2>About</h2>
+            <p>I am a computational researcher with over two decades of experience in distributed systems, algorithmic optimization, and large-scale data analysis. My work has fundamentally shaped how modern computing infrastructure handles complexity at scale.</p>
+            <p>As the founding director of the Center for Computational Excellence, I have built a world-class research program that bridges theoretical computer science with practical applications in finance, healthcare, and national security. Our innovations have been adopted by Fortune 500 companies and government agencies worldwide.</p>
+            <div class="spotlight">
+                <h3>Academic Leadership</h3>
+                <p>Beyond research, I serve on the editorial boards of three premier journals, chair the ACM Special Interest Group on Scalable Computing, and advise national policy on technology infrastructure. My commitment to excellence in both scholarship and service has been recognized with the IEEE Distinguished Contribution Award and election to the National Academy of Engineering.</p>
+            </div>
+            <a href="#" class="button">View Publications</a>
+            <a href="#" class="button-secondary">Download CV</a>
+        </section>
+
+        <section>
+            <h2>Research Portfolio</h2>
+            <div class="features">
+                <div class="feature-box">
+                    <h3>Distributed Intelligence</h3>
+                    <p>Novel architectures for consensus algorithms in large-scale distributed systems with Byzantine fault tolerance.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Quantum Optimization</h3>
+                    <p>Bridging classical and quantum computing paradigms for solving NP-hard optimization problems.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Secure Computing</h3>
+                    <p>Cryptographic protocols for privacy-preserving computation in multi-party environments.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Academic Impact</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">187</div>
+                    <div class="stat-label">Publications</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">12,400+</div>
+                    <div class="stat-label">Citations</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">23</div>
+                    <div class="stat-label">Best Papers</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">45</div>
+                    <div class="stat-label">PhD Graduates</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recent Achievements</h2>
+            <ul>
+                <li><strong>October 2024:</strong> Elected to National Academy of Engineering for contributions to distributed computing</li>
+                <li><strong>September 2024:</strong> Awarded $5M NSF grant for quantum-classical hybrid systems research</li>
+                <li><strong>August 2024:</strong> Published landmark paper in Nature on scalable consensus protocols</li>
+                <li><strong>July 2024:</strong> Appointed to White House Technology Advisory Council</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Collaboration Opportunities</h2>
+            <p>I welcome inquiries from industry partners, government agencies, and academic institutions interested in advancing the frontiers of computational science. Our lab has extensive experience in translating fundamental research into practical solutions.</p>
+            <a href="#" class="button">Contact</a>
+            <a href="#" class="button-secondary">Lab Website</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Emerald Montgomery • Theme Preview: Corporate Emerald</p>
+        </footer>
+    </div>
+</body>
+</html>

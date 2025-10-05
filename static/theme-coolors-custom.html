@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Coolors Palette Theme Preview</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
+            background: linear-gradient(135deg, #65524d 0%, #817e9f 100%);
+            color: rgba(255,255,255,0.90);
+            line-height: 1.6;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid rgba(127,194,155,0.3);
+        }
+
+        h1 {
+            font-family: 'Space Grotesk', 'Inter', sans-serif;
+            font-size: 3.5em;
+            font-weight: 700;
+            color: #d7f171;
+            margin-bottom: 0.5em;
+            letter-spacing: -0.04em;
+        }
+
+        h2 {
+            font-family: 'Space Grotesk', 'Inter', sans-serif;
+            font-size: 2.2em;
+            font-weight: 600;
+            color: #b5ef8a;
+            margin: 1.5em 0 0.8em;
+            letter-spacing: -0.03em;
+        }
+
+        h3 {
+            font-family: 'Space Grotesk', 'Inter', sans-serif;
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #7fc29b;
+            margin: 1.2em 0 0.6em;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.25em;
+            color: rgba(255,255,255,0.75);
+            font-weight: 400;
+            letter-spacing: -0.01em;
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(127,194,155,0.2);
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            font-size: 1.05em;
+            font-weight: 400;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.85em 2.2em;
+            background: #7fc29b;
+            color: #65524d;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            margin: 0.5em 0.5em 0.5em 0;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+            font-family: 'Inter', sans-serif;
+            letter-spacing: -0.01em;
+        }
+
+        .button:hover {
+            background: #b5ef8a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(127, 194, 155, 0.35);
+        }
+
+        .button-secondary {
+            background: transparent;
+            color: #d7f171;
+            border: 2px solid #d7f171;
+        }
+
+        .button-secondary:hover {
+            background: #d7f171;
+            color: #65524d;
+        }
+
+        .spotlight {
+            background: rgba(127,194,155,0.12);
+            padding: 35px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 5px solid #7fc29b;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin: 30px 0;
+        }
+
+        .feature-box {
+            background: rgba(129,126,159,0.25);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid rgba(127,194,155,0.25);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .feature-box:hover {
+            background: rgba(129,126,159,0.35);
+            border-color: rgba(127,194,155,0.5);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+        }
+
+        .feature-box h3 {
+            margin-top: 0;
+            color: #b5ef8a;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 1.5em;
+        }
+
+        li {
+            margin-bottom: 1em;
+            position: relative;
+            line-height: 1.7;
+        }
+
+        li:before {
+            content: "→";
+            position: absolute;
+            left: -1.5em;
+            color: #7fc29b;
+            font-weight: 600;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+            gap: 20px;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 25px;
+            background: rgba(127,194,155,0.1);
+            border-radius: 12px;
+            min-width: 160px;
+            border: 1px solid rgba(127,194,155,0.2);
+        }
+
+        .stat-number {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3.5em;
+            color: #d7f171;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        .stat-label {
+            color: rgba(255,255,255,0.75);
+            font-size: 0.95em;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 0.3em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px 20px;
+            color: rgba(255,255,255,0.55);
+            font-size: 0.95em;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 736px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            h2 {
+                font-size: 1.75em;
+            }
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Dr. Custom Palette</h1>
+            <p class="subtitle">Modern Researcher • Interactive Systems • Design Lab</p>
+        </header>
+
+        <section>
+            <h2>About</h2>
+            <p>I am a researcher specializing in human-computer interaction, with a focus on creating intuitive and accessible digital experiences. My work combines rigorous empirical methods with creative design thinking to solve complex interaction challenges.</p>
+            <p>My research sits at the intersection of cognitive science, design, and engineering. I lead a diverse team exploring novel interaction paradigms, from augmented reality interfaces to adaptive AI systems that learn from user behavior. Our work has been recognized with multiple best paper awards and has influenced the design of products used by millions.</p>
+            <div class="spotlight">
+                <h3>Research Philosophy</h3>
+                <p>I believe that technology should amplify human capabilities without overwhelming us. My approach emphasizes iterative co-design with users, robust empirical validation, and a commitment to creating systems that are not only powerful but also delightful and accessible to diverse populations. Every project begins with understanding real human needs and ends with measurable impact.</p>
+            </div>
+            <a href="#" class="button">View Publications</a>
+            <a href="#" class="button-secondary">Download CV</a>
+        </section>
+
+        <section>
+            <h2>Featured Projects</h2>
+            <div class="features">
+                <div class="feature-box">
+                    <h3>Adaptive Interfaces</h3>
+                    <p>Developing machine learning systems that personalize user interfaces based on individual cognitive profiles and interaction patterns.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>AR Collaboration</h3>
+                    <p>Novel augmented reality tools for remote teamwork, enabling natural gesture-based interaction and spatial awareness.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Accessible AI</h3>
+                    <p>Creating voice and multimodal interfaces that make AI assistants truly usable for people with diverse abilities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Research Impact</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">56</div>
+                    <div class="stat-label">Publications</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">2,800+</div>
+                    <div class="stat-label">Citations</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">14</div>
+                    <div class="stat-label">Awards</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">18</div>
+                    <div class="stat-label">PhD Students</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recent Highlights</h2>
+            <ul>
+                <li><strong>October 2024:</strong> Best Paper Award at ACM CHI for research on adaptive user interfaces</li>
+                <li><strong>September 2024:</strong> Featured in Wired Magazine's "Innovators Shaping the Future of Tech"</li>
+                <li><strong>August 2024:</strong> Secured $2.5M NSF grant for accessibility research in AR/VR systems</li>
+                <li><strong>July 2024:</strong> Keynote at UIST Conference on "Designing for Human Augmentation"</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Get In Touch</h2>
+            <p>I'm always excited to connect with fellow researchers, industry partners, and students passionate about human-centered technology. Whether you're interested in collaboration, exploring research opportunities, or just want to discuss ideas, feel free to reach out.</p>
+            <a href="#" class="button">Email Me</a>
+            <a href="#" class="button-secondary">Schedule Meeting</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Custom Palette • Theme Preview: Coolors Custom</p>
+        </footer>
+    </div>
+</body>
+</html>

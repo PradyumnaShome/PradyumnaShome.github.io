@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mint Executive Theme Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #c8e6d3 0%, #b5d9c5 100%);
+            color: rgba(40,50,45,0.85);
+            line-height: 1.6;
+            font-weight: 300;
+            letter-spacing: -0.015em;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid rgba(45,122,110,0.25);
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 600;
+            color: #1e3d35;
+            margin-bottom: 0.5em;
+            letter-spacing: -0.03em;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: 400;
+            color: #2d4a42;
+            margin: 1.5em 0 0.8em;
+            letter-spacing: -0.025em;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            font-weight: 400;
+            color: #2d7a6e;
+            margin: 1.2em 0 0.6em;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: rgba(40,50,45,0.65);
+            font-weight: 300;
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(45,122,110,0.15);
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            font-size: 1.05em;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.75em 2em;
+            background: #2d7a6e;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 400;
+            margin: 0.5em 0.5em 0.5em 0;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+        }
+
+        .button:hover {
+            background: #3a8f81;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(45, 122, 110, 0.25);
+        }
+
+        .button-secondary {
+            background: transparent;
+            color: #2d7a6e;
+            border: 2px solid #2d7a6e;
+        }
+
+        .button-secondary:hover {
+            background: #2d7a6e;
+            color: #ffffff;
+        }
+
+        .spotlight {
+            background: rgba(255,255,255,0.6);
+            padding: 30px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #e88b7a;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature-box {
+            background: rgba(255,255,255,0.5);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid rgba(45,122,110,0.2);
+            transition: all 0.2s;
+        }
+
+        .feature-box:hover {
+            background: rgba(255,255,255,0.8);
+            border-color: rgba(45,122,110,0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .feature-box h3 {
+            margin-top: 0;
+            color: #2d7a6e;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 1.5em;
+        }
+
+        li {
+            margin-bottom: 0.8em;
+            position: relative;
+        }
+
+        li:before {
+            content: "▸";
+            position: absolute;
+            left: -1.5em;
+            color: #2d7a6e;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255,255,255,0.5);
+            border-radius: 8px;
+            min-width: 150px;
+        }
+
+        .stat-number {
+            font-size: 3em;
+            color: #2d7a6e;
+            font-weight: 600;
+        }
+
+        .stat-label {
+            color: rgba(40,50,45,0.70);
+            font-size: 0.9em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: rgba(40,50,45,0.5);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Dr. Mint Pearson</h1>
+            <p class="subtitle">Associate Professor • Digital Innovation • Tech Business School</p>
+        </header>
+
+        <section>
+            <h2>About</h2>
+            <p>I research the intersection of technology, design, and business strategy with a focus on digital transformation and innovation management. My work helps organizations navigate the complexities of technological change while maintaining human-centered values.</p>
+            <p>Before joining academia, I spent a decade in the technology industry leading product teams at both startups and established firms. This experience informs my research on how companies can successfully adopt emerging technologies while fostering inclusive and sustainable practices.</p>
+            <div class="spotlight">
+                <h3>Teaching Philosophy</h3>
+                <p>I believe in learning by doing. My courses combine rigorous theoretical frameworks with hands-on projects where students work with real organizations to solve actual business challenges. This approach has resulted in several student-led ventures and consulting engagements that have created measurable impact.</p>
+            </div>
+            <a href="#" class="button">View Publications</a>
+            <a href="#" class="button-secondary">Download CV</a>
+        </section>
+
+        <section>
+            <h2>Active Projects</h2>
+            <div class="features">
+                <div class="feature-box">
+                    <h3>Digital Wellness</h3>
+                    <p>Examining how organizations can design technology products that support user wellbeing and healthy digital habits.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Innovation Ecosystems</h3>
+                    <p>Mapping collaboration networks and knowledge flows in regional technology clusters.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Inclusive Design</h3>
+                    <p>Frameworks for building diverse teams and creating products that serve underrepresented communities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Impact Metrics</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">68</div>
+                    <div class="stat-label">Publications</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">3,200+</div>
+                    <div class="stat-label">Citations</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Industry Partners</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">450+</div>
+                    <div class="stat-label">Students Taught</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recent Highlights</h2>
+            <ul>
+                <li><strong>October 2024:</strong> Featured in Harvard Business Review for research on digital transformation</li>
+                <li><strong>September 2024:</strong> Launched new executive education program on AI strategy</li>
+                <li><strong>August 2024:</strong> Received Teaching Excellence Award from Tech Business School</li>
+                <li><strong>July 2024:</strong> Published case study on sustainable technology adoption in Fortune 500 companies</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Connect</h2>
+            <p>I'm always interested in connecting with fellow researchers, industry practitioners, and students passionate about responsible innovation. Whether you're looking to collaborate on research, explore consulting opportunities, or simply discuss ideas, feel free to reach out.</p>
+            <a href="#" class="button">Email Me</a>
+            <a href="#" class="button-secondary">LinkedIn</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Mint Pearson • Theme Preview: Mint Executive</p>
+        </footer>
+    </div>
+</body>
+</html>

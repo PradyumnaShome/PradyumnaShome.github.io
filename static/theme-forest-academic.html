@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Academic Theme Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #2c4a3e 0%, #1e3329 100%);
+            color: rgba(250,247,240,0.85);
+            line-height: 1.6;
+            font-weight: 300;
+            letter-spacing: -0.015em;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 2px solid rgba(139,90,111,0.4);
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: 600;
+            color: #faf7f0;
+            margin-bottom: 0.5em;
+            letter-spacing: -0.03em;
+            font-family: 'Caslon', Georgia, serif;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: 400;
+            color: #faf7f0;
+            margin: 1.5em 0 0.8em;
+            letter-spacing: -0.025em;
+            font-family: 'Caslon', Georgia, serif;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            font-weight: 400;
+            color: #d2a85a;
+            margin: 1.2em 0 0.6em;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: rgba(250,247,240,0.70);
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        section {
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(250,247,240,0.2);
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        p {
+            margin-bottom: 1.5em;
+            font-size: 1.05em;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.75em 2em;
+            background: #8b5a6f;
+            color: #faf7f0;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 400;
+            margin: 0.5em 0.5em 0.5em 0;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+        }
+
+        .button:hover {
+            background: #9d6b7f;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(139, 90, 111, 0.4);
+        }
+
+        .button-secondary {
+            background: transparent;
+            color: #d2a85a;
+            border: 2px solid #d2a85a;
+        }
+
+        .button-secondary:hover {
+            background: #d2a85a;
+            color: #1e3329;
+        }
+
+        .spotlight {
+            background: rgba(250,247,240,0.05);
+            padding: 30px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #8b5a6f;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature-box {
+            background: rgba(250,247,240,0.03);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid rgba(250,247,240,0.2);
+            transition: all 0.2s;
+        }
+
+        .feature-box:hover {
+            background: rgba(250,247,240,0.06);
+            border-color: rgba(250,247,240,0.3);
+        }
+
+        .feature-box h3 {
+            margin-top: 0;
+            color: #658a6f;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 1.5em;
+        }
+
+        li {
+            margin-bottom: 0.8em;
+            position: relative;
+        }
+
+        li:before {
+            content: "■";
+            position: absolute;
+            left: -1.5em;
+            color: #8b5a6f;
+            font-size: 0.7em;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .stat-number {
+            font-size: 3em;
+            color: #d2a85a;
+            font-weight: 600;
+            font-family: 'Caslon', Georgia, serif;
+        }
+
+        .stat-label {
+            color: rgba(250,247,240,0.70);
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: rgba(250,247,240,0.5);
+            font-size: 0.9em;
+            border-top: 1px solid rgba(250,247,240,0.15);
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Professor Forest Hawthorne</h1>
+            <p class="subtitle">Chaired Professor of Classical Literature • Department of Humanities • Oxford College</p>
+        </header>
+
+        <section>
+            <h2>About</h2>
+            <p>I am a scholar of ancient texts with particular expertise in comparative mythology, classical rhetoric, and the transmission of philosophical traditions across cultures. My work seeks to illuminate the enduring relevance of ancient wisdom for contemporary intellectual discourse.</p>
+            <p>Over three decades of scholarship, I have published extensively on the relationship between Greek, Roman, and Near Eastern literary traditions. My monograph "Echoes of Antiquity" received the prestigious Bancroft Prize and has been translated into twelve languages. I currently hold the Weatherby Chair in Classical Studies and serve as Master of Thornton College.</p>
+            <div class="spotlight">
+                <h3>Research Methodology</h3>
+                <p>My approach combines rigorous philological analysis with broader cultural and historical contextualization. I believe that understanding ancient texts requires not merely linguistic competence but also deep engagement with the material culture, social structures, and philosophical frameworks of antiquity. This integrative methodology has proven essential for recovering nuances often lost in traditional scholarship.</p>
+            </div>
+            <a href="#" class="button">Publications</a>
+            <a href="#" class="button-secondary">Curriculum Vitae</a>
+        </section>
+
+        <section>
+            <h2>Current Research</h2>
+            <div class="features">
+                <div class="feature-box">
+                    <h3>Manuscript Studies</h3>
+                    <p>Critical edition of newly discovered fragments from the Library of Alexandria, revealing previously unknown commentaries on Aristotelian logic.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Rhetorical Theory</h3>
+                    <p>Comparative analysis of persuasive techniques in classical oratory and their influence on medieval and Renaissance humanism.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Cultural Exchange</h3>
+                    <p>Tracing the dissemination of Hellenistic philosophical concepts through Silk Road trade networks and their integration into Asian thought.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Scholarly Record</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Monographs</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">124</div>
+                    <div class="stat-label">Articles</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">6,800+</div>
+                    <div class="stat-label">Citations</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">32</div>
+                    <div class="stat-label">Doctoral Students</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Recent Distinctions</h2>
+            <ul>
+                <li><strong>October 2024:</strong> Elected Corresponding Fellow of the British Academy</li>
+                <li><strong>September 2024:</strong> Delivered the Annual Lecture at the Institute for Advanced Study, Princeton</li>
+                <li><strong>August 2024:</strong> Awarded Guggenheim Fellowship for manuscript research in Mediterranean archives</li>
+                <li><strong>July 2024:</strong> Honorary Doctorate conferred by the University of Athens for contributions to classical scholarship</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Academic Correspondence</h2>
+            <p>I welcome scholarly inquiries and correspondence regarding research collaboration, manuscript consultation, and graduate supervision. Please note that due to the volume of communications, I endeavor to respond within a fortnight.</p>
+            <a href="#" class="button">Contact</a>
+            <a href="#" class="button-secondary">College Profile</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Forest Hawthorne • Theme Preview: Forest Academic</p>
+        </footer>
+    </div>
+</body>
+</html>

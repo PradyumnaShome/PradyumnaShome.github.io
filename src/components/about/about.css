@@ -1,41 +1,181 @@
 section#about {
-  background-color: var(--color-intro-card-bg);
-  color: var(--color-intro-card-fg);
+  text-align: justify;
+}
+
+section#about p {
   text-align: justify;
 }
 
 .resume-container, .cv-container {
   text-align: center;
   display: none;
+  margin-top: 2em;
 }
 
 .resume-container object, .cv-container object {
   padding: 2vh;
-  width: 45vw;
+  width: 80vw;
+  max-width: 1000px;
   height: 100vh;
+  border: 1px solid rgba(34,111,84,0.2);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(34,111,84,0.1);
 }
 
 section.main :is(h1, h2, h3, h4, h5, h6) {
   color: var(--color-text) !important;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 section.button-container {
   text-align: center;
+  margin: 2.5em 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-section.button-container button {
-  margin: 2%;
-  color: black;
-  background-color: var(--color-text);
-}
-
-header.major h2 {
-  font-weight: bold;
-  color: white;
+section.button-container button,
+section.button-container a.button {
+  color: #ffffff !important;
+  background: #226f54;
+  border: 2px solid #226f54;
+  padding: 14px 32px;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(34,111,84,0.25);
+  font-family: inherit;
+  min-width: 200px;
   text-align: center;
 }
 
-section#about h2 {
-  color: rgb(154, 0, 111) !important;
+section.button-container button:hover,
+section.button-container a.button:hover {
+  background: #1a5640;
+  border-color: #1a5640;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(34,111,84,0.35);
+  border-bottom: 2px solid #1a5640 !important;
+  color: #ffffff !important;
+}
+
+header.major h2 {
+  font-weight: 600;
+  text-align: center;
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin: 40px 0;
+}
+
+.info-card {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    padding: 32px 24px;
+    border-radius: 12px;
+    border: 0.5px solid rgba(34,111,84,0.12);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.info-card:hover {
+    border-color: rgba(34,111,84,0.2);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    transform: translateY(-2px);
+}
+
+.info-icon {
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.info-title {
+    color: #226f54 !important;
+    margin: 0 0 1.2em 0 !important;
+    font-size: 1.2em !important;
+    padding-bottom: 0.8em;
+    border-bottom: 2px solid rgba(34,111,84,0.15);
+}
+
+.info-card p {
+    text-align: left;
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.career-list, .education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.career-item, .education-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(34,111,84,0.15);
+}
+
+.career-item:last-child, .education-item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.career-org, .education-institution {
+    color: #226f54;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.career-role, .education-degree {
+    color: var(--color-text);
+    opacity: 0.8;
+    font-size: 0.9em;
+}
+
+.education-focus {
+    color: var(--color-text);
+    opacity: 0.7;
+    font-size: 0.85em;
+    font-style: italic;
+}
+
+.project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.project-list li {
+    color: rgba(67,41,31,0.85);
+    font-size: 0.9em;
+    line-height: 1.7;
+    padding: 0;
+    background: transparent;
+    border: none;
+    transition: color 0.2s ease;
+    text-align: center;
+}
+
+.project-list li:hover {
+    color: #226f54;
 }

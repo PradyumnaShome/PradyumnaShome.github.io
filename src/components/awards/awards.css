@@ -1,13 +1,17 @@
-section#awards h2 {
-    color: tomato !important;
-}
-
 section#awards {
-    background-color: mintcream;
-    color: black;
     text-align: left;
 }
 
 section#awards .subheading {
-    color: teal;
+    color: #c85a3f;
+    font-weight: 600;
+    margin-top: 1.5em;
+}
+
+.award-category {
+    margin-bottom: 2em;
+}
+
+.award-category ol {
+    margin-top: 1em;
 }

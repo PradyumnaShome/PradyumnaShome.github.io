@@ -3,7 +3,6 @@ import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
 import Layout from '../components/layout'
-import Links from '../components/Links/Links'
 import Header from '../components/header/header'
 import About from '../components/about/about'
 import Research from '../components/research/research'
@@ -40,31 +39,55 @@ class Index extends React.Component {
             [
               {
                 name: "description",
-                content: "PhD student in Computer Science at Georgia Institute of Technology"
+                content: "Co-Founder and Founding Engineer at Stealth Startup. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
               },
               {
-                name: "og:title",
+                property: "og:title",
                 content: "Pradyumna Shome"
               },
               {
-                name: "og:type",
+                property: "og:description",
+                content: "Co-Founder and Founding Engineer at Stealth Startup. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
+              },
+              {
+                property: "og:type",
                 content: "website"
               },
               {
-                name: "og:image",
-                content: profilePhoto
+                property: "og:url",
+                content: "https://pradyumnashome.com"
               },
               {
-                name: "og:image:width",
+                property: "og:image",
+                content: "https://pradyumnashome.com/portrait.png"
+              },
+              {
+                property: "og:image:width",
                 content: "1024"
               },
               {
-                name: "og:image:height",
+                property: "og:image:height",
                 content: "1024"
               },
               {
-                name: "og:image:type",
+                property: "og:image:type",
                 content: "image/png"
+              },
+              {
+                name: "twitter:card",
+                content: "summary_large_image"
+              },
+              {
+                name: "twitter:title",
+                content: "Pradyumna Shome"
+              },
+              {
+                name: "twitter:description",
+                content: "Co-Founder and Founding Engineer at Stealth Startup. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
+              },
+              {
+                name: "twitter:image",
+                content: "https://pradyumnashome.com/portrait.png"
               }
             ]}
         />
@@ -84,7 +107,6 @@ class Index extends React.Component {
           <Awards />
           <Personal/>
           <Music />
-          <Links />
         </main>
 
       </Layout>

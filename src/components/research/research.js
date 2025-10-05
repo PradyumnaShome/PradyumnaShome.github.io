@@ -11,11 +11,11 @@ export function Talks() {
         <h3 className="subheading">Talks</h3>
         <ol>
             {researchData.talks.map((item, idx) => {
-                return <li key={idx}>
+                return <li key={idx} className="publication-item">
                         <strong className="paper-title">
                             <a href={item.link}>
                                 {item.title}</a>
-                        </strong>,
+                        </strong>
                         <ul className="venue-list">
                         {
                             item.venues.map((venue, idx) => {
@@ -88,9 +88,9 @@ export function PublicationExtras(props) {
 
 export function Publication(props) {
     let paperLink = undefined;
-    
+
     if (!props.item.link || props.item.link.length === 0) {
-        paperLink = undefined;    
+        paperLink = undefined;
     } else if (props.item.link.startsWith("http://") || props.item.link.startsWith("https://")) {
         paperLink = props.item.link;
     } else {
@@ -107,7 +107,7 @@ export function Publication(props) {
 
     const dateElement = props.item.date + "." ?? <></>;
     const shouldShowVenue = String(props.item.venue);
-    return <li>
+    return <li className="publication-item">
         <strong className="paper-title">
             { linkElement }
         </strong>
@@ -160,7 +160,7 @@ export function AwardList(props) {
 export default function Research() {
     return <section id="research" className="main special">
         <header className="major">
-            <h2>Research</h2>
+            <h2>Publications & Talks</h2>
         </header>
         <Publications />
         <Talks />
