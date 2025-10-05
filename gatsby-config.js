@@ -4,7 +4,7 @@ module.exports = {
     description: `Co-Founder and Founding Engineer at Stealth Startup. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design.`,
     author: `Pradyumna Shome`,
     siteUrl: `https://pradyumnashome.com`,
-    image: `/portrait.png`,
+    image: `/images/pradyumna-shome.webp`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,10 +13,10 @@ module.exports = {
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',
-        icon: 'src/assets/images/portrait.png',
+        icon: 'static/images/pradyumna-shome.webp',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#f4f0bb',
+        theme_color: '#226f54',
         display: 'minimal-ui',
       },
     },

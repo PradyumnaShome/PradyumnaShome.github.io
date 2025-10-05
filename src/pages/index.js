@@ -11,7 +11,7 @@ import Awards from '../components/awards/awards'
 import Music from '../components/music/music'
 import Nav from '../components/Nav'
 
-import profilePhoto from '../assets/images/portrait.png';
+import profilePhoto from '../../static/images/pradyumna-shome.webp';
 
 class Index extends React.Component {
   constructor(props) {
@@ -59,7 +59,7 @@ class Index extends React.Component {
               },
               {
                 property: "og:image",
-                content: "https://pradyumnashome.com/portrait.png"
+                content: "https://pradyumnashome.com/images/pradyumna-shome.webp"
               },
               {
                 property: "og:image:width",
@@ -87,7 +87,7 @@ class Index extends React.Component {
               },
               {
                 name: "twitter:image",
-                content: "https://pradyumnashome.com/portrait.png"
+                content: "https://pradyumnashome.com/images/pradyumna-shome.webp"
               }
             ]}
         />
