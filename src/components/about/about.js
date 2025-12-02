@@ -52,7 +52,7 @@ export default function About() {
                             onClick={openPlayful}
                             onKeyDown={handlePlayfulKeyDown}
                             aria-label="Open Playful website"
-                        ><img src={playfulLogoSimple} alt="Playful" className="playful-logo-about" /></span>, building AI that generates tasteful designs, knows what's trending, and brings ideas out to play. I like building socio-technical systems that marry deep CS problems with clear user wins. Lately that's consumer AI for design, with roots in confidential computing, microarchitectural side-channel attacks, and human-AI collaboration. I enjoy making hard tech feel friendly—privacy-preserving crypto for Web3, simple interfaces for AI agents—and explaining it in plain English to whoever's in the room.
+                        ><img src={playfulLogoSimple} alt="Playful" className="playful-logo-about" /></span>, building AI that brings ideas out to play, knows what's trending, and generates tasteful designs. I like building socio-technical systems that marry deep CS problems with clear user wins. Lately that's consumer AI for design, with roots in confidential computing, microarchitectural side-channel attacks, and human-AI collaboration. I enjoy making hard tech feel friendly—privacy-preserving crypto for Web3, simple interfaces for AI agents—and explaining it in plain English to whoever's in the room.
                     </p>
                     <div className="info-cards">
                         <div className="info-card">
