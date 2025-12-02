@@ -1,6 +1,4 @@
 import React from 'react';
-import PersonalInterests from '../PersonalInterests/PersonalInterests';
-
 import './about.css';
 
 
@@ -80,7 +78,7 @@ export default function About() {
                             Your browser does not support PDFs. You can <a href="documents/Pradyumna_Shome_Resume.pdf">download it here</a>.
                     </object>
                     <section className="button-container">
-                        <a className="button" onClick={onResumeButtonClick}>Hide</a>
+                        <button type="button" className="button" onClick={onResumeButtonClick}>Hide</button>
                         <a className="button"
                             href="documents/Pradyumna_Shome_Resume.pdf">Download</a>
                     </section>
@@ -92,7 +90,7 @@ export default function About() {
                             Your browser does not support PDFs. You can <a href="documents/Pradyumna_Shome_Curriculum_Vitae.pdf">download it here</a>.
                     </object>
                     <section className="button-container">
-                        <a className="button" onClick={onCvButtonClick}>Hide</a>
+                        <button type="button" className="button" onClick={onCvButtonClick}>Hide</button>
                         <a className="button"
                             href="documents/Pradyumna_Shome_Curriculum_Vitae.pdf">Download</a>
                     </section>

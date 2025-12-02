@@ -105,7 +105,6 @@ export function Publication(props) {
         linkElement = props.item.title;
     }
 
-    const dateElement = props.item.date + "." ?? <></>;
     const shouldShowVenue = String(props.item.venue);
     return <li className="publication-item">
         <strong className="paper-title">

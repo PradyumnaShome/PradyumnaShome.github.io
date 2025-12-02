@@ -2,6 +2,15 @@ img.recipe-image {
     width: 100%;
 }
 
+.recipe-image-button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: none;
+    width: 100%;
+    cursor: pointer;
+}
+
 .image-modal-background {
     z-index: 1;
     width: 100%;

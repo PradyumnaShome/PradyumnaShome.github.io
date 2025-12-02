@@ -1,6 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
 import './header.css';
 
 import profilePhoto from '../../../static/images/pradyumna-shome.webp';
@@ -15,7 +13,7 @@ const Header = () => (
             <code>IPA: prədˈjʊmnə ʃoʊm</code> or <code>Phonetic: pruhd-yiuhm-nuh shohm</code>
         </p>
         <p>
-            Co-Founder and Founding Engineer at Stealth Startup
+            Co-Founder and Founding Engineer at <a href="https://playfuldesign.app">Playful</a>
         </p>
         <ul className="icons">
             <li>

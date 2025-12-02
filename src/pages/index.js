@@ -11,8 +11,6 @@ import Awards from '../components/awards/awards'
 import Music from '../components/music/music'
 import Nav from '../components/Nav'
 
-import profilePhoto from '../../static/images/pradyumna-shome.webp';
-
 class Index extends React.Component {
   constructor(props) {
     super(props);
@@ -39,7 +37,7 @@ class Index extends React.Component {
             [
               {
                 name: "description",
-                content: "Co-Founder and Founding Engineer at Stealth Startup. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
+                content: "Co-Founder and Founding Engineer at Playful. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
               },
               {
                 property: "og:title",
@@ -47,7 +45,7 @@ class Index extends React.Component {
               },
               {
                 property: "og:description",
-                content: "Co-Founder and Founding Engineer at Stealth Startup. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
+                content: "Co-Founder and Founding Engineer at Playful. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
               },
               {
                 property: "og:type",
@@ -83,7 +81,7 @@ class Index extends React.Component {
               },
               {
                 name: "twitter:description",
-                content: "Co-Founder and Founding Engineer at Stealth Startup. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
+                content: "Co-Founder and Founding Engineer at Playful. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
               },
               {
                 name: "twitter:image",
