@@ -39,7 +39,7 @@ export default function About() {
                 </header>
                 <section>
                     <p>
-                        I enjoy building socio-technical systems that combine intellectually rich computer science challenges with tangible user value. Currently focused on consumer AI for design, my work spans confidential computing, microarchitectural side-channel attacks, and human-AI collaboration. I'm particularly interested in making complex technologies accessible and usable—whether it's privacy-preserving cryptography for Web3 systems or intuitive interfaces for AI agents. I approach problems with technical rigor while staying deeply curious about how people interact with complex systems, and I find satisfaction in communicating these ideas clearly across diverse audiences.
+                        I'm Co-Founder and Founding Engineer at <a href="https://playfuldesign.app">Playful</a>, teaching AI to co-design with people. I like building socio-technical systems that marry deep CS problems with clear user wins. Lately that's consumer AI for design, with roots in confidential computing, microarchitectural side-channel attacks, and human-AI collaboration. I enjoy making hard tech feel friendly—privacy-preserving crypto for Web3, simple interfaces for AI agents—and explaining it in plain English to whoever's in the room.
                     </p>
                     <div className="info-cards">
                         <div className="info-card">
