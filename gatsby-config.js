@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Pradyumna Shome',
-    description: `Co-Founder and Founding Engineer at Stealth Startup. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design.`,
+    description: `Co-Founder and Founding Engineer at Playful, where ideas come to play.`,
     author: `Pradyumna Shome`,
     siteUrl: `https://pradyumnashome.com`,
     image: `/images/pradyumna-shome.webp`,
