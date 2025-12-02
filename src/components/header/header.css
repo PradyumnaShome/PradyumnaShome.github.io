@@ -16,6 +16,22 @@ a[rel="me"] {
   width: calc(10vh + 10vw);
 }
 
+.playful-logo-headline {
+  height: 1.9em;
+  vertical-align: middle;
+  transform: translate(-15%, 35%);
+}
+
+.playful-link-headline {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 739px) {
   .logo img {
     height: auto;

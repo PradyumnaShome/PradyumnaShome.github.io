@@ -1,8 +1,16 @@
 import React from 'react';
 import './about.css';
+import playfulLogoSimple from '../../../static/images/logo_simple.png';
 
 
 export default function About() {
+    const openPlayful = () => window.open('https://playfuldesign.app', '_blank', 'noopener');
+    const handlePlayfulKeyDown = (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openPlayful();
+        }
+    };
     const onResumeButtonClick = () => {
         const introSection = document.querySelector("section#about");
         const resumeContainer = document.querySelector(".resume-container");
@@ -37,7 +45,14 @@ export default function About() {
                 </header>
                 <section>
                     <p>
-                        I'm Co-Founder and Founding Engineer at <a href="https://playfuldesign.app">Playful</a>, teaching AI to co-design with people. I like building socio-technical systems that marry deep CS problems with clear user wins. Lately that's consumer AI for design, with roots in confidential computing, microarchitectural side-channel attacks, and human-AI collaboration. I enjoy making hard tech feel friendly—privacy-preserving crypto for Web3, simple interfaces for AI agents—and explaining it in plain English to whoever's in the room.
+                        I'm Co-Founder and Founding Engineer at <span
+                            role="link"
+                            tabIndex={0}
+                            className="playful-link-about"
+                            onClick={openPlayful}
+                            onKeyDown={handlePlayfulKeyDown}
+                            aria-label="Open Playful website"
+                        ><img src={playfulLogoSimple} alt="Playful" className="playful-logo-about" /></span>, building AI that generates tasteful designs, knows what's trending, and brings ideas out to play. I like building socio-technical systems that marry deep CS problems with clear user wins. Lately that's consumer AI for design, with roots in confidential computing, microarchitectural side-channel attacks, and human-AI collaboration. I enjoy making hard tech feel friendly—privacy-preserving crypto for Web3, simple interfaces for AI agents—and explaining it in plain English to whoever's in the room.
                     </p>
                     <div className="info-cards">
                         <div className="info-card">

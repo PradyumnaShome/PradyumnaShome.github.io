@@ -6,6 +6,22 @@ section#about p {
   text-align: justify;
 }
 
+.playful-logo-about {
+  height: 1.25em;
+  vertical-align: middle;
+  transform: translateY(22%);
+}
+
+.playful-link-about {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 2px;
+}
+
 .resume-container, .cv-container {
   text-align: center;
   display: none;
