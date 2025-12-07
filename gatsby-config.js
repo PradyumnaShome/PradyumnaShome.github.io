@@ -4,7 +4,7 @@ module.exports = {
     description: `Co-Founder and Founding Engineer at Playful, where ideas come to play.`,
     author: `Pradyumna Shome`,
     siteUrl: `https://pradyumnashome.com`,
-    image: `/images/pradyumna-shome.webp`,
+    image: `/images/pradyumna-shome.jpeg`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,7 +13,7 @@ module.exports = {
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',
-        icon: 'static/images/pradyumna-shome.webp',
+        icon: 'static/images/pradyumna-shome.jpeg',
         start_url: '/',
         background_color: '#f4f0bb',
         theme_color: '#226f54',

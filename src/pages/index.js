@@ -57,7 +57,7 @@ class Index extends React.Component {
               },
               {
                 property: "og:image",
-                content: "https://pradyumnashome.com/images/pradyumna-shome.webp"
+                content: "https://pradyumnashome.com/images/pradyumna-shome.jpeg"
               },
               {
                 property: "og:image:width",
@@ -69,7 +69,7 @@ class Index extends React.Component {
               },
               {
                 property: "og:image:type",
-                content: "image/png"
+                content: "image/jpeg"
               },
               {
                 name: "twitter:card",
@@ -85,7 +85,7 @@ class Index extends React.Component {
               },
               {
                 name: "twitter:image",
-                content: "https://pradyumnashome.com/images/pradyumna-shome.webp"
+                content: "https://pradyumnashome.com/images/pradyumna-shome.jpeg"
               }
             ]}
         />

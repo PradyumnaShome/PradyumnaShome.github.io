@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 
-import profilePhoto from '../../../static/images/pradyumna-shome.webp';
+import profilePhoto from '../../../static/images/pradyumna-shome.jpeg';
 import playfulLogo from '../../../static/images/logo_pink.png';
 
 const openPlayful = () => window.open('https://playfuldesign.app', '_blank', 'noopener');
