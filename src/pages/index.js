@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Waypoint from 'react-waypoint'
 
 import Layout from '../components/layout'
 import Header from '../components/header/header'
@@ -17,6 +16,7 @@ class Index extends React.Component {
     this.state = {
       stickyNav: false
     }
+    this.waypointRef = React.createRef();
   }
 
   _handleWaypointEnter = () => {
@@ -27,6 +27,35 @@ class Index extends React.Component {
     this.setState(() => ({ stickyNav: true }));
   }
 
+
+  componentDidMount() {
+    this._observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.target !== this.waypointRef.current) return;
+          if (entry.isIntersecting) {
+            this._handleWaypointEnter();
+          } else {
+            this._handleWaypointLeave();
+          }
+        });
+      },
+      { threshold: 0 }
+    );
+
+    if (this.waypointRef.current) {
+      this._observer.observe(this.waypointRef.current);
+    }
+  }
+
+  componentWillUnmount() {
+    if (this._observer && this.waypointRef.current) {
+      this._observer.unobserve(this.waypointRef.current);
+    }
+    if (this._observer) {
+      this._observer.disconnect();
+    }
+  }
 
   render() {
     return (
@@ -92,11 +121,11 @@ class Index extends React.Component {
 
         <Header />
 
-        <Waypoint
-          onEnter={this._handleWaypointEnter}
-          onLeave={this._handleWaypointLeave}
-        >
-        </Waypoint>
+        <div
+          ref={this.waypointRef}
+          aria-hidden="true"
+          style={{ height: 1, width: '100%' }}
+        />
         <Nav sticky={this.state.stickyNav} />
 
         <main id="main">

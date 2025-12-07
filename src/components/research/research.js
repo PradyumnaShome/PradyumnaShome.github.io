@@ -78,7 +78,8 @@ export function PublicationExtras(props) {
     return <ul>    
         {
             props.item.extras.map((item, idx) => {
-                return <li>
+                const key = item.title || item.link || idx;
+                return <li key={key}>
                     <PublicationExtra extra={item}/>
                 </li>
             })
