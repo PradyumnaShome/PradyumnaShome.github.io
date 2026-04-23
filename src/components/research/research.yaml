@@ -29,6 +29,15 @@ talks:
   link: https://youtu.be/POBtjU52GCk
 
 peerReviewedPublications:
+- title: "Why Johnny Can't Use Agents: Industry Aspirations vs. User Realities with AI Agent Software"
+  authors:
+  - Pradyumna Shome
+  - Sashreek Krishnan
+  - Sauvik Das
+  venue: "ACM Conference on AI and Agentic Systems (CAIS)"
+  type: conference
+  date: May 2026
+  link: 2025-Why-Johnny-Can't-Use-Agents-Industry-Aspirations-vs-User-Realities-with-AI-Agent-Software.pdf
 - title: "Poster: “Learning Too Much About Me”:  On the Security and Privacy Concerns of Generative AI Chatbots"
   authors:
   - Pradyumna Shome
@@ -76,15 +85,6 @@ peerReviewedPublications:
     link: 2021_isca_pandora_poster.pdf
 
 otherPublications:
-- title: "Why Johnny Can't Use Agents: Industry Aspirations vs. User Realities with AI Agent Software"
-  authors:
-  - Pradyumna Shome
-  - Sashreek Krishnan
-  - Sauvik Das
-  venue: arXiv
-  type: paper
-  date: September 2025
-  link: 2025-Why-Johnny-Can't-Use-Agents-Industry-Aspirations-vs-User-Realities-with-AI-Agent-Software.pdf
 - title: "SoK: Rowhammer in the Post-TRR Era"
   authors:
   - Pradyumna Shome
