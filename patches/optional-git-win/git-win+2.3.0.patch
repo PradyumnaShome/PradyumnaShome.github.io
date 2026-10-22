@@ -1,0 +1,13 @@
+diff --git a/node_modules/git-win/lib/get-release.js b/node_modules/git-win/lib/get-release.js
+index 9357c4f..ca3d383 100644
+--- a/node_modules/git-win/lib/get-release.js
++++ b/node_modules/git-win/lib/get-release.js
+@@ -73,7 +73,7 @@
+     // http请求数据
+     try {
+       const response = yield got(url, {
+-        json: true
++        responseType: "json"
+       });
+       return updateCache(response.body);
+     } catch (ex) {

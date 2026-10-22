@@ -29,6 +29,8 @@ jobs:
           node-version-file: .node-version
       - name: Install dependencies from the committed lockfile
         run: corepack yarn install --frozen-lockfile --non-interactive
+      - name: Validate security compatibility
+        run: corepack yarn run test:security
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: 'true'

@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet'
-import Waypoint from 'react-waypoint'
+import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/header/header'
 import Recipes from '../components/recipes/recipes'
