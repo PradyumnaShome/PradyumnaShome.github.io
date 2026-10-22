@@ -1,80 +1,51 @@
-# Sample workflow for building and deploying a Gatsby site to GitHub Pages
-#
-# To get started with Gatsby see: https://www.gatsbyjs.com/docs/quick-start/
-#
 name: Build and Deploy Gatsby site to AWS S3
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
+  pull_request:
+    branches: ["master"]
 
-# Allow one concurrent deployment
+permissions:
+  contents: read
+
 concurrency:
-  group: "build-and-deploy-to-aws-s3"
+  group: build-and-deploy-to-aws-s3-${{ github.ref }}
   cancel-in-progress: true
 
-# Default to bash
 defaults:
   run:
     shell: bash
 
 jobs:
-  # Build job
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-    - name: Detect package manager
-      id: detect-package-manager
-      run: |
-        if [ -f "${{ github.workspace }}/yarn.lock" ]; then
-          echo "::set-output name=manager::yarn"
-          echo "::set-output name=command::install"
-          exit 0
-        elif [ -f "${{ github.workspace }}/package.json" ]; then
-          echo "::set-output name=manager::npm"
-          echo "::set-output name=command::ci"
-          exit 0
-        else
-          echo "Unable to determine packager manager"
-          exit 1
-        fi
-    - name: Setup Node
-      uses: actions/setup-node@v3
-      with:
-        node-version: "18.8.0"
-        cache: ${{ steps.detect-package-manager.outputs.manager }}
-    - name: Restore cache
-      uses: actions/cache@v3
-      with:
-        path: |
-          public
-          .cache
-        key: ${{ runner.os }}-gatsby-build-${{ hashFiles('public') }}
-        restore-keys: |
-          ${{ runner.os }}-gatsby-build-
-    - name: Install dependencies
-      run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-    - name: Build with Gatsby
-      env:
-        PREFIX_PATHS: 'true'
-      run: ${{ steps.detect-package-manager.outputs.manager }} run build
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-east-1
-    - name: Deploy Gatsby to AWS S3
-      uses: jonelantha/gatsby-s3-action@v1
-      with:
-        # Destination S3 Bucket
-        dest-s3-bucket: pradyumnashome.com
-        # Browser cache duration (sec) for cache control headers
-        browser-cache-duration: 7890000
-        # CDN cache duration (sec) for cache control headers (sec)
-        cdn-cache-duration: 7890000
-        # Cloudfront ID to invalidate
-        cloudfront-id-to-invalidate: E2GNF2ZJTU2DX5 # optional
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Setup Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .node-version
+      - name: Install dependencies from the committed lockfile
+        run: corepack yarn install --frozen-lockfile --non-interactive
+      - name: Build with Gatsby
+        env:
+          PREFIX_PATHS: 'true'
+          GATSBY_TELEMETRY_DISABLED: '1'
+        run: corepack yarn run build
+      - name: Configure AWS Credentials
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: aws-actions/configure-aws-credentials@e1253824e5c10ff9df46874f81ed3ec929e19cfd # v6.3.0
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: Deploy Gatsby to AWS S3
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: jonelantha/gatsby-s3-action@08b1e5dc1df5022aa5c416355788d0294a232f44 # v4, Node 24
+        with:
+          dest-s3-bucket: pradyumnashome.com
+          browser-cache-duration: 7890000
+          cdn-cache-duration: 7890000
+          cloudfront-id-to-invalidate: E2GNF2ZJTU2DX5
