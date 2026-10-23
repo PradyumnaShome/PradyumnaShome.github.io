@@ -1,6 +1,7 @@
 import React from 'react';
 import './personal.css';
 import PersonalInterests from '../PersonalInterests/PersonalInterests';
+import SocialIcon from '../SocialIcon';
 
 export default function Personal() {
     return <section id="personal" className="main special">
@@ -9,6 +10,11 @@ export default function Personal() {
         </header>
         <h3 className="subheading">Technical Writings</h3>
         <div className="writings-grid">
+            <a href="https://x.com/PradyumnaShome/status/2075017479961882817" className="writing-card">
+                <div className="writing-icon"><SocialIcon name="x" /></div>
+                <div className="writing-title">Personas</div>
+                <div className="writing-meta">X</div>
+            </a>
             <a href="https://cmu-spuds.github.io/why-johnny-can-t-use-agents/" className="writing-card">
                 <div className="writing-icon">🤖</div>
                 <div className="writing-title">Why Johnny Can't Use Agents</div>
