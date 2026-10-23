@@ -3,6 +3,9 @@ const { execFileSync } = require('node:child_process');
 
 const DISTRIBUTION_ID = 'E2GNF2ZJTU2DX5';
 const SITE = 'pradyumnashome.com';
+// AWS's immutable managed policy disables caching and edge compression.
+// https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-managed-cache-policies.html#managed-cache-policy-caching-disabled
+const CACHING_DISABLED_POLICY_ID = '4135ea2d-6df8-44a3-9df3-4b5a84be39ad';
 
 function aws(operation, options = {}) {
   const args = ['cloudfront', operation];
@@ -31,9 +34,14 @@ function inspectCompression(run = aws) {
   const policies = new Map();
   const policyUpdates = [];
   const gzipOnlyBehaviors = [];
+  const excludedBehaviors = [];
   let distributionChanged = false;
   for (const behavior of behaviors) {
     if (!behavior) throw new Error('Cache behavior is missing');
+    if (behavior.CachePolicyId === CACHING_DISABLED_POLICY_ID) {
+      excludedBehaviors.push({ pathPattern: behavior.PathPattern || 'default', policyId: behavior.CachePolicyId, reason: 'CachingDisabled: edge compression requires caching' });
+      continue;
+    }
     if (behavior.OriginRequestPolicyId) {
       const origin = run('get-origin-request-policy', { id: behavior.OriginRequestPolicyId });
       const headers = origin.OriginRequestPolicy?.OriginRequestPolicyConfig?.HeadersConfig;
@@ -82,13 +90,14 @@ function inspectCompression(run = aws) {
   return {
     policyUpdates,
     gzipOnlyBehaviors,
+    excludedBehaviors,
     distributionUpdate: distributionChanged ? { Id: DISTRIBUTION_ID, IfMatch: snapshot.ETag, DistributionConfig: config } : null,
   };
 }
 
 function configureCompression({ apply = false, run = aws } = {}) {
   const plan = inspectCompression(run);
-  const summary = { distributionId: DISTRIBUTION_ID, cachePoliciesToUpdate: plan.policyUpdates.map(update => update.Id), distributionToUpdate: Boolean(plan.distributionUpdate), gzipOnlyBehaviors: plan.gzipOnlyBehaviors, applied: apply };
+  const summary = { distributionId: DISTRIBUTION_ID, cachePoliciesToUpdate: plan.policyUpdates.map(update => update.Id), distributionToUpdate: Boolean(plan.distributionUpdate), gzipOnlyBehaviors: plan.gzipOnlyBehaviors, excludedBehaviors: plan.excludedBehaviors, applied: apply };
   if (apply) {
     for (const update of plan.policyUpdates) run('update-cache-policy', { 'cli-input-json': update });
     if (plan.distributionUpdate) run('update-distribution', { 'cli-input-json': plan.distributionUpdate });
