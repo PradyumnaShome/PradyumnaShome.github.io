@@ -12,7 +12,7 @@ export default function Personal() {
         <div className="writings-grid">
             <a href="https://x.com/PradyumnaShome/status/2075017479961882817" className="writing-card">
                 <div className="writing-icon"><SocialIcon name="x" /></div>
-                <div className="writing-title">Personas</div>
+                <div className="writing-title">Giving AI Models Visual Taste Through Personas</div>
                 <div className="writing-meta">X</div>
             </a>
             <a href="https://cmu-spuds.github.io/why-johnny-can-t-use-agents/" className="writing-card">
