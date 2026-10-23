@@ -77,12 +77,16 @@
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "node scripts/apply-security-patches.cjs",
-    "test:security": "node --test tests/security-compat.test.cjs"
+    "test:security": "node --test tests/security-compat.test.cjs",
+    "prebuild": "node scripts/optimize-images.cjs",
+    "optimize:images": "node scripts/optimize-images.cjs"
   },
   "devDependencies": {
     "prettier": "^1.14.2",
     "patch-package": "8.0.1",
-    "postinstall-postinstall": "2.1.0"
+    "postinstall-postinstall": "2.1.0",
+    "sharp": "0.35.5",
+    "js-yaml": "3.15.2"
   },
   "repository": {
     "type": "git",

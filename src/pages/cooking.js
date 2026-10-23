@@ -1,52 +1,28 @@
 import React from 'react';
-import Helmet from 'react-helmet'
-import { Waypoint } from 'react-waypoint'
+import Seo from '../components/Seo'
 import Layout from '../components/layout'
 import Header from '../components/header/header'
 import Recipes from '../components/recipes/recipes'
 
-export default class Cooking extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            stickyNav: false
-        }
-    }
-
-    _handleWaypointEnter = () => {
-        this.setState(() => ({ stickyNav: false }));
-    }
-
-    _handleWaypointLeave = () => {
-        this.setState(() => ({ stickyNav: true }));
-    }
-
-    render() {
-
+export default function Cooking() {
         return (
-            <Layout>
-                <Helmet title="Pradyumna Shome" />
+            <Layout className="cooking-page">
+                <Seo title="Cooking | Pradyumna Shome" description="Food photographs and recipe links from Pradyumna Shome’s kitchen." path="/cooking/" collection />
 
-                <Header />
+                <Header compact />
 
-                <Waypoint
-                    onEnter={this._handleWaypointEnter}
-                    onLeave={this._handleWaypointLeave}
-                >
-                </Waypoint>
-                <div id="main">
+                <main id="main" className="cooking-content">
                     <section id="intro" className="main special">
-                        <div class="spotlight">
-                            <div class="content">
-                                <header class="major">
-                                    <h2>Cooking</h2>
-                                    <Recipes/>
+                        <div className="spotlight">
+                            <div className="content">
+                                <header className="major">
+                                    <h1>Cooking</h1>
                                 </header>
+                                <Recipes/>
                             </div>
                         </div>
                     </section>
-                </div>
+                </main>
             </Layout>
         )
-    }
 }

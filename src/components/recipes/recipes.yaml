@@ -1,130 +1,185 @@
+categories:
+- id: breakfast
+  name: Breakfast & brunch
+- id: rice-pasta-noodles
+  name: Rice, pasta & noodles
+- id: vegetables-tofu
+  name: Vegetables & tofu
+- id: mains
+  name: Main dishes
+- id: baking-sweets
+  name: Baking & sweet snacks
+
 recipes:
 - name: Macaroon Cookies 1
   recipeUrl: "https://sallysbakingaddiction.com/french-macarons/"
   imageUrl: macaroon_cookies_1.png
+  category: baking-sweets
 - name: Macaroon Cookies 2
   recipeUrl: "https://sallysbakingaddiction.com/french-macarons/"
   imageUrl: macaroon_cookies_2.png
+  category: baking-sweets
 - name: Chicken Cacciatore
   recipeUrl: "https://www.delicious.com.au/recipes/quick-chicken-cacciatore/1894df91-d6ef-4f0f-b7a8-7aafd6501ba5?current_section=recipes"
   imageUrl: chicken_cacciatore.png
+  category: mains
 - name: Egg Sandwiches with Veggies and Sriracha Mayo
   recipeUrl: ""
   imageUrl: egg_sandwiches_with_veggies_and_sriracha_mayo.png
+  category: breakfast
 - name: Greek Pasta Salad
   recipeUrl: "https://www.allrecipes.com/recipe/19389/greek-orzo-salad/"
   imageUrl: greek_pasta_salad.png
+  category: rice-pasta-noodles
 - name: Falafel Bowl with Jalapeno Heart
   recipeUrl: ""
   imageUrl: falafel_bowl_with_jalapeno_heart.png
+  category: vegetables-tofu
 - name: Louisiana Chicken Gumbo
   recipeUrl: ""
   imageUrl: louisiana_chicken_gumbo.png
+  category: mains
 - name: Cereal++
   recipeUrl: ""
   imageUrl: cereal++.png
+  category: breakfast
 - name: Breakfast Tofu Scramble with Potatoes
   recipeUrl: ""
   imageUrl: breakfast_tofu_scramble_with_potatoes.png
+  category: breakfast
 - name: Hainan Chicken Rice
   recipeUrl: "https://christieathome.com/blog/recipe-hainan-chicken-rice/"
   imageUrl: hainan_chicken_rice.png
+  category: rice-pasta-noodles
 - name: Hoisin Chicken
   recipeUrl: ""
   imageUrl: hoisin_chicken.png
+  category: mains
 - name: Pad Woon Sen (Thai Glass Noodle Stir Fry)
   recipeUrl: "https://sixhungryfeet.com/pad-woon-sen-glass-noodle-stir-fry/#recipe"
   imageUrl: thai_glass_noodles.png
+  category: rice-pasta-noodles
 - name: Tofu Slaw with Peanut Sauce
   recipeUrl: ""
   imageUrl: tofu_slaw_with_peanut_sauce.png
+  category: vegetables-tofu
 - name: Pad Krapow Gai (Spicy Thai Basil Tofu)
   recipeUrl: "https://www.allrecipes.com/recipe/257938/spicy-thai-basil-chicken-pad-krapow-gai/"
   imageUrl: thai_basil_tofu.png
+  category: vegetables-tofu
 - name: US Southwest Tofu Scramble
   recipeUrl: ""
   imageUrl: us_southwest_tofu_scramble.png
+  category: breakfast
 - name: Avocado Toast
   recipeUrl: "https://www.eatingwell.com/recipe/8029771/avocado-toast-recipe/"
   imageUrl: "avocado_toast.png"
+  category: breakfast
 - name: Honey Garlic Glazed Salmon
   recipeUrl: "https://www.delish.com/cooking/recipe-ideas/recipes/a55762/honey-garlic-glazed-salmon-recipe/"
   imageUrl: honey_garlic_glazed_salmon.jpg
+  category: mains
 - name: Tofu Scramble
   recipeUrl: "https://www.delish.com/cooking/recipe-ideas/a32392063/tofu-scramble-recipe/"
   imageUrl: tofu_scramble.png
+  category: breakfast
 - name: Grilled Chicken with Herbs Sandwich
   recipeUrl: "https://www.allrecipes.com/recipe/15641/grilled-chicken-with-herbs/"
   imageUrl: grilled_chicken_with_herbs_sandwich.jpeg
+  category: mains
 - name: Chicken in Arrabbiata
   recipeUrl: ""
   imageUrl: chicken_in_arrabbiata.png
+  category: mains
 - name: Cajun Lemon Fish
   recipeUrl: "https://www.food.com/recipe/baked-cajun-fish-42383"
   imageUrl: cajun_lemon_fish.jpg
+  category: mains
 - name: Teriyaki Chicken
   recipeUrl: "https://www.cookingclassy.com/teriyaki-chicken/"
   imageUrl: teriyaki_chicken.jpeg
+  category: mains
 - name: Salsa Chicken
   recipeUrl: "https://www.allrecipes.com/recipe/16700/salsa-chicken/"
   imageUrl: salsa_chicken.png
+  category: mains
 - name: Oatmeal with Fruits and Nuts
   recipeUrl: "https://cooking.nytimes.com/recipes/1012920-steel-cut-oatmeal-with-fruit"
   imageUrl: oatmeal_with_fruits_and_nuts.png
+  category: breakfast
 - name: Omelette
   recipeUrl: ""
   imageUrl: omelette.jpeg
+  category: breakfast
 - name: Roasted Vegetables and Spiced Chicken
   recipeUrl: ""
   imageUrl: roasted_vegetables_and_spiced_chicken.png
+  category: mains
 - name: Baked Vegetables
   recipeUrl: ""
   imageUrl: baked_vegetables.png
+  category: vegetables-tofu
 - name: Enchiladas
   recipeUrl: "https://www.allrecipes.com/recipe/47374/easy-chicken-enchiladas/"
   imageUrl: enchiladas.jpeg
+  category: mains
 - name: Egg Curry
   recipeUrl: "https://www.allrecipes.com/recipe/254254/indian-egg-curry/"
   imageUrl: egg_curry.jpeg
+  category: mains
 - name: Ground Chicken Curry
   recipeUrl: ""
   imageUrl: ground_chicken_curry.png
+  category: mains
 - name: Pasta with Mixed Vegetables
   recipeUrl: "https://www.allrecipes.com/recipe/16847/pasta-with-vegetables/"
   imageUrl: pasta_with_mixed_vegetables.png
+  category: rice-pasta-noodles
 - name: Burrito
   recipeUrl:
   imageUrl: burrito.png
+  category: mains
 - name: Lasagna
   recipeUrl:
   imageUrl: lasagna.jpeg
+  category: rice-pasta-noodles
 - name: Risotto with Pomodoro Chicken
   recipeUrl: "https://www.cookinglight.com/recipes/basic-risotto-recipe"
   imageUrl: risotto_with_pomodoro_chicken.png
+  category: rice-pasta-noodles
 - name: Pound Cake
   recipeUrl: ""
   imageUrl: "pound_cake.png"
+  category: baking-sweets
 - name: Cheesecake
   recipeUrl: ""
   imageUrl: "cheesecake.jpeg"
+  category: baking-sweets
 - name: Brownies
   recipeUrl:
   imageUrl: brownies.jpeg
+  category: baking-sweets
 - name: Ants on a Log
   recipeUrl:
   imageUrl: ants_on_a_log.jpeg
+  category: baking-sweets
 - name: Chocolate Chip Muffins
   recipeUrl:
   imageUrl: chocolate_chip_muffins.png
+  category: baking-sweets
 - name: Kao Pad
   recipeUrl:
   imageUrl: kao_pad.jpeg
+  category: rice-pasta-noodles
 - name: Stir-Fried Vegetables in Hoisin
   recipeUrl:
   imageUrl: stir_fried_vegetables_in_hoisin.jpeg
+  category: vegetables-tofu
 - name: Pizza
   recipeUrl:
   imageUrl: pizza.jpeg
+  category: mains
 - name: Cookies with Sprinkles
   recipeUrl:
   imageUrl: cookies_with_sprinkles.jpeg
+  category: baking-sweets

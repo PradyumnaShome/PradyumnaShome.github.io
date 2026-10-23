@@ -90,7 +90,7 @@ header.major h2 {
 
 .info-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     gap: 24px;
     margin: 40px 0;
 }
@@ -195,3 +195,11 @@ header.major h2 {
 .project-list li:hover {
     color: #226f54;
 }
+
+.playful-logo-about { width: auto; }
+
+.playful-link-about { vertical-align: middle; }
+.playful-logo-about { transform: none; }
+
+.resume-container, .cv-container { display: block; }
+.resume-container object, .cv-container object { max-width: 100%; }

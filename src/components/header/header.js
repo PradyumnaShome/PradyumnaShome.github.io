@@ -1,84 +1,49 @@
 import React from 'react'
-import './header.css';
+import { Link } from 'gatsby'
+import ResponsiveImage from '../ResponsiveImage'
+import SocialIcon from '../SocialIcon'
+import './header.css'
 
-import profilePhoto from '../../../static/images/pradyumna-shome.jpeg';
-import playfulLogo from '../../../static/images/logo_pink.png';
+const socialLinks = [
+    { name: 'Email', icon: 'email', href: 'mailto:pradyumna.shome@gmail.com' },
+    { name: 'LinkedIn', icon: 'linkedin', href: 'https://linkedin.com/in/pradyumna-shome' },
+    { name: 'GitHub', icon: 'github', href: 'https://github.com/PradyumnaShome' },
+    { name: 'X', icon: 'x', href: 'https://x.com/PradyumnaShome' },
+    { name: 'Mastodon', icon: 'mastodon', href: 'https://mastodon.social/@PradyumnaShome', rel: 'me' },
+    { name: 'Google Scholar', icon: 'scholar', href: 'https://scholar.google.com/citations?user=om4Ot2kAAAAJ' },
+    { name: 'Spotify', icon: 'spotify', href: 'https://open.spotify.com/user/x1lo68pet3v5jq25s7r8zakyq' },
+]
 
-const openPlayful = () => window.open('https://playfuldesign.app', '_blank', 'noopener');
-
-const Header = () => {
-    const handlePlayfulKeyDown = (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            openPlayful();
-        }
-    };
-
-    return (
-        <header id="header" className="alt">
-            <span className="logo"><img src={profilePhoto} alt="" /></span>
-            <h1>
-                Pradyumna Shome
-            </h1>
-            <p>
-                <code>IPA: prədˈjʊmnə ʃoʊm</code> or <code>Phonetic: pruhd-yiuhm-nuh shohm</code>
-            </p>
-            <p>
-                Co-Founder and Founding Engineer at <span
-                    role="link"
-                    tabIndex={0}
-                    className="playful-link-headline"
-                    onClick={openPlayful}
-                    onKeyDown={handlePlayfulKeyDown}
-                    aria-label="Open Playful website"
-                ><img src={playfulLogo} alt="Playful" className="playful-logo-headline" /></span>
-            </p>
-            <ul className="icons">
-                <li>
-                    <a href="mailto://pradyumna.shome@gmail.com" className="icon
-                                    fa-envelope alt">
-                        <span className="label">Email</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://linkedin.com/in/pradyumna-shome" className="icon
-                                    fa-linkedin-in alt">
-                        <span className="label">LinkedIn</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/PradyumnaShome" className="icon
-                                    fa-github alt">
-                        <span className="label">GitHub</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://x.com/PradyumnaShome" className="icon
-                                    fa-x alt">
-                        <span className="label">Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a rel="me" href="https://mastodon.social/@PradyumnaShome">Mastodon</a>
-                    <a href="https://mastodon.social/@PradyumnaShome" className="icon fa-mastodon alt">
-                        <span className="label">Mastodon</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://scholar.google.com/citations?user=om4Ot2kAAAAJ" className="icon
-                                    fa-google alt">
-                        <span className="label">Google Scholar</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://open.spotify.com/user/x1lo68pet3v5jq25s7r8zakyq" className="icon
-                                    fa-spotify alt">
-                        <span className="label">Spotify</span>
-                    </a>
-                </li>
-            </ul>
+export default function Header({ compact = false }) {
+    if (compact) {
+        return <header id="header" className="compact-header">
+            <Link to="/" className="compact-identity">
+                <span className="logo"><ResponsiveImage imageKey="/images/pradyumna-shome.jpeg" alt="" sizes="64px" loading="eager" /></span>
+                <span>Pradyumna Shome</span>
+            </Link>
+            <Link to="/" className="home-link">Home</Link>
         </header>
-    );
+    }
+    return <header id="header" className="alt">
+        <span className="logo"><ResponsiveImage imageKey="/images/pradyumna-shome.jpeg" alt="Pradyumna Shome" sizes="(max-width: 739px) 70vw, 30vw" loading="eager" fetchPriority="high" /></span>
+        <h1>Pradyumna Shome</h1>
+        <p><code>IPA: prədˈjʊmnə ʃoʊm</code> or <code>Phonetic: pruhd-yiuhm-nuh shohm</code></p>
+        <p className="role-line">
+            Co-Founder and Founding Engineer at <a
+                href="https://playfuldesign.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="playful-link-headline"
+                aria-label="Playful website"
+            ><ResponsiveImage imageKey="/images/logo_pink.png" alt="Playful" className="playful-logo-headline" sizes="96px" loading="eager" /></a>
+        </p>
+        <ul className="icons" aria-label="Find me elsewhere">
+            {socialLinks.map(link => <li key={link.icon}>
+                <a href={link.href} className="icon alt social-link" rel={link.rel} aria-label={link.name}>
+                    <SocialIcon name={link.icon} />
+                    <span className="visually-hidden">{link.name}</span>
+                </a>
+            </li>)}
+        </ul>
+    </header>
 }
-
-export default Header

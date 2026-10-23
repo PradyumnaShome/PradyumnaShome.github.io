@@ -146,3 +146,14 @@ section#research ol > li.publication-item {
     background: rgba(34,111,84,0.08);
     border-color: rgba(34,111,84,0.4);
 }
+/* One green for linked titles and authors, warm dark metadata. */
+#research .paper-title, #research .paper-title a { color: #226f54 !important; }
+#research .paper-title a { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .2em; }
+#research .publication-item p, #research .venue-list, #research .publication-item [class^="publication-"] { color: #59443b; }
+#research .publication-item a { color: #226f54 !important; }
+#research .publication-item .paper-title a { color: #226f54 !important; }
+#research .publication-item a:hover { color: #1a5640 !important; }
+#research li.award { color: #1a5640; background: #f1f5f2; border-color: #b8ccc1; }
+
+#research ul.award-list { gap: 12px; margin: 12px 0; }
+#research ul.award-list li.award { padding: 8px 14px; margin: 0; font-size: .9em; line-height: 1.45; max-width: 100%; }

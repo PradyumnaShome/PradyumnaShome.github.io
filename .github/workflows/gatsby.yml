@@ -31,6 +31,10 @@ jobs:
         run: corepack yarn install --frozen-lockfile --non-interactive
       - name: Validate security compatibility
         run: corepack yarn run test:security
+      - name: Validate CloudFront compression safeguards
+        run: node --test tests/cloudfront-compression.test.cjs
+      - name: Validate CloudFront CSP safeguards
+        run: node --test tests/cloudfront-security.test.cjs
       - name: Build with Gatsby
         env:
           PREFIX_PATHS: 'true'
@@ -43,6 +47,12 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
+      - name: Configure CloudFront compression
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: node scripts/configure-cloudfront-compression.cjs --apply
+      - name: Configure observed analytics CSP connections
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: node scripts/configure-cloudfront-security.cjs --apply
       - name: Deploy Gatsby to AWS S3
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: jonelantha/gatsby-s3-action@08b1e5dc1df5022aa5c416355788d0294a232f44 # v4, Node 24

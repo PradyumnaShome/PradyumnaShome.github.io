@@ -1,0 +1,2664 @@
+{
+  "/images/ai-card-icon.png": {
+    "width": 1024,
+    "height": 1024,
+    "original": "/images/ai-card-icon.png",
+    "avif": [
+      {
+        "src": "/images/optimized/ai-card-icon-fc0203497c717111-96.avif",
+        "width": 96,
+        "height": 96,
+        "bytes": 1758
+      },
+      {
+        "src": "/images/optimized/ai-card-icon-fc0203497c717111-144.avif",
+        "width": 144,
+        "height": 144,
+        "bytes": 2393
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/ai-card-icon-fc0203497c717111-96.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3730
+      },
+      {
+        "src": "/images/optimized/ai-card-icon-fc0203497c717111-144.webp",
+        "width": 144,
+        "height": 144,
+        "bytes": 6386
+      }
+    ],
+    "fallback": "/images/optimized/ai-card-icon-fc0203497c717111-144.webp"
+  },
+  "/images/computer-security-and-privacy-card-icon.png": {
+    "width": 1024,
+    "height": 1024,
+    "original": "/images/computer-security-and-privacy-card-icon.png",
+    "avif": [
+      {
+        "src": "/images/optimized/computer-security-and-privacy-card-icon-601d3975e560f408-96.avif",
+        "width": 96,
+        "height": 96,
+        "bytes": 1356
+      },
+      {
+        "src": "/images/optimized/computer-security-and-privacy-card-icon-601d3975e560f408-144.avif",
+        "width": 144,
+        "height": 144,
+        "bytes": 1774
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/computer-security-and-privacy-card-icon-601d3975e560f408-96.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 3102
+      },
+      {
+        "src": "/images/optimized/computer-security-and-privacy-card-icon-601d3975e560f408-144.webp",
+        "width": 144,
+        "height": 144,
+        "bytes": 5424
+      }
+    ],
+    "fallback": "/images/optimized/computer-security-and-privacy-card-icon-601d3975e560f408-144.webp"
+  },
+  "/images/logo_pink.png": {
+    "width": 1068,
+    "height": 474,
+    "original": "/images/logo_pink.png",
+    "avif": [
+      {
+        "src": "/images/optimized/logo_pink-589f5f25c26ee789-160.avif",
+        "width": 160,
+        "height": 71,
+        "bytes": 3150
+      },
+      {
+        "src": "/images/optimized/logo_pink-589f5f25c26ee789-320.avif",
+        "width": 320,
+        "height": 142,
+        "bytes": 8710
+      },
+      {
+        "src": "/images/optimized/logo_pink-589f5f25c26ee789-480.avif",
+        "width": 480,
+        "height": 213,
+        "bytes": 14076
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/logo_pink-589f5f25c26ee789-160.webp",
+        "width": 160,
+        "height": 71,
+        "bytes": 10036
+      },
+      {
+        "src": "/images/optimized/logo_pink-589f5f25c26ee789-320.webp",
+        "width": 320,
+        "height": 142,
+        "bytes": 21802
+      },
+      {
+        "src": "/images/optimized/logo_pink-589f5f25c26ee789-480.webp",
+        "width": 480,
+        "height": 213,
+        "bytes": 35642
+      }
+    ],
+    "fallback": "/images/optimized/logo_pink-589f5f25c26ee789-320.webp"
+  },
+  "/images/logo_simple.png": {
+    "width": 4160,
+    "height": 1266,
+    "original": "/images/logo_simple.png",
+    "avif": [
+      {
+        "src": "/images/optimized/logo_simple-ac961b706b975aec-160.avif",
+        "width": 160,
+        "height": 49,
+        "bytes": 2094
+      },
+      {
+        "src": "/images/optimized/logo_simple-ac961b706b975aec-320.avif",
+        "width": 320,
+        "height": 97,
+        "bytes": 3660
+      },
+      {
+        "src": "/images/optimized/logo_simple-ac961b706b975aec-480.avif",
+        "width": 480,
+        "height": 146,
+        "bytes": 5355
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/logo_simple-ac961b706b975aec-160.webp",
+        "width": 160,
+        "height": 49,
+        "bytes": 3698
+      },
+      {
+        "src": "/images/optimized/logo_simple-ac961b706b975aec-320.webp",
+        "width": 320,
+        "height": 97,
+        "bytes": 7816
+      },
+      {
+        "src": "/images/optimized/logo_simple-ac961b706b975aec-480.webp",
+        "width": 480,
+        "height": 146,
+        "bytes": 12068
+      }
+    ],
+    "fallback": "/images/optimized/logo_simple-ac961b706b975aec-320.webp"
+  },
+  "/images/pradyumna-shome.jpeg": {
+    "width": 3116,
+    "height": 3116,
+    "original": "/images/pradyumna-shome.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/pradyumna-shome-483db0c6bf040c28-320.avif",
+        "width": 320,
+        "height": 320,
+        "bytes": 8626
+      },
+      {
+        "src": "/images/optimized/pradyumna-shome-483db0c6bf040c28-640.avif",
+        "width": 640,
+        "height": 640,
+        "bytes": 26510
+      },
+      {
+        "src": "/images/optimized/pradyumna-shome-483db0c6bf040c28-960.avif",
+        "width": 960,
+        "height": 960,
+        "bytes": 53433
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/pradyumna-shome-483db0c6bf040c28-320.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 15202
+      },
+      {
+        "src": "/images/optimized/pradyumna-shome-483db0c6bf040c28-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 45770
+      },
+      {
+        "src": "/images/optimized/pradyumna-shome-483db0c6bf040c28-960.webp",
+        "width": 960,
+        "height": 960,
+        "bytes": 105484
+      }
+    ],
+    "fallback": "/images/optimized/pradyumna-shome-483db0c6bf040c28-640.webp"
+  },
+  "/images/recipes/ants_on_a_log.jpeg": {
+    "width": 1784,
+    "height": 1338,
+    "original": "/images/recipes/ants_on_a_log.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/ants_on_a_log-9e4749e34c7d7a2f-360.avif",
+        "width": 360,
+        "height": 270,
+        "bytes": 19379
+      },
+      {
+        "src": "/images/optimized/ants_on_a_log-9e4749e34c7d7a2f-720.avif",
+        "width": 720,
+        "height": 540,
+        "bytes": 58629
+      },
+      {
+        "src": "/images/optimized/ants_on_a_log-9e4749e34c7d7a2f-1080.avif",
+        "width": 1080,
+        "height": 810,
+        "bytes": 104657
+      },
+      {
+        "src": "/images/optimized/ants_on_a_log-9e4749e34c7d7a2f-1600.avif",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 178299
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/ants_on_a_log-9e4749e34c7d7a2f-360.webp",
+        "width": 360,
+        "height": 270,
+        "bytes": 39284
+      },
+      {
+        "src": "/images/optimized/ants_on_a_log-9e4749e34c7d7a2f-720.webp",
+        "width": 720,
+        "height": 540,
+        "bytes": 119156
+      },
+      {
+        "src": "/images/optimized/ants_on_a_log-9e4749e34c7d7a2f-1080.webp",
+        "width": 1080,
+        "height": 810,
+        "bytes": 205480
+      },
+      {
+        "src": "/images/optimized/ants_on_a_log-9e4749e34c7d7a2f-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 328892
+      }
+    ],
+    "fallback": "/images/optimized/ants_on_a_log-9e4749e34c7d7a2f-720.webp"
+  },
+  "/images/recipes/avocado_toast.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/avocado_toast.png",
+    "avif": [
+      {
+        "src": "/images/optimized/avocado_toast-2990c176944069a7-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 21855
+      },
+      {
+        "src": "/images/optimized/avocado_toast-2990c176944069a7-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 70503
+      },
+      {
+        "src": "/images/optimized/avocado_toast-2990c176944069a7-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 129478
+      },
+      {
+        "src": "/images/optimized/avocado_toast-2990c176944069a7-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 222180
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/avocado_toast-2990c176944069a7-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 40348
+      },
+      {
+        "src": "/images/optimized/avocado_toast-2990c176944069a7-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 122210
+      },
+      {
+        "src": "/images/optimized/avocado_toast-2990c176944069a7-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 208062
+      },
+      {
+        "src": "/images/optimized/avocado_toast-2990c176944069a7-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 344230
+      }
+    ],
+    "fallback": "/images/optimized/avocado_toast-2990c176944069a7-720.webp"
+  },
+  "/images/recipes/baked_vegetables.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/baked_vegetables.png",
+    "avif": [
+      {
+        "src": "/images/optimized/baked_vegetables-f224bf51a379a366-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 19504
+      },
+      {
+        "src": "/images/optimized/baked_vegetables-f224bf51a379a366-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 65450
+      },
+      {
+        "src": "/images/optimized/baked_vegetables-f224bf51a379a366-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 130232
+      },
+      {
+        "src": "/images/optimized/baked_vegetables-f224bf51a379a366-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 240789
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/baked_vegetables-f224bf51a379a366-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 37626
+      },
+      {
+        "src": "/images/optimized/baked_vegetables-f224bf51a379a366-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 113546
+      },
+      {
+        "src": "/images/optimized/baked_vegetables-f224bf51a379a366-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 213310
+      },
+      {
+        "src": "/images/optimized/baked_vegetables-f224bf51a379a366-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 377938
+      }
+    ],
+    "fallback": "/images/optimized/baked_vegetables-f224bf51a379a366-720.webp"
+  },
+  "/images/recipes/breakfast_tofu_scramble_with_potatoes.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/breakfast_tofu_scramble_with_potatoes.png",
+    "avif": [
+      {
+        "src": "/images/optimized/breakfast_tofu_scramble_with_potatoes-99ec47757aaefaaa-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 17187
+      },
+      {
+        "src": "/images/optimized/breakfast_tofu_scramble_with_potatoes-99ec47757aaefaaa-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 46142
+      },
+      {
+        "src": "/images/optimized/breakfast_tofu_scramble_with_potatoes-99ec47757aaefaaa-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 81890
+      },
+      {
+        "src": "/images/optimized/breakfast_tofu_scramble_with_potatoes-99ec47757aaefaaa-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 146984
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/breakfast_tofu_scramble_with_potatoes-99ec47757aaefaaa-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 29994
+      },
+      {
+        "src": "/images/optimized/breakfast_tofu_scramble_with_potatoes-99ec47757aaefaaa-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 72796
+      },
+      {
+        "src": "/images/optimized/breakfast_tofu_scramble_with_potatoes-99ec47757aaefaaa-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 122516
+      },
+      {
+        "src": "/images/optimized/breakfast_tofu_scramble_with_potatoes-99ec47757aaefaaa-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 211860
+      }
+    ],
+    "fallback": "/images/optimized/breakfast_tofu_scramble_with_potatoes-99ec47757aaefaaa-720.webp"
+  },
+  "/images/recipes/brownies.jpeg": {
+    "width": 1003,
+    "height": 1338,
+    "original": "/images/recipes/brownies.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/brownies-92bf608283444abb-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 15713
+      },
+      {
+        "src": "/images/optimized/brownies-92bf608283444abb-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 57048
+      },
+      {
+        "src": "/images/optimized/brownies-92bf608283444abb-1003.avif",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 115649
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/brownies-92bf608283444abb-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 30786
+      },
+      {
+        "src": "/images/optimized/brownies-92bf608283444abb-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 117406
+      },
+      {
+        "src": "/images/optimized/brownies-92bf608283444abb-1003.webp",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 243130
+      }
+    ],
+    "fallback": "/images/optimized/brownies-92bf608283444abb-720.webp"
+  },
+  "/images/recipes/burrito.png": {
+    "width": 1003,
+    "height": 1338,
+    "original": "/images/recipes/burrito.png",
+    "avif": [
+      {
+        "src": "/images/optimized/burrito-29ec78ecca704265-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 13821
+      },
+      {
+        "src": "/images/optimized/burrito-29ec78ecca704265-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 37816
+      },
+      {
+        "src": "/images/optimized/burrito-29ec78ecca704265-1003.avif",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 73643
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/burrito-29ec78ecca704265-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 19434
+      },
+      {
+        "src": "/images/optimized/burrito-29ec78ecca704265-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 51538
+      },
+      {
+        "src": "/images/optimized/burrito-29ec78ecca704265-1003.webp",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 108774
+      }
+    ],
+    "fallback": "/images/optimized/burrito-29ec78ecca704265-720.webp"
+  },
+  "/images/recipes/cajun_lemon_fish.jpg": {
+    "width": 768,
+    "height": 1024,
+    "original": "/images/recipes/cajun_lemon_fish.jpg",
+    "avif": [
+      {
+        "src": "/images/optimized/cajun_lemon_fish-51b7ab844e6e7b3f-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 15384
+      },
+      {
+        "src": "/images/optimized/cajun_lemon_fish-51b7ab844e6e7b3f-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 46828
+      },
+      {
+        "src": "/images/optimized/cajun_lemon_fish-51b7ab844e6e7b3f-768.avif",
+        "width": 768,
+        "height": 1024,
+        "bytes": 55547
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/cajun_lemon_fish-51b7ab844e6e7b3f-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 26636
+      },
+      {
+        "src": "/images/optimized/cajun_lemon_fish-51b7ab844e6e7b3f-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 72792
+      },
+      {
+        "src": "/images/optimized/cajun_lemon_fish-51b7ab844e6e7b3f-768.webp",
+        "width": 768,
+        "height": 1024,
+        "bytes": 78166
+      }
+    ],
+    "fallback": "/images/optimized/cajun_lemon_fish-51b7ab844e6e7b3f-720.webp"
+  },
+  "/images/recipes/cereal++.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/cereal++.png",
+    "avif": [
+      {
+        "src": "/images/optimized/cereal---9e3785a327839dac-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 12923
+      },
+      {
+        "src": "/images/optimized/cereal---9e3785a327839dac-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 35064
+      },
+      {
+        "src": "/images/optimized/cereal---9e3785a327839dac-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 61199
+      },
+      {
+        "src": "/images/optimized/cereal---9e3785a327839dac-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 104535
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/cereal---9e3785a327839dac-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 21292
+      },
+      {
+        "src": "/images/optimized/cereal---9e3785a327839dac-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 52244
+      },
+      {
+        "src": "/images/optimized/cereal---9e3785a327839dac-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 87444
+      },
+      {
+        "src": "/images/optimized/cereal---9e3785a327839dac-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 146702
+      }
+    ],
+    "fallback": "/images/optimized/cereal---9e3785a327839dac-720.webp"
+  },
+  "/images/recipes/cheesecake.jpeg": {
+    "width": 1338,
+    "height": 1338,
+    "original": "/images/recipes/cheesecake.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/cheesecake-754ec49f2bd03a12-360.avif",
+        "width": 360,
+        "height": 360,
+        "bytes": 14755
+      },
+      {
+        "src": "/images/optimized/cheesecake-754ec49f2bd03a12-720.avif",
+        "width": 720,
+        "height": 720,
+        "bytes": 43475
+      },
+      {
+        "src": "/images/optimized/cheesecake-754ec49f2bd03a12-1080.avif",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 83691
+      },
+      {
+        "src": "/images/optimized/cheesecake-754ec49f2bd03a12-1338.avif",
+        "width": 1338,
+        "height": 1338,
+        "bytes": 125841
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/cheesecake-754ec49f2bd03a12-360.webp",
+        "width": 360,
+        "height": 360,
+        "bytes": 25038
+      },
+      {
+        "src": "/images/optimized/cheesecake-754ec49f2bd03a12-720.webp",
+        "width": 720,
+        "height": 720,
+        "bytes": 70048
+      },
+      {
+        "src": "/images/optimized/cheesecake-754ec49f2bd03a12-1080.webp",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 130100
+      },
+      {
+        "src": "/images/optimized/cheesecake-754ec49f2bd03a12-1338.webp",
+        "width": 1338,
+        "height": 1338,
+        "bytes": 185696
+      }
+    ],
+    "fallback": "/images/optimized/cheesecake-754ec49f2bd03a12-720.webp"
+  },
+  "/images/recipes/chicken_cacciatore.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/chicken_cacciatore.png",
+    "avif": [
+      {
+        "src": "/images/optimized/chicken_cacciatore-5194155b77885de1-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 18421
+      },
+      {
+        "src": "/images/optimized/chicken_cacciatore-5194155b77885de1-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 57921
+      },
+      {
+        "src": "/images/optimized/chicken_cacciatore-5194155b77885de1-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 117332
+      },
+      {
+        "src": "/images/optimized/chicken_cacciatore-5194155b77885de1-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 241012
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/chicken_cacciatore-5194155b77885de1-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 31756
+      },
+      {
+        "src": "/images/optimized/chicken_cacciatore-5194155b77885de1-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 94040
+      },
+      {
+        "src": "/images/optimized/chicken_cacciatore-5194155b77885de1-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 191074
+      },
+      {
+        "src": "/images/optimized/chicken_cacciatore-5194155b77885de1-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 380656
+      }
+    ],
+    "fallback": "/images/optimized/chicken_cacciatore-5194155b77885de1-720.webp"
+  },
+  "/images/recipes/chicken_in_arrabbiata.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/chicken_in_arrabbiata.png",
+    "avif": [
+      {
+        "src": "/images/optimized/chicken_in_arrabbiata-88efc7b1dbae1822-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 21174
+      },
+      {
+        "src": "/images/optimized/chicken_in_arrabbiata-88efc7b1dbae1822-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 69236
+      },
+      {
+        "src": "/images/optimized/chicken_in_arrabbiata-88efc7b1dbae1822-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 142175
+      },
+      {
+        "src": "/images/optimized/chicken_in_arrabbiata-88efc7b1dbae1822-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 288473
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/chicken_in_arrabbiata-88efc7b1dbae1822-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 36878
+      },
+      {
+        "src": "/images/optimized/chicken_in_arrabbiata-88efc7b1dbae1822-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 116872
+      },
+      {
+        "src": "/images/optimized/chicken_in_arrabbiata-88efc7b1dbae1822-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 230842
+      },
+      {
+        "src": "/images/optimized/chicken_in_arrabbiata-88efc7b1dbae1822-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 469974
+      }
+    ],
+    "fallback": "/images/optimized/chicken_in_arrabbiata-88efc7b1dbae1822-720.webp"
+  },
+  "/images/recipes/chocolate_chip_muffins.png": {
+    "width": 2379,
+    "height": 1338,
+    "original": "/images/recipes/chocolate_chip_muffins.png",
+    "avif": [
+      {
+        "src": "/images/optimized/chocolate_chip_muffins-4be54f631bd5ff58-360.avif",
+        "width": 360,
+        "height": 202,
+        "bytes": 9323
+      },
+      {
+        "src": "/images/optimized/chocolate_chip_muffins-4be54f631bd5ff58-720.avif",
+        "width": 720,
+        "height": 405,
+        "bytes": 27115
+      },
+      {
+        "src": "/images/optimized/chocolate_chip_muffins-4be54f631bd5ff58-1080.avif",
+        "width": 1080,
+        "height": 607,
+        "bytes": 49315
+      },
+      {
+        "src": "/images/optimized/chocolate_chip_muffins-4be54f631bd5ff58-1600.avif",
+        "width": 1600,
+        "height": 900,
+        "bytes": 87646
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/chocolate_chip_muffins-4be54f631bd5ff58-360.webp",
+        "width": 360,
+        "height": 202,
+        "bytes": 17326
+      },
+      {
+        "src": "/images/optimized/chocolate_chip_muffins-4be54f631bd5ff58-720.webp",
+        "width": 720,
+        "height": 405,
+        "bytes": 47252
+      },
+      {
+        "src": "/images/optimized/chocolate_chip_muffins-4be54f631bd5ff58-1080.webp",
+        "width": 1080,
+        "height": 607,
+        "bytes": 82910
+      },
+      {
+        "src": "/images/optimized/chocolate_chip_muffins-4be54f631bd5ff58-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 142448
+      }
+    ],
+    "fallback": "/images/optimized/chocolate_chip_muffins-4be54f631bd5ff58-720.webp"
+  },
+  "/images/recipes/cookies_with_sprinkles.jpeg": {
+    "width": 2379,
+    "height": 1338,
+    "original": "/images/recipes/cookies_with_sprinkles.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/cookies_with_sprinkles-f1d228fa40c05f80-360.avif",
+        "width": 360,
+        "height": 202,
+        "bytes": 8857
+      },
+      {
+        "src": "/images/optimized/cookies_with_sprinkles-f1d228fa40c05f80-720.avif",
+        "width": 720,
+        "height": 405,
+        "bytes": 25134
+      },
+      {
+        "src": "/images/optimized/cookies_with_sprinkles-f1d228fa40c05f80-1080.avif",
+        "width": 1080,
+        "height": 607,
+        "bytes": 45237
+      },
+      {
+        "src": "/images/optimized/cookies_with_sprinkles-f1d228fa40c05f80-1600.avif",
+        "width": 1600,
+        "height": 900,
+        "bytes": 80479
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/cookies_with_sprinkles-f1d228fa40c05f80-360.webp",
+        "width": 360,
+        "height": 202,
+        "bytes": 15304
+      },
+      {
+        "src": "/images/optimized/cookies_with_sprinkles-f1d228fa40c05f80-720.webp",
+        "width": 720,
+        "height": 405,
+        "bytes": 39672
+      },
+      {
+        "src": "/images/optimized/cookies_with_sprinkles-f1d228fa40c05f80-1080.webp",
+        "width": 1080,
+        "height": 607,
+        "bytes": 68284
+      },
+      {
+        "src": "/images/optimized/cookies_with_sprinkles-f1d228fa40c05f80-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 114408
+      }
+    ],
+    "fallback": "/images/optimized/cookies_with_sprinkles-f1d228fa40c05f80-720.webp"
+  },
+  "/images/recipes/egg_curry.jpeg": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/egg_curry.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/egg_curry-5f20a16ff27a3403-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 18464
+      },
+      {
+        "src": "/images/optimized/egg_curry-5f20a16ff27a3403-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 56946
+      },
+      {
+        "src": "/images/optimized/egg_curry-5f20a16ff27a3403-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 109041
+      },
+      {
+        "src": "/images/optimized/egg_curry-5f20a16ff27a3403-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 201709
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/egg_curry-5f20a16ff27a3403-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 28910
+      },
+      {
+        "src": "/images/optimized/egg_curry-5f20a16ff27a3403-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 83880
+      },
+      {
+        "src": "/images/optimized/egg_curry-5f20a16ff27a3403-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 155476
+      },
+      {
+        "src": "/images/optimized/egg_curry-5f20a16ff27a3403-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 279094
+      }
+    ],
+    "fallback": "/images/optimized/egg_curry-5f20a16ff27a3403-720.webp"
+  },
+  "/images/recipes/egg_sandwiches_with_veggies_and_sriracha_mayo.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/egg_sandwiches_with_veggies_and_sriracha_mayo.png",
+    "avif": [
+      {
+        "src": "/images/optimized/egg_sandwiches_with_veggies_and_sriracha_mayo-c0222cfb875ff2e8-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 15877
+      },
+      {
+        "src": "/images/optimized/egg_sandwiches_with_veggies_and_sriracha_mayo-c0222cfb875ff2e8-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 49734
+      },
+      {
+        "src": "/images/optimized/egg_sandwiches_with_veggies_and_sriracha_mayo-c0222cfb875ff2e8-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 94432
+      },
+      {
+        "src": "/images/optimized/egg_sandwiches_with_veggies_and_sriracha_mayo-c0222cfb875ff2e8-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 171423
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/egg_sandwiches_with_veggies_and_sriracha_mayo-c0222cfb875ff2e8-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 26906
+      },
+      {
+        "src": "/images/optimized/egg_sandwiches_with_veggies_and_sriracha_mayo-c0222cfb875ff2e8-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 78484
+      },
+      {
+        "src": "/images/optimized/egg_sandwiches_with_veggies_and_sriracha_mayo-c0222cfb875ff2e8-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 141768
+      },
+      {
+        "src": "/images/optimized/egg_sandwiches_with_veggies_and_sriracha_mayo-c0222cfb875ff2e8-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 247362
+      }
+    ],
+    "fallback": "/images/optimized/egg_sandwiches_with_veggies_and_sriracha_mayo-c0222cfb875ff2e8-720.webp"
+  },
+  "/images/recipes/enchiladas.jpeg": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/enchiladas.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/enchiladas-b018667a2b5f1101-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 21327
+      },
+      {
+        "src": "/images/optimized/enchiladas-b018667a2b5f1101-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 71760
+      },
+      {
+        "src": "/images/optimized/enchiladas-b018667a2b5f1101-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 143735
+      },
+      {
+        "src": "/images/optimized/enchiladas-b018667a2b5f1101-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 263535
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/enchiladas-b018667a2b5f1101-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 41044
+      },
+      {
+        "src": "/images/optimized/enchiladas-b018667a2b5f1101-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 128214
+      },
+      {
+        "src": "/images/optimized/enchiladas-b018667a2b5f1101-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 234580
+      },
+      {
+        "src": "/images/optimized/enchiladas-b018667a2b5f1101-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 422044
+      }
+    ],
+    "fallback": "/images/optimized/enchiladas-b018667a2b5f1101-720.webp"
+  },
+  "/images/recipes/falafel_bowl_with_jalapeno_heart.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/falafel_bowl_with_jalapeno_heart.png",
+    "avif": [
+      {
+        "src": "/images/optimized/falafel_bowl_with_jalapeno_heart-3e10d44b49c49583-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 14075
+      },
+      {
+        "src": "/images/optimized/falafel_bowl_with_jalapeno_heart-3e10d44b49c49583-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 38423
+      },
+      {
+        "src": "/images/optimized/falafel_bowl_with_jalapeno_heart-3e10d44b49c49583-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 71812
+      },
+      {
+        "src": "/images/optimized/falafel_bowl_with_jalapeno_heart-3e10d44b49c49583-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 134190
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/falafel_bowl_with_jalapeno_heart-3e10d44b49c49583-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 27474
+      },
+      {
+        "src": "/images/optimized/falafel_bowl_with_jalapeno_heart-3e10d44b49c49583-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 66890
+      },
+      {
+        "src": "/images/optimized/falafel_bowl_with_jalapeno_heart-3e10d44b49c49583-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 112068
+      },
+      {
+        "src": "/images/optimized/falafel_bowl_with_jalapeno_heart-3e10d44b49c49583-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 195082
+      }
+    ],
+    "fallback": "/images/optimized/falafel_bowl_with_jalapeno_heart-3e10d44b49c49583-720.webp"
+  },
+  "/images/recipes/greek_pasta_salad.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/greek_pasta_salad.png",
+    "avif": [
+      {
+        "src": "/images/optimized/greek_pasta_salad-522d91c82f37e8d8-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 16257
+      },
+      {
+        "src": "/images/optimized/greek_pasta_salad-522d91c82f37e8d8-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 44546
+      },
+      {
+        "src": "/images/optimized/greek_pasta_salad-522d91c82f37e8d8-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 80914
+      },
+      {
+        "src": "/images/optimized/greek_pasta_salad-522d91c82f37e8d8-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 145739
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/greek_pasta_salad-522d91c82f37e8d8-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 28422
+      },
+      {
+        "src": "/images/optimized/greek_pasta_salad-522d91c82f37e8d8-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 66986
+      },
+      {
+        "src": "/images/optimized/greek_pasta_salad-522d91c82f37e8d8-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 115056
+      },
+      {
+        "src": "/images/optimized/greek_pasta_salad-522d91c82f37e8d8-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 196694
+      }
+    ],
+    "fallback": "/images/optimized/greek_pasta_salad-522d91c82f37e8d8-720.webp"
+  },
+  "/images/recipes/grilled_chicken_with_herbs_sandwich.jpeg": {
+    "width": 1536,
+    "height": 2048,
+    "original": "/images/recipes/grilled_chicken_with_herbs_sandwich.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/grilled_chicken_with_herbs_sandwich-61301be5e6486d18-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 12826
+      },
+      {
+        "src": "/images/optimized/grilled_chicken_with_herbs_sandwich-61301be5e6486d18-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 33933
+      },
+      {
+        "src": "/images/optimized/grilled_chicken_with_herbs_sandwich-61301be5e6486d18-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 57576
+      },
+      {
+        "src": "/images/optimized/grilled_chicken_with_herbs_sandwich-61301be5e6486d18-1536.avif",
+        "width": 1536,
+        "height": 2048,
+        "bytes": 91251
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/grilled_chicken_with_herbs_sandwich-61301be5e6486d18-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 19212
+      },
+      {
+        "src": "/images/optimized/grilled_chicken_with_herbs_sandwich-61301be5e6486d18-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 46736
+      },
+      {
+        "src": "/images/optimized/grilled_chicken_with_herbs_sandwich-61301be5e6486d18-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 76006
+      },
+      {
+        "src": "/images/optimized/grilled_chicken_with_herbs_sandwich-61301be5e6486d18-1536.webp",
+        "width": 1536,
+        "height": 2048,
+        "bytes": 116610
+      }
+    ],
+    "fallback": "/images/optimized/grilled_chicken_with_herbs_sandwich-61301be5e6486d18-720.webp"
+  },
+  "/images/recipes/ground_chicken_curry.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/ground_chicken_curry.png",
+    "avif": [
+      {
+        "src": "/images/optimized/ground_chicken_curry-46dac7b6697c2065-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 16793
+      },
+      {
+        "src": "/images/optimized/ground_chicken_curry-46dac7b6697c2065-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 45807
+      },
+      {
+        "src": "/images/optimized/ground_chicken_curry-46dac7b6697c2065-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 85959
+      },
+      {
+        "src": "/images/optimized/ground_chicken_curry-46dac7b6697c2065-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 160698
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/ground_chicken_curry-46dac7b6697c2065-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 34966
+      },
+      {
+        "src": "/images/optimized/ground_chicken_curry-46dac7b6697c2065-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 83668
+      },
+      {
+        "src": "/images/optimized/ground_chicken_curry-46dac7b6697c2065-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 139556
+      },
+      {
+        "src": "/images/optimized/ground_chicken_curry-46dac7b6697c2065-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 231774
+      }
+    ],
+    "fallback": "/images/optimized/ground_chicken_curry-46dac7b6697c2065-720.webp"
+  },
+  "/images/recipes/hainan_chicken_rice.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/hainan_chicken_rice.png",
+    "avif": [
+      {
+        "src": "/images/optimized/hainan_chicken_rice-2a38f7a5b3551e12-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 14400
+      },
+      {
+        "src": "/images/optimized/hainan_chicken_rice-2a38f7a5b3551e12-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 39826
+      },
+      {
+        "src": "/images/optimized/hainan_chicken_rice-2a38f7a5b3551e12-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 73458
+      },
+      {
+        "src": "/images/optimized/hainan_chicken_rice-2a38f7a5b3551e12-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 131941
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/hainan_chicken_rice-2a38f7a5b3551e12-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 21898
+      },
+      {
+        "src": "/images/optimized/hainan_chicken_rice-2a38f7a5b3551e12-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 56700
+      },
+      {
+        "src": "/images/optimized/hainan_chicken_rice-2a38f7a5b3551e12-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 98980
+      },
+      {
+        "src": "/images/optimized/hainan_chicken_rice-2a38f7a5b3551e12-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 173040
+      }
+    ],
+    "fallback": "/images/optimized/hainan_chicken_rice-2a38f7a5b3551e12-720.webp"
+  },
+  "/images/recipes/hoisin_chicken.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/hoisin_chicken.png",
+    "avif": [
+      {
+        "src": "/images/optimized/hoisin_chicken-e848d9f7a225f426-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 18531
+      },
+      {
+        "src": "/images/optimized/hoisin_chicken-e848d9f7a225f426-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 63031
+      },
+      {
+        "src": "/images/optimized/hoisin_chicken-e848d9f7a225f426-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 125695
+      },
+      {
+        "src": "/images/optimized/hoisin_chicken-e848d9f7a225f426-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 232736
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/hoisin_chicken-e848d9f7a225f426-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 34306
+      },
+      {
+        "src": "/images/optimized/hoisin_chicken-e848d9f7a225f426-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 108496
+      },
+      {
+        "src": "/images/optimized/hoisin_chicken-e848d9f7a225f426-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 198484
+      },
+      {
+        "src": "/images/optimized/hoisin_chicken-e848d9f7a225f426-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 357140
+      }
+    ],
+    "fallback": "/images/optimized/hoisin_chicken-e848d9f7a225f426-720.webp"
+  },
+  "/images/recipes/honey_garlic_glazed_salmon.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "original": "/images/recipes/honey_garlic_glazed_salmon.jpg",
+    "avif": [
+      {
+        "src": "/images/optimized/honey_garlic_glazed_salmon-bd82c656c5990e04-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 17853
+      },
+      {
+        "src": "/images/optimized/honey_garlic_glazed_salmon-bd82c656c5990e04-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 54983
+      },
+      {
+        "src": "/images/optimized/honey_garlic_glazed_salmon-bd82c656c5990e04-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 100956
+      },
+      {
+        "src": "/images/optimized/honey_garlic_glazed_salmon-bd82c656c5990e04-1536.avif",
+        "width": 1536,
+        "height": 2048,
+        "bytes": 174785
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/honey_garlic_glazed_salmon-bd82c656c5990e04-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 30604
+      },
+      {
+        "src": "/images/optimized/honey_garlic_glazed_salmon-bd82c656c5990e04-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 88464
+      },
+      {
+        "src": "/images/optimized/honey_garlic_glazed_salmon-bd82c656c5990e04-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 152708
+      },
+      {
+        "src": "/images/optimized/honey_garlic_glazed_salmon-bd82c656c5990e04-1536.webp",
+        "width": 1536,
+        "height": 2048,
+        "bytes": 239504
+      }
+    ],
+    "fallback": "/images/optimized/honey_garlic_glazed_salmon-bd82c656c5990e04-720.webp"
+  },
+  "/images/recipes/kao_pad.jpeg": {
+    "width": 2379,
+    "height": 1338,
+    "original": "/images/recipes/kao_pad.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/kao_pad-9ad81f9f3d410e84-360.avif",
+        "width": 360,
+        "height": 202,
+        "bytes": 10561
+      },
+      {
+        "src": "/images/optimized/kao_pad-9ad81f9f3d410e84-720.avif",
+        "width": 720,
+        "height": 405,
+        "bytes": 32223
+      },
+      {
+        "src": "/images/optimized/kao_pad-9ad81f9f3d410e84-1080.avif",
+        "width": 1080,
+        "height": 607,
+        "bytes": 62107
+      },
+      {
+        "src": "/images/optimized/kao_pad-9ad81f9f3d410e84-1600.avif",
+        "width": 1600,
+        "height": 900,
+        "bytes": 116990
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/kao_pad-9ad81f9f3d410e84-360.webp",
+        "width": 360,
+        "height": 202,
+        "bytes": 19708
+      },
+      {
+        "src": "/images/optimized/kao_pad-9ad81f9f3d410e84-720.webp",
+        "width": 720,
+        "height": 405,
+        "bytes": 59302
+      },
+      {
+        "src": "/images/optimized/kao_pad-9ad81f9f3d410e84-1080.webp",
+        "width": 1080,
+        "height": 607,
+        "bytes": 112020
+      },
+      {
+        "src": "/images/optimized/kao_pad-9ad81f9f3d410e84-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 201348
+      }
+    ],
+    "fallback": "/images/optimized/kao_pad-9ad81f9f3d410e84-720.webp"
+  },
+  "/images/recipes/lasagna.jpeg": {
+    "width": 1003,
+    "height": 1338,
+    "original": "/images/recipes/lasagna.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/lasagna-9d3201a056613ed6-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 29390
+      },
+      {
+        "src": "/images/optimized/lasagna-9d3201a056613ed6-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 90164
+      },
+      {
+        "src": "/images/optimized/lasagna-9d3201a056613ed6-1003.avif",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 151487
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/lasagna-9d3201a056613ed6-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 58694
+      },
+      {
+        "src": "/images/optimized/lasagna-9d3201a056613ed6-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 175018
+      },
+      {
+        "src": "/images/optimized/lasagna-9d3201a056613ed6-1003.webp",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 283110
+      }
+    ],
+    "fallback": "/images/optimized/lasagna-9d3201a056613ed6-720.webp"
+  },
+  "/images/recipes/louisiana_chicken_gumbo.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/louisiana_chicken_gumbo.png",
+    "avif": [
+      {
+        "src": "/images/optimized/louisiana_chicken_gumbo-7bcd4ba1e69b7956-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 17244
+      },
+      {
+        "src": "/images/optimized/louisiana_chicken_gumbo-7bcd4ba1e69b7956-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 47841
+      },
+      {
+        "src": "/images/optimized/louisiana_chicken_gumbo-7bcd4ba1e69b7956-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 84689
+      },
+      {
+        "src": "/images/optimized/louisiana_chicken_gumbo-7bcd4ba1e69b7956-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 145468
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/louisiana_chicken_gumbo-7bcd4ba1e69b7956-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 29564
+      },
+      {
+        "src": "/images/optimized/louisiana_chicken_gumbo-7bcd4ba1e69b7956-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 72624
+      },
+      {
+        "src": "/images/optimized/louisiana_chicken_gumbo-7bcd4ba1e69b7956-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 122570
+      },
+      {
+        "src": "/images/optimized/louisiana_chicken_gumbo-7bcd4ba1e69b7956-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 204828
+      }
+    ],
+    "fallback": "/images/optimized/louisiana_chicken_gumbo-7bcd4ba1e69b7956-720.webp"
+  },
+  "/images/recipes/macaroon_cookies_1.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/macaroon_cookies_1.png",
+    "avif": [
+      {
+        "src": "/images/optimized/macaroon_cookies_1-78c71fcfa9338c0d-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 21147
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_1-78c71fcfa9338c0d-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 71963
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_1-78c71fcfa9338c0d-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 138423
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_1-78c71fcfa9338c0d-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 250319
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/macaroon_cookies_1-78c71fcfa9338c0d-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 36194
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_1-78c71fcfa9338c0d-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 119070
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_1-78c71fcfa9338c0d-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 221506
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_1-78c71fcfa9338c0d-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 380856
+      }
+    ],
+    "fallback": "/images/optimized/macaroon_cookies_1-78c71fcfa9338c0d-720.webp"
+  },
+  "/images/recipes/macaroon_cookies_2.png": {
+    "width": 4032,
+    "height": 3024,
+    "original": "/images/recipes/macaroon_cookies_2.png",
+    "avif": [
+      {
+        "src": "/images/optimized/macaroon_cookies_2-795f526c942bd408-360.avif",
+        "width": 360,
+        "height": 270,
+        "bytes": 6275
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_2-795f526c942bd408-720.avif",
+        "width": 720,
+        "height": 540,
+        "bytes": 15576
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_2-795f526c942bd408-1080.avif",
+        "width": 1080,
+        "height": 810,
+        "bytes": 27305
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_2-795f526c942bd408-1600.avif",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 49396
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/macaroon_cookies_2-795f526c942bd408-360.webp",
+        "width": 360,
+        "height": 270,
+        "bytes": 8544
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_2-795f526c942bd408-720.webp",
+        "width": 720,
+        "height": 540,
+        "bytes": 20952
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_2-795f526c942bd408-1080.webp",
+        "width": 1080,
+        "height": 810,
+        "bytes": 35868
+      },
+      {
+        "src": "/images/optimized/macaroon_cookies_2-795f526c942bd408-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 66942
+      }
+    ],
+    "fallback": "/images/optimized/macaroon_cookies_2-795f526c942bd408-720.webp"
+  },
+  "/images/recipes/oatmeal_with_fruits_and_nuts.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/oatmeal_with_fruits_and_nuts.png",
+    "avif": [
+      {
+        "src": "/images/optimized/oatmeal_with_fruits_and_nuts-b50581bd32b51fde-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 16670
+      },
+      {
+        "src": "/images/optimized/oatmeal_with_fruits_and_nuts-b50581bd32b51fde-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 46749
+      },
+      {
+        "src": "/images/optimized/oatmeal_with_fruits_and_nuts-b50581bd32b51fde-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 84684
+      },
+      {
+        "src": "/images/optimized/oatmeal_with_fruits_and_nuts-b50581bd32b51fde-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 154028
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/oatmeal_with_fruits_and_nuts-b50581bd32b51fde-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 32740
+      },
+      {
+        "src": "/images/optimized/oatmeal_with_fruits_and_nuts-b50581bd32b51fde-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 77256
+      },
+      {
+        "src": "/images/optimized/oatmeal_with_fruits_and_nuts-b50581bd32b51fde-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 130480
+      },
+      {
+        "src": "/images/optimized/oatmeal_with_fruits_and_nuts-b50581bd32b51fde-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 216454
+      }
+    ],
+    "fallback": "/images/optimized/oatmeal_with_fruits_and_nuts-b50581bd32b51fde-720.webp"
+  },
+  "/images/recipes/omelette.jpeg": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/omelette.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/omelette-7e32a298fc2a29d2-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 18581
+      },
+      {
+        "src": "/images/optimized/omelette-7e32a298fc2a29d2-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 57873
+      },
+      {
+        "src": "/images/optimized/omelette-7e32a298fc2a29d2-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 111773
+      },
+      {
+        "src": "/images/optimized/omelette-7e32a298fc2a29d2-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 215125
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/omelette-7e32a298fc2a29d2-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 30892
+      },
+      {
+        "src": "/images/optimized/omelette-7e32a298fc2a29d2-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 87336
+      },
+      {
+        "src": "/images/optimized/omelette-7e32a298fc2a29d2-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 170234
+      },
+      {
+        "src": "/images/optimized/omelette-7e32a298fc2a29d2-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 341326
+      }
+    ],
+    "fallback": "/images/optimized/omelette-7e32a298fc2a29d2-720.webp"
+  },
+  "/images/recipes/pasta_with_mixed_vegetables.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/pasta_with_mixed_vegetables.png",
+    "avif": [
+      {
+        "src": "/images/optimized/pasta_with_mixed_vegetables-93f9d04d53828548-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 22750
+      },
+      {
+        "src": "/images/optimized/pasta_with_mixed_vegetables-93f9d04d53828548-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 71275
+      },
+      {
+        "src": "/images/optimized/pasta_with_mixed_vegetables-93f9d04d53828548-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 135397
+      },
+      {
+        "src": "/images/optimized/pasta_with_mixed_vegetables-93f9d04d53828548-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 245142
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/pasta_with_mixed_vegetables-93f9d04d53828548-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 43370
+      },
+      {
+        "src": "/images/optimized/pasta_with_mixed_vegetables-93f9d04d53828548-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 122590
+      },
+      {
+        "src": "/images/optimized/pasta_with_mixed_vegetables-93f9d04d53828548-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 216824
+      },
+      {
+        "src": "/images/optimized/pasta_with_mixed_vegetables-93f9d04d53828548-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 365504
+      }
+    ],
+    "fallback": "/images/optimized/pasta_with_mixed_vegetables-93f9d04d53828548-720.webp"
+  },
+  "/images/recipes/pizza.jpeg": {
+    "width": 2379,
+    "height": 1338,
+    "original": "/images/recipes/pizza.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/pizza-39dc3d7311da4ae7-360.avif",
+        "width": 360,
+        "height": 202,
+        "bytes": 7213
+      },
+      {
+        "src": "/images/optimized/pizza-39dc3d7311da4ae7-720.avif",
+        "width": 720,
+        "height": 405,
+        "bytes": 19116
+      },
+      {
+        "src": "/images/optimized/pizza-39dc3d7311da4ae7-1080.avif",
+        "width": 1080,
+        "height": 607,
+        "bytes": 34005
+      },
+      {
+        "src": "/images/optimized/pizza-39dc3d7311da4ae7-1600.avif",
+        "width": 1600,
+        "height": 900,
+        "bytes": 62135
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/pizza-39dc3d7311da4ae7-360.webp",
+        "width": 360,
+        "height": 202,
+        "bytes": 12178
+      },
+      {
+        "src": "/images/optimized/pizza-39dc3d7311da4ae7-720.webp",
+        "width": 720,
+        "height": 405,
+        "bytes": 30322
+      },
+      {
+        "src": "/images/optimized/pizza-39dc3d7311da4ae7-1080.webp",
+        "width": 1080,
+        "height": 607,
+        "bytes": 50914
+      },
+      {
+        "src": "/images/optimized/pizza-39dc3d7311da4ae7-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 92358
+      }
+    ],
+    "fallback": "/images/optimized/pizza-39dc3d7311da4ae7-720.webp"
+  },
+  "/images/recipes/pound_cake.png": {
+    "width": 1003,
+    "height": 1338,
+    "original": "/images/recipes/pound_cake.png",
+    "avif": [
+      {
+        "src": "/images/optimized/pound_cake-83aed6523e245a1e-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 10565
+      },
+      {
+        "src": "/images/optimized/pound_cake-83aed6523e245a1e-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 32179
+      },
+      {
+        "src": "/images/optimized/pound_cake-83aed6523e245a1e-1003.avif",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 59788
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/pound_cake-83aed6523e245a1e-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 17890
+      },
+      {
+        "src": "/images/optimized/pound_cake-83aed6523e245a1e-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 50600
+      },
+      {
+        "src": "/images/optimized/pound_cake-83aed6523e245a1e-1003.webp",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 99248
+      }
+    ],
+    "fallback": "/images/optimized/pound_cake-83aed6523e245a1e-720.webp"
+  },
+  "/images/recipes/risotto_with_pomodoro_chicken.png": {
+    "width": 1003,
+    "height": 1338,
+    "original": "/images/recipes/risotto_with_pomodoro_chicken.png",
+    "avif": [
+      {
+        "src": "/images/optimized/risotto_with_pomodoro_chicken-c3eaa5e79881d24f-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 18773
+      },
+      {
+        "src": "/images/optimized/risotto_with_pomodoro_chicken-c3eaa5e79881d24f-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 54174
+      },
+      {
+        "src": "/images/optimized/risotto_with_pomodoro_chicken-c3eaa5e79881d24f-1003.avif",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 92670
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/risotto_with_pomodoro_chicken-c3eaa5e79881d24f-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 33214
+      },
+      {
+        "src": "/images/optimized/risotto_with_pomodoro_chicken-c3eaa5e79881d24f-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 83368
+      },
+      {
+        "src": "/images/optimized/risotto_with_pomodoro_chicken-c3eaa5e79881d24f-1003.webp",
+        "width": 1003,
+        "height": 1338,
+        "bytes": 130802
+      }
+    ],
+    "fallback": "/images/optimized/risotto_with_pomodoro_chicken-c3eaa5e79881d24f-720.webp"
+  },
+  "/images/recipes/roasted_vegetables_and_spiced_chicken.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/roasted_vegetables_and_spiced_chicken.png",
+    "avif": [
+      {
+        "src": "/images/optimized/roasted_vegetables_and_spiced_chicken-a79d9b57fb933d1b-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 17806
+      },
+      {
+        "src": "/images/optimized/roasted_vegetables_and_spiced_chicken-a79d9b57fb933d1b-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 58390
+      },
+      {
+        "src": "/images/optimized/roasted_vegetables_and_spiced_chicken-a79d9b57fb933d1b-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 117281
+      },
+      {
+        "src": "/images/optimized/roasted_vegetables_and_spiced_chicken-a79d9b57fb933d1b-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 220130
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/roasted_vegetables_and_spiced_chicken-a79d9b57fb933d1b-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 37330
+      },
+      {
+        "src": "/images/optimized/roasted_vegetables_and_spiced_chicken-a79d9b57fb933d1b-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 108396
+      },
+      {
+        "src": "/images/optimized/roasted_vegetables_and_spiced_chicken-a79d9b57fb933d1b-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 201298
+      },
+      {
+        "src": "/images/optimized/roasted_vegetables_and_spiced_chicken-a79d9b57fb933d1b-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 348138
+      }
+    ],
+    "fallback": "/images/optimized/roasted_vegetables_and_spiced_chicken-a79d9b57fb933d1b-720.webp"
+  },
+  "/images/recipes/salsa_chicken.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/salsa_chicken.png",
+    "avif": [
+      {
+        "src": "/images/optimized/salsa_chicken-0b42bddf8f164a19-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 11155
+      },
+      {
+        "src": "/images/optimized/salsa_chicken-0b42bddf8f164a19-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 29623
+      },
+      {
+        "src": "/images/optimized/salsa_chicken-0b42bddf8f164a19-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 53445
+      },
+      {
+        "src": "/images/optimized/salsa_chicken-0b42bddf8f164a19-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 93529
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/salsa_chicken-0b42bddf8f164a19-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 14812
+      },
+      {
+        "src": "/images/optimized/salsa_chicken-0b42bddf8f164a19-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 36910
+      },
+      {
+        "src": "/images/optimized/salsa_chicken-0b42bddf8f164a19-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 64426
+      },
+      {
+        "src": "/images/optimized/salsa_chicken-0b42bddf8f164a19-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 113926
+      }
+    ],
+    "fallback": "/images/optimized/salsa_chicken-0b42bddf8f164a19-720.webp"
+  },
+  "/images/recipes/stir_fried_vegetables_in_hoisin.jpeg": {
+    "width": 1784,
+    "height": 1338,
+    "original": "/images/recipes/stir_fried_vegetables_in_hoisin.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/stir_fried_vegetables_in_hoisin-36e5ec3421aa4591-360.avif",
+        "width": 360,
+        "height": 270,
+        "bytes": 13886
+      },
+      {
+        "src": "/images/optimized/stir_fried_vegetables_in_hoisin-36e5ec3421aa4591-720.avif",
+        "width": 720,
+        "height": 540,
+        "bytes": 47390
+      },
+      {
+        "src": "/images/optimized/stir_fried_vegetables_in_hoisin-36e5ec3421aa4591-1080.avif",
+        "width": 1080,
+        "height": 810,
+        "bytes": 94392
+      },
+      {
+        "src": "/images/optimized/stir_fried_vegetables_in_hoisin-36e5ec3421aa4591-1600.avif",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 180588
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/stir_fried_vegetables_in_hoisin-36e5ec3421aa4591-360.webp",
+        "width": 360,
+        "height": 270,
+        "bytes": 27106
+      },
+      {
+        "src": "/images/optimized/stir_fried_vegetables_in_hoisin-36e5ec3421aa4591-720.webp",
+        "width": 720,
+        "height": 540,
+        "bytes": 86118
+      },
+      {
+        "src": "/images/optimized/stir_fried_vegetables_in_hoisin-36e5ec3421aa4591-1080.webp",
+        "width": 1080,
+        "height": 810,
+        "bytes": 166710
+      },
+      {
+        "src": "/images/optimized/stir_fried_vegetables_in_hoisin-36e5ec3421aa4591-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 313478
+      }
+    ],
+    "fallback": "/images/optimized/stir_fried_vegetables_in_hoisin-36e5ec3421aa4591-720.webp"
+  },
+  "/images/recipes/teriyaki_chicken.jpeg": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/teriyaki_chicken.jpeg",
+    "avif": [
+      {
+        "src": "/images/optimized/teriyaki_chicken-3c164c209fafc645-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 17572
+      },
+      {
+        "src": "/images/optimized/teriyaki_chicken-3c164c209fafc645-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 49989
+      },
+      {
+        "src": "/images/optimized/teriyaki_chicken-3c164c209fafc645-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 90778
+      },
+      {
+        "src": "/images/optimized/teriyaki_chicken-3c164c209fafc645-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 157897
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/teriyaki_chicken-3c164c209fafc645-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 28752
+      },
+      {
+        "src": "/images/optimized/teriyaki_chicken-3c164c209fafc645-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 77182
+      },
+      {
+        "src": "/images/optimized/teriyaki_chicken-3c164c209fafc645-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 134304
+      },
+      {
+        "src": "/images/optimized/teriyaki_chicken-3c164c209fafc645-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 220536
+      }
+    ],
+    "fallback": "/images/optimized/teriyaki_chicken-3c164c209fafc645-720.webp"
+  },
+  "/images/recipes/thai_basil_tofu.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/thai_basil_tofu.png",
+    "avif": [
+      {
+        "src": "/images/optimized/thai_basil_tofu-d83f5aefdbc94508-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 18002
+      },
+      {
+        "src": "/images/optimized/thai_basil_tofu-d83f5aefdbc94508-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 51525
+      },
+      {
+        "src": "/images/optimized/thai_basil_tofu-d83f5aefdbc94508-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 94154
+      },
+      {
+        "src": "/images/optimized/thai_basil_tofu-d83f5aefdbc94508-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 168093
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/thai_basil_tofu-d83f5aefdbc94508-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 37072
+      },
+      {
+        "src": "/images/optimized/thai_basil_tofu-d83f5aefdbc94508-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 90420
+      },
+      {
+        "src": "/images/optimized/thai_basil_tofu-d83f5aefdbc94508-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 152560
+      },
+      {
+        "src": "/images/optimized/thai_basil_tofu-d83f5aefdbc94508-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 248368
+      }
+    ],
+    "fallback": "/images/optimized/thai_basil_tofu-d83f5aefdbc94508-720.webp"
+  },
+  "/images/recipes/thai_glass_noodles.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/thai_glass_noodles.png",
+    "avif": [
+      {
+        "src": "/images/optimized/thai_glass_noodles-9f12c998a9b6f334-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 21759
+      },
+      {
+        "src": "/images/optimized/thai_glass_noodles-9f12c998a9b6f334-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 63529
+      },
+      {
+        "src": "/images/optimized/thai_glass_noodles-9f12c998a9b6f334-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 114986
+      },
+      {
+        "src": "/images/optimized/thai_glass_noodles-9f12c998a9b6f334-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 201539
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/thai_glass_noodles-9f12c998a9b6f334-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 40762
+      },
+      {
+        "src": "/images/optimized/thai_glass_noodles-9f12c998a9b6f334-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 109206
+      },
+      {
+        "src": "/images/optimized/thai_glass_noodles-9f12c998a9b6f334-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 185146
+      },
+      {
+        "src": "/images/optimized/thai_glass_noodles-9f12c998a9b6f334-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 299674
+      }
+    ],
+    "fallback": "/images/optimized/thai_glass_noodles-9f12c998a9b6f334-720.webp"
+  },
+  "/images/recipes/tofu_scramble.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/tofu_scramble.png",
+    "avif": [
+      {
+        "src": "/images/optimized/tofu_scramble-70f83ed9739c2b85-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 19267
+      },
+      {
+        "src": "/images/optimized/tofu_scramble-70f83ed9739c2b85-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 62122
+      },
+      {
+        "src": "/images/optimized/tofu_scramble-70f83ed9739c2b85-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 119837
+      },
+      {
+        "src": "/images/optimized/tofu_scramble-70f83ed9739c2b85-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 219107
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/tofu_scramble-70f83ed9739c2b85-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 37402
+      },
+      {
+        "src": "/images/optimized/tofu_scramble-70f83ed9739c2b85-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 110118
+      },
+      {
+        "src": "/images/optimized/tofu_scramble-70f83ed9739c2b85-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 197656
+      },
+      {
+        "src": "/images/optimized/tofu_scramble-70f83ed9739c2b85-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 357342
+      }
+    ],
+    "fallback": "/images/optimized/tofu_scramble-70f83ed9739c2b85-720.webp"
+  },
+  "/images/recipes/tofu_slaw_with_peanut_sauce.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/tofu_slaw_with_peanut_sauce.png",
+    "avif": [
+      {
+        "src": "/images/optimized/tofu_slaw_with_peanut_sauce-c00cd3e5d0beea56-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 18496
+      },
+      {
+        "src": "/images/optimized/tofu_slaw_with_peanut_sauce-c00cd3e5d0beea56-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 51033
+      },
+      {
+        "src": "/images/optimized/tofu_slaw_with_peanut_sauce-c00cd3e5d0beea56-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 92075
+      },
+      {
+        "src": "/images/optimized/tofu_slaw_with_peanut_sauce-c00cd3e5d0beea56-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 169915
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/tofu_slaw_with_peanut_sauce-c00cd3e5d0beea56-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 35982
+      },
+      {
+        "src": "/images/optimized/tofu_slaw_with_peanut_sauce-c00cd3e5d0beea56-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 91080
+      },
+      {
+        "src": "/images/optimized/tofu_slaw_with_peanut_sauce-c00cd3e5d0beea56-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 156192
+      },
+      {
+        "src": "/images/optimized/tofu_slaw_with_peanut_sauce-c00cd3e5d0beea56-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 286148
+      }
+    ],
+    "fallback": "/images/optimized/tofu_slaw_with_peanut_sauce-c00cd3e5d0beea56-720.webp"
+  },
+  "/images/recipes/us_southwest_tofu_scramble.png": {
+    "width": 3024,
+    "height": 4032,
+    "original": "/images/recipes/us_southwest_tofu_scramble.png",
+    "avif": [
+      {
+        "src": "/images/optimized/us_southwest_tofu_scramble-59a9a89cbcc41c99-360.avif",
+        "width": 360,
+        "height": 480,
+        "bytes": 19852
+      },
+      {
+        "src": "/images/optimized/us_southwest_tofu_scramble-59a9a89cbcc41c99-720.avif",
+        "width": 720,
+        "height": 960,
+        "bytes": 64182
+      },
+      {
+        "src": "/images/optimized/us_southwest_tofu_scramble-59a9a89cbcc41c99-1080.avif",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 124979
+      },
+      {
+        "src": "/images/optimized/us_southwest_tofu_scramble-59a9a89cbcc41c99-1600.avif",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 241882
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/us_southwest_tofu_scramble-59a9a89cbcc41c99-360.webp",
+        "width": 360,
+        "height": 480,
+        "bytes": 33354
+      },
+      {
+        "src": "/images/optimized/us_southwest_tofu_scramble-59a9a89cbcc41c99-720.webp",
+        "width": 720,
+        "height": 960,
+        "bytes": 98400
+      },
+      {
+        "src": "/images/optimized/us_southwest_tofu_scramble-59a9a89cbcc41c99-1080.webp",
+        "width": 1080,
+        "height": 1440,
+        "bytes": 189724
+      },
+      {
+        "src": "/images/optimized/us_southwest_tofu_scramble-59a9a89cbcc41c99-1600.webp",
+        "width": 1600,
+        "height": 2133,
+        "bytes": 378632
+      }
+    ],
+    "fallback": "/images/optimized/us_southwest_tofu_scramble-59a9a89cbcc41c99-720.webp"
+  },
+  "/images/software-engineering-card-logo.png": {
+    "width": 1024,
+    "height": 1024,
+    "original": "/images/software-engineering-card-logo.png",
+    "avif": [
+      {
+        "src": "/images/optimized/software-engineering-card-logo-167d197d817182e4-96.avif",
+        "width": 96,
+        "height": 96,
+        "bytes": 930
+      },
+      {
+        "src": "/images/optimized/software-engineering-card-logo-167d197d817182e4-144.avif",
+        "width": 144,
+        "height": 144,
+        "bytes": 1238
+      }
+    ],
+    "webp": [
+      {
+        "src": "/images/optimized/software-engineering-card-logo-167d197d817182e4-96.webp",
+        "width": 96,
+        "height": 96,
+        "bytes": 2112
+      },
+      {
+        "src": "/images/optimized/software-engineering-card-logo-167d197d817182e4-144.webp",
+        "width": 144,
+        "height": 144,
+        "bytes": 4070
+      }
+    ],
+    "fallback": "/images/optimized/software-engineering-card-logo-167d197d817182e4-144.webp"
+  }
+}
