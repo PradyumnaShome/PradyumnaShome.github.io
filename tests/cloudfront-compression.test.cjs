@@ -82,6 +82,39 @@ test('legacy Accept-Encoding forwarding refuses any mutation', () => {
   assert.ok(f.calls.every(call => !call.operation.startsWith('update-')));
 });
 
+test('mixed live behavior layout enables legacy gzip and preserves CachingDisabled resources exactly', () => {
+  const f = fixture({ legacy: true });
+  const domainBehavior = { ...structuredClone(f.config.DefaultCacheBehavior), PathPattern: 'd1yvjzzbi5g5l7.cloudfront.net' };
+  const resourcesBehavior = { PathPattern: 'resources/*', TargetOriginId: 'origin', CachePolicyId: '4135ea2d-6df8-44a3-9df3-4b5a84be39ad', Compress: false, ViewerProtocolPolicy: 'redirect-to-https', AllowedMethods: { Quantity: 2, Items: ['GET', 'HEAD'], CachedMethods: { Quantity: 2, Items: ['GET', 'HEAD'] } }, ResponseHeadersPolicyId: '0a546385-eba7-4ab7-91c6-5404c4da0bcd' };
+  f.config.CacheBehaviors = { Quantity: 2, Items: [resourcesBehavior, domainBehavior] };
+  const before = structuredClone(f.config);
+  const summary = configureCompression({ apply: true, run: f.run });
+  const expected = structuredClone(before);
+  expected.DefaultCacheBehavior.Compress = true;
+  expected.CacheBehaviors.Items[1].Compress = true;
+  const update = f.calls.find(call => call.operation === 'update-distribution').options['cli-input-json'];
+  assert.deepEqual(update.DistributionConfig, expected);
+  assert.deepEqual(update.DistributionConfig.CacheBehaviors.Items[0], resourcesBehavior);
+  assert.deepEqual(f.config, before);
+  assert.deepEqual(summary.gzipOnlyBehaviors, ['default', domainBehavior.PathPattern]);
+  assert.deepEqual(summary.excludedBehaviors, [{ pathPattern: 'resources/*', policyId: resourcesBehavior.CachePolicyId, reason: 'CachingDisabled: edge compression requires caching' }]);
+  assert.deepEqual(summary.cachePoliciesToUpdate, []);
+  assert.deepEqual(f.calls.map(call => call.operation), ['get-distribution-config', 'update-distribution', 'wait']);
+});
+
+test('a CachingDisabled-only behavior remains a no-op without policy reads or writes', () => {
+  const f = fixture();
+  f.config.DefaultCacheBehavior.CachePolicyId = '4135ea2d-6df8-44a3-9df3-4b5a84be39ad';
+  f.config.DefaultCacheBehavior.OriginRequestPolicyId = 'preserve-unmodified-origin-policy';
+  const before = structuredClone(f.config);
+  const summary = configureCompression({ apply: true, run: f.run });
+  assert.equal(summary.distributionToUpdate, false);
+  assert.deepEqual(summary.gzipOnlyBehaviors, []);
+  assert.equal(summary.excludedBehaviors[0].pathPattern, 'default');
+  assert.deepEqual(f.config, before);
+  assert.deepEqual(f.calls.map(call => call.operation), ['get-distribution-config']);
+});
+
 test('actual CLI failures expose only the AWS category, not config or credential text', () => {
   const directory = mkdtempSync(path.join(tmpdir(), 'cloudfront-cli-test-'));
   try {
