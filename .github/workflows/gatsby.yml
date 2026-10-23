@@ -47,11 +47,19 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
-      - name: Configure CloudFront compression
+      - name: Check CloudFront configuration access
+        id: cloudfront-access
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        continue-on-error: true
+        run: aws cloudfront get-distribution-config --id E2GNF2ZJTU2DX5 --query ETag --output text > /dev/null
+      - name: Report unavailable CloudFront configuration access
+        if: steps.cloudfront-access.outcome == 'failure'
+        run: echo '::warning::CloudFront configuration access is unavailable. Publishing site files only; compression and analytics CSP configuration remain pending.'
+      - name: Configure CloudFront compression
+        if: steps.cloudfront-access.outcome == 'success'
         run: node scripts/configure-cloudfront-compression.cjs --apply
       - name: Configure observed analytics CSP connections
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        if: steps.cloudfront-access.outcome == 'success'
         run: node scripts/configure-cloudfront-security.cjs --apply
       - name: Deploy Gatsby to AWS S3
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
