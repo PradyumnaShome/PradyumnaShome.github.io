@@ -1,5 +1,5 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import Seo from '../components/Seo'
 
 import Layout from '../components/layout'
 import Header from '../components/header/header'
@@ -60,63 +60,9 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet
+        <Seo
           title="Pradyumna Shome"
-          meta={
-            [
-              {
-                name: "description",
-                content: "Co-Founder and Founding Engineer at Playful. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
-              },
-              {
-                property: "og:title",
-                content: "Pradyumna Shome"
-              },
-              {
-                property: "og:description",
-                content: "Co-Founder and Founding Engineer at Playful. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
-              },
-              {
-                property: "og:type",
-                content: "website"
-              },
-              {
-                property: "og:url",
-                content: "https://pradyumnashome.com"
-              },
-              {
-                property: "og:image",
-                content: "https://pradyumnashome.com/images/pradyumna-shome.jpeg"
-              },
-              {
-                property: "og:image:width",
-                content: "1024"
-              },
-              {
-                property: "og:image:height",
-                content: "1024"
-              },
-              {
-                property: "og:image:type",
-                content: "image/jpeg"
-              },
-              {
-                name: "twitter:card",
-                content: "summary_large_image"
-              },
-              {
-                name: "twitter:title",
-                content: "Pradyumna Shome"
-              },
-              {
-                name: "twitter:description",
-                content: "Co-Founder and Founding Engineer at Playful. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
-              },
-              {
-                name: "twitter:image",
-                content: "https://pradyumnashome.com/images/pradyumna-shome.jpeg"
-              }
-            ]}
+          description="Co-Founder and Founding Engineer at Playful. I build socio-technical systems at the intersection of security, privacy, and AI. Currently focused on AI for Design."
         />
 
         <Header />

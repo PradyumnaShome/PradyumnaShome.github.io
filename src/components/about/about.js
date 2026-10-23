@@ -1,41 +1,14 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import './about.css';
-import playfulLogoSimple from '../../../static/images/logo_simple.png';
+import ResponsiveImage from '../ResponsiveImage';
+import TopicIcon from '../TopicIcon';
 
 
 export default function About() {
-    const openPlayful = () => window.open('https://playfuldesign.app', '_blank', 'noopener');
-    const handlePlayfulKeyDown = (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            openPlayful();
-        }
-    };
-    const onResumeButtonClick = () => {
-        const introSection = document.querySelector("section#about");
-        const resumeContainer = document.querySelector(".resume-container");
-        const resumeContainerIsVisible = resumeContainer.style.display === "block";
-        if (resumeContainerIsVisible) {
-            resumeContainer.style.display = "none";
-            introSection.scrollIntoView();
-        } else {
-            resumeContainer.style.display = "block";
-            resumeContainer.scrollIntoView();
-        }
-    };
-
-    const onCvButtonClick = () => {
-        const introSection = document.querySelector("section#about");
-        const resumeContainer = document.querySelector(".cv-container");
-        const resumeContainerIsVisible = resumeContainer.style.display === "block";
-        if (resumeContainerIsVisible) {
-            resumeContainer.style.display = "none";
-            introSection.scrollIntoView();
-        } else {
-            resumeContainer.style.display = "block";
-            resumeContainer.scrollIntoView();
-        }
-    };
+    const [resumeOpen, setResumeOpen] = useState(false);
+    const [cvOpen, setCvOpen] = useState(false);
+    const resumeToggle = useRef(null);
+    const cvToggle = useRef(null);
 
     return <section id="about" className="main special">
         <div className="spotlight">
@@ -45,18 +18,17 @@ export default function About() {
                 </header>
                 <section>
                     <p>
-                        I'm Co-Founder and Founding Engineer at <span
-                            role="link"
-                            tabIndex={0}
-                            className="playful-link-about"
-                            onClick={openPlayful}
-                            onKeyDown={handlePlayfulKeyDown}
-                            aria-label="Open Playful website"
-                        ><img src={playfulLogoSimple} alt="Playful" className="playful-logo-about" /></span>, building AI that brings ideas out to play, knows what's trending, and generates tasteful designs. I like building socio-technical systems that marry deep CS problems with clear user wins. Lately that's consumer AI for design, with roots in confidential computing, microarchitectural side-channel attacks, and human-AI collaboration. I enjoy making hard tech feel friendly—privacy-preserving crypto for Web3, simple interfaces for AI agents—and explaining it in plain English to whoever's in the room.
+                        I’m Co-Founder and Founding Engineer at <a href="https://playfuldesign.app" className="playful-link-about" aria-label="Playful website"><ResponsiveImage imageKey="/images/logo_simple.png" alt="Playful" className="playful-logo-about" sizes="96px" /></a>, building AI agents for graphic design. I spend my time on how the agents behave, how people interact with them, and how to make the iOS app fast and responsive.
+                    </p>
+                    <p>
+                        My background spans computer security, privacy, and human-AI collaboration. I’m interested in the gap between a technically capable system and one that people can understand, trust, and use.
+                    </p>
+                    <p>
+                        Outside work, I’m learning French and German, exploring cafés, and daydreaming about Europe.
                     </p>
                     <div className="info-cards">
                         <div className="info-card">
-                            <img src="/images/computer-security-and-privacy-card-icon.png" alt="Security" className="info-icon" />
+                            <TopicIcon name="shield-check" />
                             <h3 className="info-title">Computer Security & Privacy</h3>
                             <ul className="project-list">
                                 <li>Microarchitectural Side-Channel Attacks</li>
@@ -65,7 +37,7 @@ export default function About() {
                             </ul>
                         </div>
                         <div className="info-card">
-                            <img src="/images/ai-card-icon.png" alt="AI" className="info-icon" />
+                            <TopicIcon name="brain-circuit" />
                             <h3 className="info-title">Artificial Intelligence</h3>
                             <ul className="project-list">
                                 <li>Why Johnny Can't Use Agents</li>
@@ -73,7 +45,7 @@ export default function About() {
                             </ul>
                         </div>
                         <div className="info-card">
-                            <img src="/images/software-engineering-card-logo.png" alt="Software Engineering" className="info-icon" />
+                            <TopicIcon name="code-xml" />
                             <h3 className="info-title">Software Engineering</h3>
                             <ul className="project-list">
                                 <li>Messenger Growth</li>
@@ -84,32 +56,32 @@ export default function About() {
                     </div>
                 </section>
                 <section className="button-container">
-                    <button onClick={onResumeButtonClick}>View Résumé</button>
-                    <button onClick={onCvButtonClick}>View Curriculum Vitae</button>
+                    <button ref={resumeToggle} aria-expanded={resumeOpen} aria-controls={resumeOpen ? "resume-panel" : undefined} onClick={() => setResumeOpen(!resumeOpen)}>View Résumé</button>
+                    <button ref={cvToggle} aria-expanded={cvOpen} aria-controls={cvOpen ? "cv-panel" : undefined} onClick={() => setCvOpen(!cvOpen)}>View Curriculum Vitae</button>
                 </section>
-                <section className="resume-container">
+                {resumeOpen && <section id="resume-panel" className="resume-container">
                     <object data="documents/Pradyumna_Shome_Resume.pdf"
                         type="application/pdf">
                             Your browser does not support PDFs. You can <a href="documents/Pradyumna_Shome_Resume.pdf">download it here</a>.
                     </object>
                     <section className="button-container">
-                        <button type="button" className="button" onClick={onResumeButtonClick}>Hide</button>
+                        <button type="button" className="button" onClick={() => { setResumeOpen(false); resumeToggle.current?.focus(); }}>Hide</button>
                         <a className="button"
                             href="documents/Pradyumna_Shome_Resume.pdf">Download</a>
                     </section>
-                </section>
-                <section className="cv-container">
+                </section>}
+                {cvOpen && <section id="cv-panel" className="cv-container">
                     <object
                         data="documents/Pradyumna_Shome_Curriculum_Vitae.pdf"
                         type="application/pdf">
                             Your browser does not support PDFs. You can <a href="documents/Pradyumna_Shome_Curriculum_Vitae.pdf">download it here</a>.
                     </object>
                     <section className="button-container">
-                        <button type="button" className="button" onClick={onCvButtonClick}>Hide</button>
+                        <button type="button" className="button" onClick={() => { setCvOpen(false); cvToggle.current?.focus(); }}>Hide</button>
                         <a className="button"
                             href="documents/Pradyumna_Shome_Curriculum_Vitae.pdf">Download</a>
                     </section>
-                </section>
+                </section>}
             </div>
         </div>
     </section>
